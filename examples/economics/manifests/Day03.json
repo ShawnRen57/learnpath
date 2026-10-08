@@ -1,0 +1,32 @@
+{
+  "key": "Day03",
+  "pdf": "pdf/经济学_每日学习_Day03_边际思维与沉没成本.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day03.json": "7e9b978a3c659204df8baa58b7f0c783e4de4143f7b414b361eb33fd7a3fdcf1",
+    "plan.json": "a56e11a33b46fe3014d7ba8d69027cf2e21e07199565262a1308c276d54a1f46",
+    "config.json": "7234fdfad7216c08f83e19a7c895793256fb536dd34563bba88d567c894b9e26",
+    "pdf/经济学_每日学习_Day03_边际思维与沉没成本.pdf": "b0bc05c13111325cc1611baa9b899b3c16bdff4cefba7dfe3779eb82b0f917ec",
+    "sources/经济学_每日学习_Day03_边际思维与沉没成本.tex": "9c6737c81202f8ce7d34861014837f3ffb6981d8765c8caba26fb33a0f7c46d8",
+    "sources/经济学_每日学习_Day03_边际思维与沉没成本.md": "dd1c6249ba3955d6cf9463269a790f43ba31eff2ba3946f7dd0bcff05da8f898",
+    "assets/figure-a92b6089a95f.png": "a92b6089a95f2c556d487856b571dfed837a83c776ea0ee3b78b90fc1de2640e",
+    "previews/Day03-01.png": "34cb03490b9c684b0dfeb0466afe6a52977f70aeb1cea53a3dae91aaad6cf0f6",
+    "previews/Day03-02.png": "95e28c778bbb073ff9fd0638aaac6c1ec2895a2d292d8c761ad7a63b707ae5d1"
+  },
+  "previews": [
+    "previews/Day03-01.png",
+    "previews/Day03-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/BRGAQO+TimesNewRomanPS-BoldMT",
+      "/IHSFKB+TimesNewRomanPSMT",
+      "/MDINPP+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+}

@@ -1,0 +1,27 @@
+{
+  "user_prompt": "我想学习西方建筑史，旅行时能看懂建筑。",
+  "answers": {
+    "topic": "西方建筑史",
+    "goal": "能从空间、结构、用途和时代背景阅读建筑",
+    "baseline": "无建筑专业背景的旅行与文化爱好者",
+    "daily_minutes": 15,
+    "timezone": "Asia/Shanghai",
+    "time": "10:00",
+    "weekdays": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR",
+      "SA",
+      "SU"
+    ],
+    "language": "zh",
+    "immediate_day01": true,
+    "sample_mode": true
+  },
+  "approval_mode": "simulated for explicitly requested public examples",
+  "source_check_date": "2026-10-08",
+  "search_performed": true,
+  "verification_note": "Key pages read with web tool; Palace Museum page read directly from official HTML after web-tool fetch failure. No real learner data."
+}

@@ -1,0 +1,33 @@
+{
+  "key": "plan",
+  "pdf": "pdf/明朝历史_学习计划.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "plan.json": "f5f9205987e26af14732d9ac8d675806e650f61a6f7da52167b8c63dedbb2f1e",
+    "config.json": "8ccfee0bafc36f4f529b3141f66c5feca5c9786ad770ae9edfd480ec792bfc4e",
+    "pdf/明朝历史_学习计划.pdf": "2455e091dd84fd33701026f57cdbe0c5d28ee588c4168c3918154306b0f4f140",
+    "sources/明朝历史_学习计划.tex": "758c3376d6db1abac720fd9541571f084c2e2eaa9bb9391a7ff8a5b4d4a9e54c",
+    "sources/明朝历史_学习计划.md": "2d250d69a5ce939613a1c297ce3d22c693272d29754037a923ec0e0bb677439e",
+    "assets/figure-e75918c40f59.png": "e75918c40f59b6be7c8123938ad6ed129284a6e1df5799e2c1b01594d9cf9268",
+    "previews/plan-01.png": "aa2bf6d467f828510981282296b42dadb7cdaed9ec45b739858afeadccccfaf0",
+    "previews/plan-02.png": "8a53c2636230b587ef83a31f39ec77723d170be3a969d4046a24071d52f27bc7",
+    "previews/plan-03.png": "bd8a9b846e69402ff10f5c8ede8120385b5845ca3a4556d56da499056f02f9ce"
+  },
+  "previews": [
+    "previews/plan-01.png",
+    "previews/plan-02.png",
+    "previews/plan-03.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 3,
+    "links": 5,
+    "fonts": [
+      "/GKYWFZ+FandolFang-Regular-Identity-H",
+      "/JJSOXP+TimesNewRomanPSMT",
+      "/LBMNQC+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Inspected all three rendered pages: complete 30-day sequence, figure/caption, five references, readable margins, no clipping or overlap. Public example; simulated approval."
+}

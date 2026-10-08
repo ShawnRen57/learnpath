@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.aux
+*.out
+*.log
+*.toc
+tmp/
+.superpowers/

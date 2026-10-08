@@ -1,0 +1,32 @@
+{
+  "key": "Day03",
+  "pdf": "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day03.json": "54aec72c153bb6f9c65faf7c5a25cf820a7a43f9f2f2b88c636f178d3513a4da",
+    "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
+    "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
+    "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf": "6858bc6f8ab6980926cb62fdecc25e93d6f98d33e35cf6c3fc02c7877d8e0055",
+    "sources/Agent产品设计_每日学习_Day03_工具权限与用户确认.tex": "1a17c86df269c22d9a7d48d6cc13cf76bfb0e2b0e9c604ef8a3642b3398f1965",
+    "sources/Agent产品设计_每日学习_Day03_工具权限与用户确认.md": "8bc950ebb3e2d98b829bcb630b7b882c8cbae9ac0dc95deb8970a20f7a933cb7",
+    "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
+    "previews/Day03-01.png": "6a1422ddb66743696b9f19367b98990a757df493b05ee60ccd35fb2b1c4b7eba",
+    "previews/Day03-02.png": "f54920e5051b7da1fdac387a2cd16000cd2e495712b34c13217ed6e936605837"
+  },
+  "previews": [
+    "previews/Day03-01.png",
+    "previews/Day03-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/EMVFWL+TimesNewRomanPS-BoldMT",
+      "/QKREDT+TimesNewRomanPSMT",
+      "/UPWFWE+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+}

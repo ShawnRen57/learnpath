@@ -1,0 +1,20 @@
+{
+  "topic": "科技通识",
+  "goal": "能用系统、证据和约束分析技术新闻",
+  "baseline": "零基础成年人",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true
+}

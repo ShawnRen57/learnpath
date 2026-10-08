@@ -1,0 +1,32 @@
+{
+  "key": "Day01",
+  "pdf": "pdf/经济学_每日学习_Day01_稀缺与机会成本.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day01.json": "ea90f197e96933c34389fb3cba56c126a16a2e7c7fc0e8f0cf113824641c1bb3",
+    "plan.json": "a56e11a33b46fe3014d7ba8d69027cf2e21e07199565262a1308c276d54a1f46",
+    "config.json": "7234fdfad7216c08f83e19a7c895793256fb536dd34563bba88d567c894b9e26",
+    "pdf/经济学_每日学习_Day01_稀缺与机会成本.pdf": "bf3c4aae78a9bd4623cf2d7d3288b09e5627a7f4531e7b166da581212181b6c3",
+    "sources/经济学_每日学习_Day01_稀缺与机会成本.tex": "7ecb8644cc70ff8618f083b12fede29b420923759fb0bb0bd093b17277971a46",
+    "sources/经济学_每日学习_Day01_稀缺与机会成本.md": "933708b459239caf36b11bc1051435802af5d0d402ad17e094fac274dced76f6",
+    "assets/figure-a92b6089a95f.png": "a92b6089a95f2c556d487856b571dfed837a83c776ea0ee3b78b90fc1de2640e",
+    "previews/Day01-01.png": "470fceaae03fb19d2cc4b5ed5983781390511ea6ab04ee9aa0639da654955618",
+    "previews/Day01-02.png": "9d94f4b71f697f53389e0796674c654aa5396f1f15395ecb89139ec0f78ee479"
+  },
+  "previews": [
+    "previews/Day01-01.png",
+    "previews/Day01-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/CFYPJD+TimesNewRomanPSMT",
+      "/GXNXCW+TimesNewRomanPS-BoldMT",
+      "/NHASRW+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "00282ffdd604c8b36759839f2ad2dc98aa315615e111c9430923f2d2a7495a34",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/音乐通识_每日学习_Day01_听见音高力度与音色.pdf",
+      "manifest_hash": "71d9822c3d79616c24cd124c76c2ca97ab9cfc20fbf86a6cf42cf7eec1b4d959"
+    },
+    "2": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/音乐通识_每日学习_Day02_节拍节奏与速度.pdf",
+      "manifest_hash": "0a4541da9c970314ea8f050776abc8b8476cf3863d4cd4941bd632abc3cc2e39"
+    },
+    "3": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/音乐通识_每日学习_Day03_旋律走向与音程.pdf",
+      "manifest_hash": "a601090994efff96d0971561c36bce8a8634ba35b070d12cc0f23b537247ec19"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "8a70afa4ef991b08b6bbdff60607fd5bc910376056f74d427166a60d85ed8877"
+}

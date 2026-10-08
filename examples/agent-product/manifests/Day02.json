@@ -1,0 +1,32 @@
+{
+  "key": "Day02",
+  "pdf": "pdf/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day02.json": "6dd85b5641d71904c1d2dcd4c7838ee7e107eaff16efa59db91ac50cb7819f57",
+    "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
+    "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
+    "pdf/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.pdf": "c354b59aaf012f7644af43e6a0f389df2de175fc17acc3fc425b921dfd68c685",
+    "sources/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.tex": "37393f035b80b0deca7b1040eba975ae397febf2b0d8af9a83071d45af4dbc53",
+    "sources/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.md": "bdcfc299702a1a2d2af96fb3f30aaa1b1d19ae7659acb3433585b39ad8038807",
+    "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
+    "previews/Day02-01.png": "7419350b17251fc0e969e1767e19950d3280008680ca81edc483f5e502bf03ef",
+    "previews/Day02-02.png": "574dadf62b0989431ce057fcd1481200d46d69bc0766ba1cb4f3b9da55fc582b"
+  },
+  "previews": [
+    "previews/Day02-01.png",
+    "previews/Day02-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/RATGBZ+TimesNewRomanPSMT",
+      "/VDYUED+FandolFang-Regular-Identity-H",
+      "/VFJZPU+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+}

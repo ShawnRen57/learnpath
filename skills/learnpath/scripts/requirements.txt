@@ -1,0 +1,4 @@
+pypdf>=5,<7
+pypdfium2>=4,<6
+Pillow>=10,<13
+tzdata>=2025.1

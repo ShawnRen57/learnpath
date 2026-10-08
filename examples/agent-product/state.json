@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf",
+      "manifest_hash": "684ff84b666414a06d228cbd1e12e426601ee25df25cd045ebfaa81855b424de"
+    },
+    "2": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.pdf",
+      "manifest_hash": "01299b0913b020c0a81fe189091a94a8add7a998afeb98fa448de4135d766c9c"
+    },
+    "3": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf",
+      "manifest_hash": "b339feeeaa3323f1b62ab95a8cc895aafa2720e52ee489da7003d51577f8d3ab"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9"
+}

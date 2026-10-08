@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=22mm,headheight=16pt]{geometry}
+\usepackage{fontspec,xeCJK,xcolor,graphicx,enumitem,fancyhdr,titlesec}
+\usepackage{hyperref}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{FangSong}{\setCJKmainfont[AutoFakeBold=2]{FangSong}}{\IfFontExistsTF{仿宋}{\setCJKmainfont[AutoFakeBold=2]{仿宋}}{\IfFontExistsTF{FandolFang-Regular.otf}{\setCJKmainfont[AutoFakeBold=2]{FandolFang-Regular.otf}}{\setCJKmainfont{FandolSong-Regular.otf}}}}
+\definecolor{ink}{HTML}{173747}\definecolor{accent}{HTML}{227E82}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\linespread{1.22}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=3pt}
+\titleformat{\section}{\large\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\pagestyle{fancy}\fancyhf{}\lhead{\small LEARNPATH / 学习手册}\rhead{\small Source-grounded learning}\cfoot{\small\thepage}
+\emergencystretch=2em\widowpenalty=10000\clubpenalty=10000
+\newcommand{\Needspace}[1]{\par\ifdim\dimexpr\pagegoal-\pagetotal\relax<#1\relax\newpage\fi}
+\begin{document}
+
+
+{\LARGE\bfseries\color{ink} 时间线与史料如何使用}\par
+
+2026-10-08 | Day01/30 | 阅读 8 分钟 + 练习 3 分钟\par\vspace{6pt}
+
+\Needspace{5\baselineskip}\section*{今日导航}
+
+今天回答：知道许多明朝故事，是否就等于理解明朝历史？目标是建立时间线、识别材料类型，并把事实与解释分开。课程从零基础出发，不要求先背完皇帝年表。今天先学如何判断一个说法凭什么成立。
+
+\Needspace{5\baselineskip}\section*{给故事放一个时间坐标}
+
+明朝通常以1368年至1644年标示其主要王朝时期，这也是博物馆明代艺术概述使用的时间范围。[S1] 但1644年并不意味着所有明代政治活动和社会文化立即消失；具体转折需要在后续课程展开。时间线提供框架，不应成为把复杂变化切成整齐方格的理由。
+
+今天先画一个长条，左端写建立，右端写明清转折，中间留空。接下来逐步加入制度、经济、社会和对外关系。这样做可以避免读到一个故事就把它当作整个时代的代表。
+
+\begin{center}\includegraphics[width=\linewidth,height=0.26\textheight,keepaspectratio]{../assets/figure-e75918c40f59.png}\par
+
+{\small 本课重点看 A 区。A 文字、器物与图像需要互证；B 思考决策和执行关系；C 区分宫城礼仪空间与日常政务。人物、服饰和机构排列均非史料复原。}\par
+
+{\footnotesize AI生成教学示意，非实物照片、原始史料或官方架构。生成方式：内置文生图；提示词见仓库 docs/image-prompts.json。}\end{center}
+
+\Needspace{5\baselineskip}\section*{三类材料回答不同问题}
+
+文字材料可能记录命令、事件或作者见闻，但记录者有位置、目的和信息限制。器物能提供材料、工艺和使用痕迹，却不一定直接告诉你制造者的全部意图。图像能展示视觉表达和观看方式，也可能经过理想化安排。
+
+图 A 把书、器物与画作放在一起，是提醒互证，不是出土现场或真实人物肖像。大都会的明代资料主要从宫廷与文人艺术切入，它能支持这部分文化观察，却不能自动代表所有地区和普通人的生活。[S1] 每种材料都有能说明与不能说明的部分。
+
+\Needspace{5\baselineskip}\section*{从一句判断拆出证据链}
+
+假设有人说：“某幅宫廷画非常华丽，所以当时所有人都很富裕。”你可以把它拆成三步：画作是否确属那个时期？画面和委托者是谁？一个特定群体的作品能否推广到全社会？第一步需要年代与来源，第二步需要作品背景，第三步需要更广泛的经济与社会材料。
+
+博物馆旧展览档案可帮助发现材料种类，但展览选择本身也有主题和范围。[S5] 可靠学习不是要求每次都得到一个肯定答案，而是能说清推论走了多远、还缺什么证据。未经查证的皇帝心理、对白和精确场景，不应混入事实叙述。
+
+\Needspace{5\baselineskip}\section*{三分钟练习与自查}
+
+任选一句你听过的明史判断，分成“可核实的事实”“作者解释”“我还需要的材料”三栏。若没有现成说法，可用上面的宫廷画例子。
+
+参考：事实栏写作品名称、年代和馆藏信息；解释栏写“华丽意味着普遍富裕”；材料栏写不同地区消费、赋税或生活记录。自查是否把观点换一种语气就当成事实；是否明确了样本范围。今天不要求找到所有材料，只要求识别证据缺口。
+
+\Needspace{5\baselineskip}\section*{复盘与明日连接}
+
+时间线组织先后，史料帮助约束判断，解释把事实联系起来；三者不能互相替代。明天用“洪武废相”做具体练习，区分制度调整这一事实与它带来的治理问题。
+
+\Needspace{6\baselineskip}\section*{扩展学习 / Further reading}\small 以下为选读，不计入每日必做时间。\begin{enumerate}[leftmargin=1.6em]
+
+\item [S1] \href{https://www.metmuseum.org/essays/ming-dynasty-1368-1644}{Ming Dynasty (1368–1644)} — 从文物与艺术观察明代，避免把宫廷与文人经验视为全部社会。\par The Metropolitan Museum of Art | 发布：2002-10-01 | 核验：2026-10-08
+
+\item [S2] \href{https://www.dpm.org.cn/court/system/236406.html}{中书省} — 核对洪武时期机构调整，并把制度事实与作者的因果解释区分开。\par 故宫博物院 | 发布：未标注 | 核验：2026-10-08
+
+\item [S3] \href{https://whc.unesco.org/en/list/439/}{Imperial Palaces of the Ming and Qing Dynasties} — 查看北京宫殿营建时间、轴线与礼仪空间；注意明清长期改建。\par UNESCO | 发布：未标注 | 核验：2026-10-08
+
+\item [S4] \href{https://whc.unesco.org/en/list/1004/}{Imperial Tombs of the Ming and Qing Dynasties} — 从陵寝空间理解皇权表达，与宫殿材料交叉观察。\par UNESCO | 发布：未标注 | 核验：2026-10-08
+
+\item [S5] \href{https://www.metmuseum.org/exhibitions/listings/2009/arts-of-the-ming-dynasty}{Arts of the Ming Dynasty} — 旧展览档案用于认识作品种类，不代表展览仍在开放。\par The Metropolitan Museum of Art | 发布：未标注 | 核验：2026-10-08
+
+\end{enumerate}
+
+\end{document}

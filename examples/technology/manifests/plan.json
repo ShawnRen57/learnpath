@@ -1,0 +1,33 @@
+{
+  "key": "plan",
+  "pdf": "pdf/科技通识_学习计划.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "plan.json": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
+    "pdf/科技通识_学习计划.pdf": "a834f432ce59deaa827ddbfe95e377abccb691f302416b6c4a7944da280dec5f",
+    "sources/科技通识_学习计划.tex": "4bf7ad564f34de65c0b2ca3339c867caee7ca8500d24aee3df40ac750f62a21e",
+    "sources/科技通识_学习计划.md": "c6d7387d770533f1283626472dd060d2650a8c193c0bdd33a5849479f3642724",
+    "assets/figure-f1c69576c177.png": "f1c69576c177b1cdef58e256311032e0a7861690742fb16723ff5e437150bd24",
+    "previews/plan-01.png": "bdb194cbddb6504ad5c4c1a8bdd04199d9e36aa3876dd54db42e8526a50347a2",
+    "previews/plan-02.png": "ddfec5fe428aa96444ae85e73bcfa3b414efed5370eaf1b31ac6d3843a4b61e4",
+    "previews/plan-03.png": "423f4f3c957a0490442935eac426f62606d6b2c59543835f9e5514ab66b18f70",
+    "config.json": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72"
+  },
+  "previews": [
+    "previews/plan-01.png",
+    "previews/plan-02.png",
+    "previews/plan-03.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 3,
+    "links": 5,
+    "fonts": [
+      "/BKJJOJ+FandolFang-Regular-Identity-H",
+      "/PAZZZO+TimesNewRomanPS-BoldMT",
+      "/UVOKKK+TimesNewRomanPSMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Inspected all three rendered pages: complete 30-day sequence, figure/caption, five references, readable margins, no clipping or overlap. Public example; simulated approval."
+}

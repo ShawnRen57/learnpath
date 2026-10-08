@@ -1,0 +1,34 @@
+{
+  "key": "Day01",
+  "pdf": "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day01.json": "a45fe9c6f371918de7d26aeb2566d05414bcb65c9c6d293bcedefe8b001f458b",
+    "plan.json": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
+    "config.json": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72",
+    "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf": "42419034c1feb2ea3885beb47895803bb3a050bafa40db2285c6ec66f3c7d013",
+    "sources/科技通识_每日学习_Day01_从手机看技术系统.tex": "be7679250603576cad8ed1fb22fce970d0d26cddd17088a76be3e6ae3334a776",
+    "sources/科技通识_每日学习_Day01_从手机看技术系统.md": "9c5b93f451a77ddf133837208d22fea64476ca2d21b650987b054310cbccee6e",
+    "assets/figure-f1c69576c177.png": "f1c69576c177b1cdef58e256311032e0a7861690742fb16723ff5e437150bd24",
+    "previews/Day01-01.png": "7e9ba0ae0788737a1f229b968f7b38d69903a649ef2c714905865ef2324de607",
+    "previews/Day01-02.png": "dfddfea2d29ffad5b2ff4f79127403a173f30b17a6ba43904d2cabe7ea213e69",
+    "previews/Day01-03.png": "9666efa3edd0920b7ecdf83e920c022ccea23728343c9afc53b3da5c4af42b11"
+  },
+  "previews": [
+    "previews/Day01-01.png",
+    "previews/Day01-02.png",
+    "previews/Day01-03.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 3,
+    "links": 5,
+    "fonts": [
+      "/BZQVEC+TimesNewRomanPSMT",
+      "/IXKSNA+TimesNewRomanPS-BoldMT",
+      "/UFCFFT+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+}

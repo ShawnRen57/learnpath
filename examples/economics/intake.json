@@ -1,0 +1,27 @@
+{
+  "user_prompt": "我想从零学习经济学，理解日常经济现象。",
+  "answers": {
+    "topic": "经济学",
+    "goal": "理解日常经济现象并识别模型假设",
+    "baseline": "未系统学习过经济学的成年人",
+    "daily_minutes": 15,
+    "timezone": "Asia/Shanghai",
+    "time": "10:00",
+    "weekdays": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR",
+      "SA",
+      "SU"
+    ],
+    "language": "zh",
+    "immediate_day01": true,
+    "sample_mode": true
+  },
+  "approval_mode": "simulated for explicitly requested public examples",
+  "source_check_date": "2026-10-08",
+  "search_performed": true,
+  "verification_note": "Key pages read with web tool; Palace Museum page read directly from official HTML after web-tool fetch failure. No real learner data."
+}

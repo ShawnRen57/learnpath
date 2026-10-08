@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=22mm,headheight=16pt]{geometry}
+\usepackage{fontspec,xeCJK,xcolor,graphicx,enumitem,fancyhdr,titlesec}
+\usepackage{hyperref}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{FangSong}{\setCJKmainfont[AutoFakeBold=2]{FangSong}}{\IfFontExistsTF{仿宋}{\setCJKmainfont[AutoFakeBold=2]{仿宋}}{\IfFontExistsTF{FandolFang-Regular.otf}{\setCJKmainfont[AutoFakeBold=2]{FandolFang-Regular.otf}}{\setCJKmainfont{FandolSong-Regular.otf}}}}
+\definecolor{ink}{HTML}{173747}\definecolor{accent}{HTML}{227E82}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\linespread{1.22}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=3pt}
+\titleformat{\section}{\large\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\pagestyle{fancy}\fancyhf{}\lhead{\small LEARNPATH / 学习手册}\rhead{\small Source-grounded learning}\cfoot{\small\thepage}
+\emergencystretch=2em\widowpenalty=10000\clubpenalty=10000
+\newcommand{\Needspace}[1]{\par\begingroup\dimen0=#1\relax\vskip0pt plus\dimen0\penalty-100\vskip0pt plus-\dimen0\vskip\dimen0\penalty9999\vskip-\dimen0\vskip0pt\endgroup}
+\begin{document}
+
+
+{\LARGE\bfseries\color{ink} 罗马拱券与公共空间}\par
+
+2026-10-08 | Day03/30 | 阅读 8 分钟 + 练习 3 分钟\par\vspace{6pt}
+
+\Needspace{5\baselineskip}\section*{今日导航}
+
+今天回答：拱券只是一种弯曲的门洞吗？目标是理解拱、拱顶与通道的关系，并用罗马公共建筑说明技术和社会用途如何结合。先回忆昨天的梁柱：跨越空间时，支撑关系怎样表现？
+
+\Needspace{5\baselineskip}\section*{从一个拱到有深度的空间}
+
+图 C 上部展示连续拱洞，下部展示沿纵深延伸的桶形拱顶。拱与拱顶不仅改变轮廓，也改变覆盖空间的方式。理解它们时同时看两侧支撑，不能只盯拱顶最高点。图为类型示意，不能用来判断真实工程是否安全，也不表示罗马建筑都采用同一种材料。
+
+\begin{center}\includegraphics[width=\linewidth,height=0.26\textheight,keepaspectratio]{../assets/figure-9ba448966b26.png}\par
+
+{\small 本课重点看 C 区。A 平面、立面与剖面提供不同信息；B 梁柱；C 拱券与桶形拱顶。图为类型示意，不是具体遗址测绘图。}\par
+
+{\footnotesize AI生成教学示意，非实物照片、原始史料或官方架构。生成方式：内置文生图；提示词见仓库 docs/image-prompts.json。}\end{center}
+
+\Needspace{5\baselineskip}\section*{结构与路线一起工作}
+
+罗马剧场研究资料指出，看台可由混凝土拱顶支撑，内部空间还能提供通往座席的路线。[S2] 因而一个结构构件可能同时参与承重、交通与空间划分。把工程与体验割裂，会错过建筑的重要逻辑。
+
+罗马建筑也使用古典柱式。外立面的柱或附壁柱，与背后承担空间组织的结构未必一一对应。所以看到古典柱就断言“仍是纯粹希腊梁柱体系”，可能忽略了内部的拱券与墙体。分析时把可见形式、实际结构和空间用途分别记录，再寻找联系。
+
+\Needspace{5\baselineskip}\section*{公共建筑并不等于平等空间}
+
+剧场、竞技场和浴场服务不同活动。大都会关于剧场的讨论还指出，座席分配与社会等级有关，通道组织可以帮助人群到达指定区域。[S2] 这说明建筑是社会制度的物质安排之一；容量大、公众聚集，并不自动等于人人拥有同样的位置或权利。
+
+教学比较：现代体育场也需要疏散、分区、视线和服务空间。这个类比帮助提出问题，却不能把现代票务制度直接投射到古代。若要比较，先分别查清两者使用规则，再讨论共同的空间难题。罗马城市的多个时期叠加也提醒我们，现存遗址不是历史某一天冻结的完整照片。[S4]
+
+\Needspace{5\baselineskip}\section*{三分钟练习与自查}
+
+给一幅拱廊照片写三条观察：它覆盖什么空间？人可能怎样穿行？你还缺哪项证据，才能确认用途？不要仅凭外观判断建筑年代。
+
+参考：“连续拱洞形成有节奏的开口；通道可能沿建筑边缘展开；需要原址说明或平面确认它是交通、商业还是其他用途。”自查：是否把结构可能性当成已经证明的功能？有没有观察两侧支撑？你的描述是否把人和建筑联系起来？
+
+\Needspace{5\baselineskip}\section*{复盘与明日连接}
+
+拱券的价值不只在形状，而在它与覆盖、通行及社会组织的关系。今天把材料和结构放回公共生活，完成从希腊形式到罗马空间的第一步比较。明天学习巴西利卡与早期基督教建筑，关注旧空间类型如何进入新的用途。
+
+\Needspace{6\baselineskip}\section*{扩展学习 / Further reading}\small 以下为选读，不计入每日必做时间。\begin{enumerate}[leftmargin=1.6em]
+
+\item [S1] \href{https://www.metmuseum.org/essays/architecture-in-ancient-greece}{Architecture in Ancient Greece} — 观察柱式如何连接立柱与建筑其他部分，而非只认柱头。\par The Metropolitan Museum of Art | 发布：2003-10-01 | 核验：2026-10-08
+
+\item [S2] \href{https://www.metmuseum.org/essays/theater-and-amphitheater-in-the-roman-world}{Theater and Amphitheater in the Roman World} — 了解拱券、看台、通道与社会秩序之间的关系。\par The Metropolitan Museum of Art | 发布：2006-10-01 | 核验：2026-10-08
+
+\item [S3] \href{https://whc.unesco.org/en/list/404/}{Acropolis, Athens} — 结合雅典卫城原址资料，区分单栋建筑与建筑群。\par UNESCO | 发布：未标注 | 核验：2026-10-08
+
+\item [S4] \href{https://whc.unesco.org/en/list/91/}{Historic Centre of Rome} — 观察城市历史叠加；不要把罗马城市归为单一风格。\par UNESCO | 发布：未标注 | 核验：2026-10-08
+
+\item [S5] \href{https://whc.unesco.org/en/list/81/}{Chartres Cathedral} — 为后续哥特建筑预习，关注结构、空间与彩色玻璃。\par UNESCO | 发布：未标注 | 核验：2026-10-08
+
+\end{enumerate}
+
+\end{document}

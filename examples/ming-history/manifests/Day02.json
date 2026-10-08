@@ -1,0 +1,32 @@
+{
+  "key": "Day02",
+  "pdf": "pdf/明朝历史_每日学习_Day02_洪武废相与治理难题.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day02.json": "4830b1e9d8cc0194d26c86a8a7149fd4b5f67dc883fd6b7e92a9ae04cce23fc4",
+    "plan.json": "f5f9205987e26af14732d9ac8d675806e650f61a6f7da52167b8c63dedbb2f1e",
+    "config.json": "8ccfee0bafc36f4f529b3141f66c5feca5c9786ad770ae9edfd480ec792bfc4e",
+    "pdf/明朝历史_每日学习_Day02_洪武废相与治理难题.pdf": "dec61af4d6cec08180e2a279741081af9204590935034480894433dc34d8f406",
+    "sources/明朝历史_每日学习_Day02_洪武废相与治理难题.tex": "3475d0c4027b41c02ced6343d4e09f2588509bea1aab97b2f35f1d79887f4f15",
+    "sources/明朝历史_每日学习_Day02_洪武废相与治理难题.md": "b8cd28e835060a6cc05941d7f441276d84e36129158ac9cf8bd85c6794d67911",
+    "assets/figure-e75918c40f59.png": "e75918c40f59b6be7c8123938ad6ed129284a6e1df5799e2c1b01594d9cf9268",
+    "previews/Day02-01.png": "dc156e4fc6278608dce26059b794e110a21a4e8ef40bdba9c3ea56a47f1292eb",
+    "previews/Day02-02.png": "560e2870fe05ac0c183b46d6fbfebd037fe810cf14500e937793291474949aec"
+  },
+  "previews": [
+    "previews/Day02-01.png",
+    "previews/Day02-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/LIBBFZ+TimesNewRomanPS-BoldMT",
+      "/POJSUF+TimesNewRomanPSMT",
+      "/WRQIFF+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+}

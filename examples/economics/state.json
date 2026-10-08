@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "a56e11a33b46fe3014d7ba8d69027cf2e21e07199565262a1308c276d54a1f46",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/经济学_每日学习_Day01_稀缺与机会成本.pdf",
+      "manifest_hash": "8b5e67cb37e8a3ccc223f84380e696aad4018cd03b5fa37e58c7d9effcad1bc3"
+    },
+    "2": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/经济学_每日学习_Day02_价格如何协调供需.pdf",
+      "manifest_hash": "8eaf8ec85314d59979246247bf6cc07cca5b5214d4827f2a63b1a2f576948717"
+    },
+    "3": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/经济学_每日学习_Day03_边际思维与沉没成本.pdf",
+      "manifest_hash": "95f55ed661115e1c9f37ed6970ebabfa16f5d62d3a83c09fb296705df1c350ac"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "7234fdfad7216c08f83e19a7c895793256fb536dd34563bba88d567c894b9e26"
+}

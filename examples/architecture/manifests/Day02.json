@@ -1,0 +1,32 @@
+{
+  "key": "Day02",
+  "pdf": "pdf/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day02.json": "99908642e77d7d8f646e52934e7b71be56786946f44a35b13cd9349e34297359",
+    "plan.json": "c2fdde4e20dc4e48577c8825802e8271fe3dcdb3a6b4d7ec69ee3ec67382674a",
+    "config.json": "1f0b5dae5cd8eca6a3355a0ab291a3181d247203ec177eba9c0b1c6054b1bc81",
+    "pdf/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.pdf": "f2c45047da9cddeb5fd366b61f965b22112e280c9ccae55fc8a7e85607fbcb9a",
+    "sources/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.tex": "ae79449461dd1aecb4f6d8d3a3eeab67a0eff0af8be99341bafb434fa251ac4e",
+    "sources/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.md": "c225c86e0acfc1daf051a533bdde38d9044eb6c722ffe0d170784b6fd5465d83",
+    "assets/figure-9ba448966b26.png": "9ba448966b26786005b0a3acc7d58fb49f0058a5c1cd9205f109cb31cf5607ee",
+    "previews/Day02-01.png": "bf326fb04c27cf27f975ec8efdbb308166929db8460c2e18e04af77ee9027b7d",
+    "previews/Day02-02.png": "517023a72602bdad34229e7ff0d4d60922f06525619a4c1ba5e678d2fc9da668"
+  },
+  "previews": [
+    "previews/Day02-01.png",
+    "previews/Day02-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/ROTYYW+TimesNewRomanPSMT",
+      "/ULZSKV+FandolFang-Regular-Identity-H",
+      "/YTEKEA+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+}

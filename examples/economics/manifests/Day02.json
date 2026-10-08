@@ -1,0 +1,32 @@
+{
+  "key": "Day02",
+  "pdf": "pdf/经济学_每日学习_Day02_价格如何协调供需.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day02.json": "df3c58e4cf563ee77d5c60e0ba0145c16bdb6b856529c68934148fd00bb11f58",
+    "plan.json": "a56e11a33b46fe3014d7ba8d69027cf2e21e07199565262a1308c276d54a1f46",
+    "config.json": "7234fdfad7216c08f83e19a7c895793256fb536dd34563bba88d567c894b9e26",
+    "pdf/经济学_每日学习_Day02_价格如何协调供需.pdf": "8997eacac7af9fe8380831e156eecf348d18cc2a209592f6bbb89f1b13eaeb9d",
+    "sources/经济学_每日学习_Day02_价格如何协调供需.tex": "95857ebba7be52c344b8367db962bb94b0a40e593fbedc671c5dfc9e44c934a2",
+    "sources/经济学_每日学习_Day02_价格如何协调供需.md": "605775545e72fdce7bc008f6c18e6e7f37bac761b8bf64c0894cba2c2fe05805",
+    "assets/figure-a92b6089a95f.png": "a92b6089a95f2c556d487856b571dfed837a83c776ea0ee3b78b90fc1de2640e",
+    "previews/Day02-01.png": "86d5bf35d92be4228f01e2a5ce932e89510a843d4e3c04ec44b158f912408e15",
+    "previews/Day02-02.png": "0fb6936424903d114779a30f8c00f88034f0d9642cb897751242a23f5f423991"
+  },
+  "previews": [
+    "previews/Day02-01.png",
+    "previews/Day02-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/AUUIFR+FandolFang-Regular-Identity-H",
+      "/LFOHSJ+TimesNewRomanPSMT",
+      "/WGRCGM+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+}

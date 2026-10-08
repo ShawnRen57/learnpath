@@ -1,0 +1,391 @@
+{
+  "pdf_count": 24,
+  "page_count": 55,
+  "documents": [
+    {
+      "course": "music",
+      "key": "plan",
+      "pdf": "pdf/音乐通识_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/HOOAOW+TimesNewRomanPS-BoldMT",
+          "/SMBUCF+TimesNewRomanPSMT",
+          "/UQMNQL+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "music",
+      "key": "Day01",
+      "pdf": "pdf/音乐通识_每日学习_Day01_听见音高力度与音色.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/MWXFPH+FandolFang-Regular-Identity-H",
+          "/YJYXDG+TimesNewRomanPSMT",
+          "/ZQOUAM+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "music",
+      "key": "Day02",
+      "pdf": "pdf/音乐通识_每日学习_Day02_节拍节奏与速度.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/REPMQD+FandolFang-Regular-Identity-H",
+          "/YBACNZ+TimesNewRomanPSMT",
+          "/ZDKZJS+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "music",
+      "key": "Day03",
+      "pdf": "pdf/音乐通识_每日学习_Day03_旋律走向与音程.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/FHYQQW+FandolFang-Regular-Identity-H",
+          "/OAJLKJ+TimesNewRomanPS-BoldMT",
+          "/UESVAY+TimesNewRomanPSMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "technology",
+      "key": "plan",
+      "pdf": "pdf/科技通识_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/BKJJOJ+FandolFang-Regular-Identity-H",
+          "/PAZZZO+TimesNewRomanPS-BoldMT",
+          "/UVOKKK+TimesNewRomanPSMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "technology",
+      "key": "Day01",
+      "pdf": "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/BZQVEC+TimesNewRomanPSMT",
+          "/IXKSNA+TimesNewRomanPS-BoldMT",
+          "/UFCFFT+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "technology",
+      "key": "Day02",
+      "pdf": "pdf/科技通识_每日学习_Day02_科学证据与工程取舍.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/AUEBPQ+TimesNewRomanPSMT",
+          "/LOYXNI+TimesNewRomanPS-BoldMT",
+          "/NLQETD+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "technology",
+      "key": "Day03",
+      "pdf": "pdf/科技通识_每日学习_Day03_能量转换与效率.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/LOQKJN+TimesNewRomanPSMT",
+          "/VBTFNF+TimesNewRomanPS-BoldMT",
+          "/YUYTDY+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "architecture",
+      "key": "plan",
+      "pdf": "pdf/西方建筑史_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/AFZKCA+FandolFang-Regular-Identity-H",
+          "/IFFCGU+TimesNewRomanPS-BoldMT",
+          "/SBMDXP+TimesNewRomanPSMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "architecture",
+      "key": "Day01",
+      "pdf": "pdf/西方建筑史_每日学习_Day01_建筑如何被阅读.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/HXFYZO+FandolFang-Regular-Identity-H",
+          "/PJTTHT+TimesNewRomanPSMT",
+          "/WKWNDC+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "architecture",
+      "key": "Day02",
+      "pdf": "pdf/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/ROTYYW+TimesNewRomanPSMT",
+          "/ULZSKV+FandolFang-Regular-Identity-H",
+          "/YTEKEA+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "architecture",
+      "key": "Day03",
+      "pdf": "pdf/西方建筑史_每日学习_Day03_罗马拱券与公共空间.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/SCHROL+TimesNewRomanPSMT",
+          "/UJDVIK+FandolFang-Regular-Identity-H",
+          "/VJJLEI+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "economics",
+      "key": "plan",
+      "pdf": "pdf/经济学_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/DIZMAO+TimesNewRomanPSMT",
+          "/OXXKDS+FandolFang-Regular-Identity-H",
+          "/YZDOTQ+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "economics",
+      "key": "Day01",
+      "pdf": "pdf/经济学_每日学习_Day01_稀缺与机会成本.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/CFYPJD+TimesNewRomanPSMT",
+          "/GXNXCW+TimesNewRomanPS-BoldMT",
+          "/NHASRW+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "economics",
+      "key": "Day02",
+      "pdf": "pdf/经济学_每日学习_Day02_价格如何协调供需.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/AUUIFR+FandolFang-Regular-Identity-H",
+          "/LFOHSJ+TimesNewRomanPSMT",
+          "/WGRCGM+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "economics",
+      "key": "Day03",
+      "pdf": "pdf/经济学_每日学习_Day03_边际思维与沉没成本.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/BRGAQO+TimesNewRomanPS-BoldMT",
+          "/IHSFKB+TimesNewRomanPSMT",
+          "/MDINPP+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "agent-product",
+      "key": "plan",
+      "pdf": "pdf/Agent产品设计_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/GLWHLL+FandolFang-Regular-Identity-H",
+          "/JEUTIT+TimesNewRomanPSMT",
+          "/ZSIXJN+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "agent-product",
+      "key": "Day01",
+      "pdf": "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/BQENPG+TimesNewRomanPS-BoldMT",
+          "/CRJBPG+TimesNewRomanPSMT",
+          "/WRWLRL+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "agent-product",
+      "key": "Day02",
+      "pdf": "pdf/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/RATGBZ+TimesNewRomanPSMT",
+          "/VDYUED+FandolFang-Regular-Identity-H",
+          "/VFJZPU+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "agent-product",
+      "key": "Day03",
+      "pdf": "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/EMVFWL+TimesNewRomanPS-BoldMT",
+          "/QKREDT+TimesNewRomanPSMT",
+          "/UPWFWE+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "ming-history",
+      "key": "plan",
+      "pdf": "pdf/明朝历史_学习计划.pdf",
+      "report": {
+        "pages": 3,
+        "links": 5,
+        "fonts": [
+          "/GKYWFZ+FandolFang-Regular-Identity-H",
+          "/JJSOXP+TimesNewRomanPSMT",
+          "/LBMNQC+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "ming-history",
+      "key": "Day01",
+      "pdf": "pdf/明朝历史_每日学习_Day01_时间线与史料如何使用.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/CKDGHG+TimesNewRomanPSMT",
+          "/DCRDTB+FandolFang-Regular-Identity-H",
+          "/ZBLGAQ+TimesNewRomanPS-BoldMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "ming-history",
+      "key": "Day02",
+      "pdf": "pdf/明朝历史_每日学习_Day02_洪武废相与治理难题.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/LIBBFZ+TimesNewRomanPS-BoldMT",
+          "/POJSUF+TimesNewRomanPSMT",
+          "/WRQIFF+FandolFang-Regular-Identity-H"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    },
+    {
+      "course": "ming-history",
+      "key": "Day03",
+      "pdf": "pdf/明朝历史_每日学习_Day03_永乐宫城与皇权表达.pdf",
+      "report": {
+        "pages": 2,
+        "links": 5,
+        "fonts": [
+          "/ICONLW+FandolFang-Regular-Identity-H",
+          "/UPSVQC+TimesNewRomanPS-BoldMT",
+          "/ZEYINF+TimesNewRomanPSMT"
+        ]
+      },
+      "layout_warnings": 0,
+      "reviewed_at": "2026-10-08"
+    }
+  ],
+  "mode": "simulated approval/delivery; no live tasks"
+}

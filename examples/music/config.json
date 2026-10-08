@@ -1,0 +1,20 @@
+{
+  "topic": "音乐通识",
+  "goal": "用具体听觉线索描述作品，建立持续欣赏方法",
+  "baseline": "爱听音乐但不熟悉乐理的成年人",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true
+}

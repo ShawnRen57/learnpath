@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf",
+      "manifest_hash": "6309caf2f50cf0cd313a9b0ea2983286290062ab6b22de30070bb68a8c690cea"
+    },
+    "2": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/科技通识_每日学习_Day02_科学证据与工程取舍.pdf",
+      "manifest_hash": "28d6511d48a96994810db152229c789e7e3c22d7e4d75c04c513ed8630012e9f"
+    },
+    "3": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/科技通识_每日学习_Day03_能量转换与效率.pdf",
+      "manifest_hash": "126966db07c5dabace7e4044b56f98db838f523da752e910af4a96c1b2b24846"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72"
+}

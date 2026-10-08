@@ -1,0 +1,20 @@
+{
+  "topic": "西方建筑史",
+  "goal": "能从空间、结构、用途和时代背景阅读建筑",
+  "baseline": "无建筑专业背景的旅行与文化爱好者",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true
+}

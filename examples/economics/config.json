@@ -1,0 +1,20 @@
+{
+  "topic": "经济学",
+  "goal": "理解日常经济现象并识别模型假设",
+  "baseline": "未系统学习过经济学的成年人",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true
+}

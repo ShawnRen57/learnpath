@@ -1,0 +1,20 @@
+{
+  "topic": "明朝历史",
+  "goal": "按时间、制度与证据理解明代重要事件",
+  "baseline": "希望建立框架、尚未系统读史的成年人",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true
+}

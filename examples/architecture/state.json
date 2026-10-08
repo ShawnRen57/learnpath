@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "c2fdde4e20dc4e48577c8825802e8271fe3dcdb3a6b4d7ec69ee3ec67382674a",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/西方建筑史_每日学习_Day01_建筑如何被阅读.pdf",
+      "manifest_hash": "096bc19a24e6437571c319ab6d4c422c7eaea67af57a7bdddabd88ae2c5af08d"
+    },
+    "2": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/西方建筑史_每日学习_Day02_希腊柱式与梁柱体系.pdf",
+      "manifest_hash": "66548132486b9648b0ba9efd4c4276563cd469725348fc4fa25e1bbc2b91527e"
+    },
+    "3": {
+      "delivered_at": "2026-10-08",
+      "pdf": "pdf/西方建筑史_每日学习_Day03_罗马拱券与公共空间.pdf",
+      "manifest_hash": "27f316d15a1c9ffe44e22b8f473071c2c7f37133d572d57b7dc9b34a52b49dad"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "1f0b5dae5cd8eca6a3355a0ab291a3181d247203ec177eba9c0b1c6054b1bc81"
+}

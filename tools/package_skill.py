@@ -1,0 +1,13 @@
+"""Package only runtime skill files, never course data or local credentials."""
+from pathlib import Path
+from zipfile import ZipFile,ZIP_DEFLATED
+import hashlib
+ROOT=Path(__file__).resolve().parents[1]
+out=ROOT/'dist';out.mkdir(exist_ok=True)
+archive=out/'learnpath-skill-v0.1.0.zip'
+with ZipFile(archive,'w',ZIP_DEFLATED) as z:
+ for p in sorted((ROOT/'skills/learnpath').rglob('*')):
+  if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc' and p.name!='.DS_Store':
+   z.write(p,Path('learnpath')/p.relative_to(ROOT/'skills/learnpath'))
+(out/'SHA256SUMS').write_text(hashlib.sha256(archive.read_bytes()).hexdigest()+'  '+archive.name+'\n')
+print(archive.name,archive.stat().st_size)

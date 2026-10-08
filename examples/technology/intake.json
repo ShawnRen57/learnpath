@@ -1,0 +1,27 @@
+{
+  "user_prompt": "我想系统学习科技，能看懂重要技术趋势。",
+  "answers": {
+    "topic": "科技通识",
+    "goal": "能用系统、证据和约束分析技术新闻",
+    "baseline": "零基础成年人",
+    "daily_minutes": 15,
+    "timezone": "Asia/Shanghai",
+    "time": "10:00",
+    "weekdays": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR",
+      "SA",
+      "SU"
+    ],
+    "language": "zh",
+    "immediate_day01": true,
+    "sample_mode": true
+  },
+  "approval_mode": "simulated for explicitly requested public examples",
+  "source_check_date": "2026-10-08",
+  "search_performed": true,
+  "verification_note": "Key pages read with web tool; Palace Museum page read directly from official HTML after web-tool fetch failure. No real learner data."
+}

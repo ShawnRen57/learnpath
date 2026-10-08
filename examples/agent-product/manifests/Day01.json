@@ -1,0 +1,32 @@
+{
+  "key": "Day01",
+  "pdf": "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day01.json": "15cf0bdbab35dd3ee32979f0a5adc24ce0f4061d5c286c003c0a4c6fd7f4f647",
+    "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
+    "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
+    "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf": "ec136479b75766b2c0800e4648b19c24c50a9a48298f951f09ae85dae5ffb4ae",
+    "sources/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.tex": "b0f3bf1c5e26a454d7450189b40e236a30e14ef1d1add7254ed69ac7326bee67",
+    "sources/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.md": "2e16b05daede5d83e2cbd30f34075abf2743a437ff1c2e3b5c27329c0342bc43",
+    "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
+    "previews/Day01-01.png": "5cc08de80f9a6959c055883ba3e31e2eb3626fe0279df52dd5cd63eea2b6967e",
+    "previews/Day01-02.png": "f731d6514c865217057fa9be1e02e5c67196c810ebe11f85f2a79e5395307efd"
+  },
+  "previews": [
+    "previews/Day01-01.png",
+    "previews/Day01-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/BQENPG+TimesNewRomanPS-BoldMT",
+      "/CRJBPG+TimesNewRomanPSMT",
+      "/WRWLRL+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+}

@@ -1,0 +1,32 @@
+{
+  "key": "Day03",
+  "pdf": "pdf/科技通识_每日学习_Day03_能量转换与效率.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day03.json": "c85dfebcb8ffb53f51f0fee0d5ff4cb994865d07129e6b6719715a4e6832104b",
+    "plan.json": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
+    "config.json": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72",
+    "pdf/科技通识_每日学习_Day03_能量转换与效率.pdf": "19efd21e1de36bb57d61836722f6b39eb73ca138a5a81d276f86ab94d5189566",
+    "sources/科技通识_每日学习_Day03_能量转换与效率.tex": "70f4f4753746a0c36ffdb6f1a961dd81ea1ca1a6d275e2d72cfcb0d683e48bbb",
+    "sources/科技通识_每日学习_Day03_能量转换与效率.md": "5971cf3e365a229f303966c27d5032f64eb4979449635f2fd338cc1a7d0c3cc4",
+    "assets/figure-f1c69576c177.png": "f1c69576c177b1cdef58e256311032e0a7861690742fb16723ff5e437150bd24",
+    "previews/Day03-01.png": "682f1630d14457517695836586fe3d82127ea827dae48fb28c5d6e5e9c488b2d",
+    "previews/Day03-02.png": "38a28b9cafa995c34704fcfcabce97786c6d6e06d944917e60fd002a82f37aa8"
+  },
+  "previews": [
+    "previews/Day03-01.png",
+    "previews/Day03-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/LOQKJN+TimesNewRomanPSMT",
+      "/VBTFNF+TimesNewRomanPS-BoldMT",
+      "/YUYTDY+FandolFang-Regular-Identity-H"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+}

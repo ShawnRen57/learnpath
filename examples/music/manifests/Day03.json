@@ -1,0 +1,32 @@
+{
+  "key": "Day03",
+  "pdf": "pdf/音乐通识_每日学习_Day03_旋律走向与音程.pdf",
+  "created_at": "2026-10-08",
+  "files": {
+    "data/Day03.json": "690965fcaf33faae28018560fd2f693b899b7d993bbbf8ce3e42e3d491d2097e",
+    "plan.json": "00282ffdd604c8b36759839f2ad2dc98aa315615e111c9430923f2d2a7495a34",
+    "config.json": "8a70afa4ef991b08b6bbdff60607fd5bc910376056f74d427166a60d85ed8877",
+    "pdf/音乐通识_每日学习_Day03_旋律走向与音程.pdf": "047b8180cf99803326cc20804642ff0b63418b0a7bfec8d442fe541e12791cd0",
+    "sources/音乐通识_每日学习_Day03_旋律走向与音程.tex": "1686c88ddcd8d3c6a4db7a02c37966293a7f8dc84146e413f94f8b51ca48f295",
+    "sources/音乐通识_每日学习_Day03_旋律走向与音程.md": "08e60bfed8a122ba0bba9b86b0f8f0bd566eab3791be9ab3834096391ba9f3ff",
+    "assets/figure-f6141a0bb6d5.png": "f6141a0bb6d5be36efb00ca0e40c494d4d6e655e7d9724eea66dd2afb3d9d685",
+    "previews/Day03-01.png": "8ab6382162b8d323f84b2f65758b3601f824f254829d9b74b03d173ebdb80554",
+    "previews/Day03-02.png": "578662ec2472ed44306200b73dc5de39bbf22c1c177b11071df244b105385d5a"
+  },
+  "previews": [
+    "previews/Day03-01.png",
+    "previews/Day03-02.png"
+  ],
+  "reviewed_at": "2026-10-08",
+  "report": {
+    "pages": 2,
+    "links": 5,
+    "fonts": [
+      "/FHYQQW+FandolFang-Regular-Identity-H",
+      "/OAJLKJ+TimesNewRomanPS-BoldMT",
+      "/UESVAY+TimesNewRomanPSMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+}
