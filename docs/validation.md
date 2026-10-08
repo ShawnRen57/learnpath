@@ -15,7 +15,7 @@ Actual PDF fonts: FandolFang-Regular (Chinese FangSong fallback) and Times New R
 
 ## Independent review and fixes
 
-A separate read-only agent reproduced a concurrent initialization overwrite, an archived-plan overwrite and a one-section missing-figure defect. All three were fixed and covered by regression/integration checks. Subsequent visual review found nearly empty pages from the initial spacing helper; rejected pre-delivery versions were isolated locally and the layout helper was corrected. No rejected draft is included in the published examples.
+A separate read-only agent reproduced a concurrent initialization overwrite, an archived-plan overwrite and a one-section missing-figure defect. All three were fixed and covered by regression/integration checks. Subsequent visual review found nearly empty pages from the initial spacing helper; rejected pre-delivery versions were isolated locally and the layout helper was corrected. No rejected draft is included in the published examples. A final independent read-only pass reran all 21 tests and the 24-PDF artifact validator, confirmed the three fixes and the README compatibility disclosures, and found no blocking issue.
 
 These checks do not mechanically verify factual truth, pedagogy, actual learner approval, image rights, or notification delivery. Those remain agent/user responsibilities. A `review` record is an attestation after inspection, not an automatic image assessment.
 
