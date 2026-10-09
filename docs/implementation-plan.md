@@ -32,4 +32,4 @@ Sample runs simulate plan approval and consecutive delivery in an isolated sampl
 
 ## Publication
 - [x] Public repository created under ShawnRen57/learnpath.
-- [ ] Upload all deliverables and verify remote files.
+- [x] Upload all deliverables and verify remote files. All 279 Git blob hashes matched on 2026-10-09.

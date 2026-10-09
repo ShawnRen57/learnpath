@@ -42,3 +42,7 @@ python3 tools/package_skill.py
 ```
 
 The test suite needs pypdf, pypdfium2, Pillow, and XeLaTeX for the integration test. PDF sample checks validate archived outputs without changing their historical source-check date. Reauthor and research a new course to test future content generation.
+
+## Publication verification — 2026-10-09
+
+The public repository `ShawnRen57/learnpath`, default branch `main`, was published through the official GitHub CLI. All 279 remote file blob hashes matched the local committed files. Source-check dates in the sample materials remain 2026-10-08; publication does not relabel the research date.

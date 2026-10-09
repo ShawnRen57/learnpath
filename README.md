@@ -3,7 +3,7 @@
 **把「我想学……」变成一条每天可以走下去的学习路径。**  
 **Turn “I want to learn…” into a source-grounded daily learning path.**
 
-[中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md)
+[下载发布版 / Releases](https://github.com/ShawnRen57/learnpath/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md)
 
 LearnPath 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
 
