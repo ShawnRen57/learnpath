@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=22mm,headheight=16pt]{geometry}
+\usepackage{fontspec,xeCJK,xcolor,graphicx,enumitem,fancyhdr,titlesec}
+\usepackage{hyperref}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{FangSong}{\setCJKmainfont[AutoFakeBold=2]{FangSong}}{\IfFontExistsTF{仿宋}{\setCJKmainfont[AutoFakeBold=2]{仿宋}}{\IfFontExistsTF{FandolFang-Regular.otf}{\setCJKmainfont[AutoFakeBold=2]{FandolFang-Regular.otf}}{\setCJKmainfont{FandolSong-Regular.otf}}}}
+\definecolor{ink}{HTML}{173747}\definecolor{accent}{HTML}{227E82}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\linespread{1.22}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=3pt}
+\titleformat{\section}{\large\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\pagestyle{fancy}\fancyhf{}\lhead{\small OMNI LEARNING / 学习手册}\rhead{\small Source-grounded learning}\cfoot{\small\thepage}
+\emergencystretch=2em\widowpenalty=10000\clubpenalty=10000
+\newcommand{\Needspace}[1]{\par\begingroup\dimen0=#1\relax\vskip0pt plus\dimen0\penalty-100\vskip0pt plus-\dimen0\vskip\dimen0\penalty9999\vskip-\dimen0\vskip0pt\endgroup}
+\begin{document}
+
+
+{\LARGE\bfseries\color{ink} Omni Learning Assistant 安装验收 / codex}\par
+
+2026-10-09 | 学习计划 / 1 天\par\vspace{6pt}
+
+\Needspace{5\baselineskip}\section*{验收范围 / Test scope}
+
+这是合成安装测试，检查发布包的资源读取、Python 与 XeLaTeX 执行和 PDF 输出。不是联网研究或学习内容质量的验收。[S1]
+
+\Needspace{5\baselineskip}\section*{输出检查 / Output checks}
+
+检查中文与 English 显示、插图、链接、字体和页面；计划保持 awaiting\_approval，不批准、不调度、不生成每日课程。参考链接为合成测试占位符，不作为真实学习来源。[S2]
+
+\begin{center}\includegraphics[width=\linewidth,height=0.26\textheight,keepaspectratio]{../assets/figure-f85f0dfd67a3.png}\par
+
+{\small 安装检查步骤 / Installation checks}\par
+
+{\footnotesize Original code-drawn QA fixture; not AIGC or source evidence}\end{center}
+
+\Needspace{6\baselineskip}\section*{扩展学习 / Further reading}\small 以下为选读，不计入每日必做时间。\begin{enumerate}[leftmargin=1.6em]
+
+\item [S1] \href{https://example.com/install-check-1}{Synthetic link fixture 1} — Reserved example URL; not verified research or an expansion recommendation\par Synthetic QA fixture | 发布：N/A | 核验：2026-10-09
+
+\item [S2] \href{https://example.com/install-check-2}{Synthetic link fixture 2} — Reserved example URL; not verified research or an expansion recommendation\par Synthetic QA fixture | 发布：N/A | 核验：2026-10-09
+
+\item [S3] \href{https://example.com/install-check-3}{Synthetic link fixture 3} — Reserved example URL; not verified research or an expansion recommendation\par Synthetic QA fixture | 发布：N/A | 核验：2026-10-09
+
+\item [S4] \href{https://example.com/install-check-4}{Synthetic link fixture 4} — Reserved example URL; not verified research or an expansion recommendation\par Synthetic QA fixture | 发布：N/A | 核验：2026-10-09
+
+\item [S5] \href{https://example.com/install-check-5}{Synthetic link fixture 5} — Reserved example URL; not verified research or an expansion recommendation\par Synthetic QA fixture | 发布：N/A | 核验：2026-10-09
+
+\end{enumerate}
+
+\end{document}

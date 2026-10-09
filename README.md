@@ -36,11 +36,13 @@ npx skills add ShawnRen57/learnpath
 
 | 平台 | 安装入口 | 本版本验证范围 |
 |---|---|---|
-| Codex | Skill 安装器或用户技能目录 | 在 Codex 工作环境完成内容研究、图片、Python/XeLaTeX 试跑；未连续多日实测定时通知 |
+| Codex | Skill 安装器或用户技能目录 | 已实测公开 ZIP 安装、CLI 原生加载与首次 PDF；未连续多日实测定时通知 |
 | WorkBuddy | Skills 界面的本地包导入 | 官方文档支持；未在客户端实测完整链路 |
-| DeepSeek Harness | 配置的 `.dsh/skills/omni-learning-assistant/` | 已核验官方文件系统 Skill 与持久 Host Schedule 文档；未实测 DSH 内完整链路 |
+| DeepSeek Harness | 配置的 `.dsh/skills/omni-learning-assistant/` | 已实测公开 ZIP 安装、桌面端原生加载与首次 PDF；未实测连续定时交付 |
 | OpenClaw | 工作区 skills 或 `~/.openclaw/skills/omni-learning-assistant/` | 官方文档支持；未在客户端实测完整链路 |
 | 豆包 | 须先确认具体客户端版本与能力 | 未验证原生第三方 Skill + 本地执行 + 定时链路；可人工使用提示词，但不等于安装即用 |
+
+[v0.2.0 安装与首次使用实测](docs/installation-validation.md)包含两个宿主的验收 PDF、环境版本及验证范围。建议优先使用轻量安装包。
 
 平台入口、依据和限制见 [平台适配说明](skills/omni-learning-assistant/references/platforms.md)。**安装 Skill 不会自动补齐搜索、运行代码、文生图或定时能力。** 完整使用需要这些宿主能力以及 Python 3.10+、XeLaTeX。Agent 会按[环境说明](skills/omni-learning-assistant/references/setup.md)检查并安装缺失依赖；受限设备需采用其允许的安装方式。
 
@@ -119,6 +121,8 @@ npx skills add ShawnRen57/learnpath
 ```
 
 For Codex, ask its skill installer to install `skills/omni-learning-assistant` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/omni-learning-assistant/references/platforms.md).
+
+[v0.2.0 first-use validation](docs/installation-validation.md) covers public ZIP installation, native loading and first PDF generation in Codex CLI and DSH Desktop; multi-day scheduling remains untested.
 
 Full operation requires an agent with web research, file/command access, image access or generation, PDF inspection and suitable scheduling/delivery, plus Python 3.10+ and XeLaTeX. The package does not supply an LLM, a search subscription or a scheduler. Follow [runtime setup](skills/omni-learning-assistant/references/setup.md).
 

@@ -5,7 +5,8 @@
 - Rename the installable skill and invocation to `omni-learning-assistant` (Omni Learning Assistant).
 - Rename the CLI entrypoint to `omni_learning.py`; preserve course format and legacy `.learnpath.lock` to avoid migration races.
 - Keep the GitHub repository URL and all historical sample outputs unchanged.
-- Verify fresh-package installation and first use; see the installation validation report for actual host coverage.
+- Verify public-ZIP installation, native skill loading and first PDF generation in Codex CLI and DSH Desktop; see the installation validation report.
+- Reject Python below 3.10 explicitly and report the actual interpreter version.
 
 ## 0.1.1 — 2026-10-09
 

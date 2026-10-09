@@ -1,0 +1,19 @@
+{
+  "key": "plan",
+  "pdf": "pdf/安装验收_学习计划.pdf",
+  "created_at": "2026-10-09",
+  "previews": [
+    "previews/plan-01.png"
+  ],
+  "reviewed_at": null,
+  "report": {
+    "pages": 1,
+    "links": 5,
+    "fonts": [
+      "/KGHJTP+FandolFang-Regular-Identity-H",
+      "/QAGAMK+TimesNewRomanPSMT",
+      "/TPNUDQ+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0
+}

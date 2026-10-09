@@ -1,0 +1,7 @@
+{
+  "timezone": "Asia/Shanghai",
+  "language": "zh",
+  "daily_minutes": 15,
+  "sample_mode": true,
+  "goal": "Verify fresh installation only; not a learning course"
+}

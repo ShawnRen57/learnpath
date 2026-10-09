@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14",
+  "xelatex": "/Users/renxiaohan1/Library/TinyTeX/bin/universal-darwin/xelatex",
+  "output_writable": true,
+  "note": "Search, image generation, scheduler and notification require host capability checks."
+}

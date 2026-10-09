@@ -1,0 +1,102 @@
+{
+  "python_packages": {
+    "pypdf": "6.19.0",
+    "pypdfium2": "5.14.0",
+    "Pillow": "12.3.0",
+    "tzdata": "2026.5"
+  },
+  "pages": 1,
+  "fonts": [
+    {
+      "name": "/QAGAMK+TimesNewRomanPSMT",
+      "embedded": true,
+      "to_unicode": true
+    },
+    {
+      "name": "/KGHJTP+FandolFang-Regular-Identity-H",
+      "embedded": true,
+      "to_unicode": false
+    },
+    {
+      "name": "/TPNUDQ+TimesNewRomanPS-BoldMT",
+      "embedded": true,
+      "to_unicode": true
+    }
+  ],
+  "link_annotations": [
+    {
+      "url": "https://example.com/install-check-1",
+      "subtype": "/Link",
+      "rect": [
+        78.302,
+        292.443,
+        170.442,
+        303.476
+      ]
+    },
+    {
+      "url": "https://example.com/install-check-2",
+      "subtype": "/Link",
+      "rect": [
+        78.302,
+        254.306,
+        170.442,
+        265.339
+      ]
+    },
+    {
+      "url": "https://example.com/install-check-3",
+      "subtype": "/Link",
+      "rect": [
+        78.302,
+        216.169,
+        170.442,
+        227.202
+      ]
+    },
+    {
+      "url": "https://example.com/install-check-4",
+      "subtype": "/Link",
+      "rect": [
+        78.302,
+        178.032,
+        170.442,
+        189.065
+      ]
+    },
+    {
+      "url": "https://example.com/install-check-5",
+      "subtype": "/Link",
+      "rect": [
+        78.302,
+        139.895,
+        170.442,
+        150.928
+      ]
+    }
+  ],
+  "link_targets_match_input": true,
+  "state": {
+    "schema": 1,
+    "status": "awaiting_approval",
+    "approved_plan": null,
+    "lessons": {},
+    "schedule": null,
+    "mastery": {}
+  },
+  "input_sha256": {
+    "input-config.json": "1967e63ec688623963d48134e0b0531e492dd902ad855f21c2e2e7950086d9c8",
+    "input-plan.json": "bc0ffc6f5e0ca5718b1cfd94882472112b362dca4915cfae6a8aedc6a060ec8d"
+  },
+  "network_verification": false,
+  "compilation": {
+    "overfull": 0,
+    "underfull": 0,
+    "missing_characters": 0,
+    "latex_package_warning_lines": [],
+    "fontspec_cjk_info": true,
+    "font_lookup_diagnostics": "mktextfm FangSong\nmktextfm FangSong\n"
+  },
+  "visual_review": "Inspected previews/plan-01.png: Chinese and English legible; title, body, fixture image, caption, all five references and footer visible; no clipping, overlap or blank page.",
+  "text_extraction": "PDFium extracts Chinese correctly. pypdf extraction misdecodes the CJK font, whose PDF font dictionary lacks ToUnicode; this does not affect the inspected rendering."
+}

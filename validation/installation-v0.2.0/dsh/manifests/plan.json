@@ -1,0 +1,29 @@
+{
+  "key": "plan",
+  "pdf": "pdf/安装验收_学习计划.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "plan.json": "ff71ec4dc120b42a393c1e734891871e319024ae4ba00d18e4a2618ae31776e1",
+    "config.json": "1967e63ec688623963d48134e0b0531e492dd902ad855f21c2e2e7950086d9c8",
+    "pdf/安装验收_学习计划.pdf": "11c863237e5d3e345997d144a28f554c772feb7ec4a5de015a6dc12f8f4955b8",
+    "sources/安装验收_学习计划.tex": "843a21b5cec507aaffa3fcf27c1b5a10a21b2ec5b9de3352d573d8654e6e826e",
+    "sources/安装验收_学习计划.md": "da32bf9d1e400198aa432db52643274438a3b659b46073daa7ddba55bb96b095",
+    "assets/figure-f85f0dfd67a3.png": "f85f0dfd67a3a900b01f40da286a9b0beae8e60d51e511ec452f1b4a64d58a71",
+    "previews/plan-01.png": "1143d7f85cc814abbb7ccb3fc503d5906185d3ab67fe16be870f177ce96f9e7e"
+  },
+  "previews": [
+    "previews/plan-01.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 1,
+    "links": 5,
+    "fonts": [
+      "/KGHJTP+FandolFang-Regular-Identity-H",
+      "/QAGAMK+TimesNewRomanPSMT",
+      "/TPNUDQ+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "目视检查了全部 1 页预览（previews/plan-01.png，745x1053）：标题与副标题、两个小节（验收范围 / Test scope、输出检查 / Output checks）完整；中文与 English 混排正常，无缺字或方块；QA 插图已按 assets/install-check.png 嵌入并显示 caption 与 credit；扩展学习小节列出 S1–S5 五条链接，颜色与可点击区域正常。字体报告为已嵌入子集 FandolFang-Regular（中文）、TimesNewRomanPSMT / TimesNewRomanPS-BoldMT（西文），无未嵌入字体。LaTeX 日志 0 处 Overfull/Underfull、0 处 Missing character；manifest layout_warnings=0。PDF 文本层用 pdfium 复核，CJK 全部正确（pypdf 提取中文乱码属其 ToUnicode 解析限制，非渲染缺陷）。链接注解 5 条 URI 与 plan.json sources 完全一致。合成验收数据，未联网检索、未生成教学图片。"
+}

@@ -54,7 +54,7 @@ python3 "${DSH_HOME:-$HOME/.dsh}/skills/omni-learning-assistant/scripts/omni_lea
 
 ![Agent 产品课程 PDF 截图](screenshots/agent-product.png)
 
-PDF 和辅助脚本已在 Codex 本地环境验证；**尚未在 DSH 内完成模型调用、连续定时生成与通知的端到端实测**。v0.2.0 的 DSH 集成依据是官方 Skill 加载格式及当前调度文档，不代表所有预设都具备相同工具。
+v0.2.0 已在 DSH Desktop 0.2.0-rc.2 实测公开 ZIP 安装、原生技能加载、模型调用脚本与首次 PDF 生成，见[验收报告](installation-validation.md)。**连续定时生成与通知尚未实测**；不同预设的工具能力须分别检查。
 
 ## English
 
@@ -80,7 +80,7 @@ After approval, use the installed host's actual schedule tools and verify the sa
 
 Native pause is currently unsupported. Pausing Omni Learning Assistant prevents new lesson generation while host wakeups may continue. Deleting a host task also deletes its saved delivery history, so preserve relevant records and explain that impact before an authorized deletion. Older installed versions may still use the session-local overlay described in LearnPath v0.1.0. Inspect capabilities before promising automatic continuation.
 
-The [six sample courses](../examples/README.md) and helper scripts were validated in the Codex local work environment. Native DSH model execution, multi-day scheduling and notification delivery have **not** been tested end to end. No official review or certification is implied.
+The [first-use report](installation-validation.md) records native loading and first PDF generation from the public ZIP in DSH Desktop 0.2.0-rc.2. Multi-day scheduling and notification delivery remain untested. The six historical sample courses were authored in the Codex local work environment. No official review or certification is implied.
 
 ## Official ecosystem and evidence / 官方生态与依据
 

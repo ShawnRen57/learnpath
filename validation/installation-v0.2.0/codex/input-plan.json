@@ -1,0 +1,72 @@
+{
+  "topic": "安装验收",
+  "title": "Omni Learning Assistant 安装验收 / codex",
+  "days": [
+    {
+      "day": 1,
+      "topic": "首次使用检查"
+    }
+  ],
+  "sections": [
+    {
+      "title": "验收范围 / Test scope",
+      "body": "这是合成安装测试，检查发布包的资源读取、Python 与 XeLaTeX 执行和 PDF 输出。不是联网研究或学习内容质量的验收。[S1]"
+    },
+    {
+      "title": "输出检查 / Output checks",
+      "body": "检查中文与 English 显示、插图、链接、字体和页面；计划保持 awaiting_approval，不批准、不调度、不生成每日课程。参考链接为合成测试占位符，不作为真实学习来源。[S2]"
+    }
+  ],
+  "figure": {
+    "path": "assets/install-check.png",
+    "caption": "安装检查步骤 / Installation checks",
+    "credit": "Original code-drawn QA fixture; not AIGC or source evidence"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Synthetic link fixture 1",
+      "url": "https://example.com/install-check-1",
+      "publisher": "Synthetic QA fixture",
+      "note": "Reserved example URL; not verified research or an expansion recommendation",
+      "published_at": "N/A",
+      "checked_at": "2026-10-09"
+    },
+    {
+      "id": "S2",
+      "title": "Synthetic link fixture 2",
+      "url": "https://example.com/install-check-2",
+      "publisher": "Synthetic QA fixture",
+      "note": "Reserved example URL; not verified research or an expansion recommendation",
+      "published_at": "N/A",
+      "checked_at": "2026-10-09"
+    },
+    {
+      "id": "S3",
+      "title": "Synthetic link fixture 3",
+      "url": "https://example.com/install-check-3",
+      "publisher": "Synthetic QA fixture",
+      "note": "Reserved example URL; not verified research or an expansion recommendation",
+      "published_at": "N/A",
+      "checked_at": "2026-10-09"
+    },
+    {
+      "id": "S4",
+      "title": "Synthetic link fixture 4",
+      "url": "https://example.com/install-check-4",
+      "publisher": "Synthetic QA fixture",
+      "note": "Reserved example URL; not verified research or an expansion recommendation",
+      "published_at": "N/A",
+      "checked_at": "2026-10-09"
+    },
+    {
+      "id": "S5",
+      "title": "Synthetic link fixture 5",
+      "url": "https://example.com/install-check-5",
+      "publisher": "Synthetic QA fixture",
+      "note": "Reserved example URL; not verified research or an expansion recommendation",
+      "published_at": "N/A",
+      "checked_at": "2026-10-09"
+    }
+  ]
+}

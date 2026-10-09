@@ -23,9 +23,9 @@ These checks do not mechanically verify factual truth, pedagogy, actual learner 
 
 | Environment | Package / helper execution | Native scheduled delivery |
 |---|---|---|
-| Codex local work environment | Authoring and all six examples executed | Native tool available; multi-day delivery not tested |
+| Codex local work environment | Authoring and all six examples executed; v0.2.0 public ZIP and native CLI first PDF verified | Native tool available; multi-day delivery not tested |
 | WorkBuddy | Documentation-backed import instructions | Not tested |
-| DeepSeek Harness | Filesystem provider documentation rechecked against upstream on 2026-10-09 | Persistent Host Schedule documented upstream; native end-to-end execution not tested |
+| DeepSeek Harness | v0.2.0 public ZIP, native Desktop loading and first PDF executed; see installation report | Persistent Host Schedule documented upstream; timed delivery not tested |
 | OpenClaw | Documentation-backed install instructions | Not tested |
 | Doubao consumer client | Native import/execution not verified | Not verified |
 
@@ -52,3 +52,7 @@ The public repository `ShawnRen57/learnpath`, default branch `main`, was publish
 v0.1.1 refreshes DSH guidance against upstream commit `5badb15009ae1756c3afe0ae0cef1faafc290ccc`. The updated bundle passed the skill metadata validator, ZIP extraction and the extracted `doctor` command (Python, XeLaTeX and an existing writable course directory). Local links in the changed installation guides resolve. Runtime code and all 24 historical PDF samples are unchanged; the full PDF/test suite was not rerun for this documentation-only patch. Native DSH discovery/model execution/scheduled delivery remain untested.
 
 Published in DSH's **Show Your Plugins!** category: [discussion #9207](https://github.com/deepseek-ai/deepseek-harness/discussions/9207). The repository carries the official discovery topic `dsh-plugin`. The post labels LearnPath as unofficial, describes the filesystem Skill integration, includes PDF screenshots and explicitly discloses the untested native DSH end-to-end workflow. This is community publication, not official certification.
+
+## v0.2.0 installation and first use — 2026-10-09
+
+Skill renamed to `omni-learning-assistant`. Both Codex CLI and DSH Desktop passed public-ZIP installation, native skill loading, helper execution and first PDF generation with synthetic fixtures. Unsupported Python is now rejected explicitly. See [installation report](installation-validation.md) for versions, dependency setup, PDF evidence, directory-access observations and the untested scheduling/content boundaries. All 21 tests and the 24 historical-PDF artifact checks passed.
