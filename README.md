@@ -3,15 +3,15 @@
 **把「我想学……」变成一条每天可以走下去的学习路径。**  
 **Turn “I want to learn…” into a source-grounded daily learning path.**
 
-[下载发布版 / Releases](https://github.com/ShawnRen57/learnpath/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md) · [DSH 社区展示 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207)
+[下载发布版 / Releases](https://github.com/ShawnRen57/omni-learning-assistant/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md) · [DSH 社区展示 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207)
 
 Omni Learning Assistant 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
 
 Omni Learning Assistant is an independent Agent Skill for broad subjects and focused topics. It clarifies your goals and baseline, produces a PDF curriculum, and creates daily tasks only after you approve the plan. It is not affiliated with other products named Omni Learning Assistant.
 
-原名 LearnPath，自 v0.2.0 起技能名与调用指令为 `omni-learning-assistant`。仓库地址保持不变；现有样例和旧发布包保留原名称。
+原名 LearnPath，自 v0.2.0 起技能名与调用指令为 `omni-learning-assistant`。GitHub 仓库也已更名；现有样例和旧发布包保留原名称。
 
-Formerly LearnPath. Since v0.2.0, the skill identifier is `omni-learning-assistant`; repository URLs and historical samples remain unchanged.
+Formerly LearnPath. Since v0.2.0, the skill identifier is `omni-learning-assistant`; the GitHub repository has also been renamed; historical samples retain their original names.
 
 ## 中文使用指南
 
@@ -22,13 +22,13 @@ Formerly LearnPath. Since v0.2.0, the skill identifier is `omni-learning-assista
 支持 [Skills CLI](https://www.skills.sh/docs/cli) 的环境可运行以下命令，并在交互界面选择目标 Agent。该命令依赖 Node.js、网络和 CLI 对目标客户端的支持。
 
 ```sh
-npx skills add ShawnRen57/learnpath
+npx skills add ShawnRen57/omni-learning-assistant
 ```
 
 **Codex：** 在对话中发送：
 
 ```text
-请用 skill-installer 安装 https://github.com/ShawnRen57/learnpath
+请用 skill-installer 安装 https://github.com/ShawnRen57/omni-learning-assistant
 仓库中的 skills/omni-learning-assistant，然后按客户端提示刷新或重启以加载。
 ```
 
@@ -117,7 +117,7 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 Download the repository ZIP and import or copy the complete `skills/omni-learning-assistant/` folder into your agent's supported skill directory. The [standalone ZIP](dist/omni-learning-assistant-skill-v0.2.0.zip) contains a top-level `omni-learning-assistant/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
 
 ```sh
-npx skills add ShawnRen57/learnpath
+npx skills add ShawnRen57/omni-learning-assistant
 ```
 
 For Codex, ask its skill installer to install `skills/omni-learning-assistant` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/omni-learning-assistant/references/platforms.md).

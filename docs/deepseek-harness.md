@@ -2,13 +2,13 @@
 
 **非官方社区项目 / Unofficial community project.** Independently maintained; no DeepSeek endorsement or certification is claimed.
 
-[中文](#中文) · [English](#english) · [Omni Learning Assistant](../README.md) · [社区介绍 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207) · [下载 / Download](https://github.com/ShawnRen57/learnpath/releases/tag/v0.2.0)
+[中文](#中文) · [English](#english) · [Omni Learning Assistant](../README.md) · [社区介绍 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207) · [下载 / Download](https://github.com/ShawnRen57/omni-learning-assistant/releases/tag/v0.2.0)
 
 ## 中文
 
 ### 安装
 
-1. 下载 [omni-learning-assistant-skill-v0.2.0.zip](https://github.com/ShawnRen57/learnpath/releases/download/v0.2.0/omni-learning-assistant-skill-v0.2.0.zip)，解压得到 `omni-learning-assistant/`。
+1. 下载 [omni-learning-assistant-skill-v0.2.0.zip](https://github.com/ShawnRen57/omni-learning-assistant/releases/download/v0.2.0/omni-learning-assistant-skill-v0.2.0.zip)，解压得到 `omni-learning-assistant/`。
 2. 将**整个文件夹**放到你的 DSH 技能目录，二选一：当前项目 `<project>/.dsh/skills/omni-learning-assistant/`；用户目录 `$DSH_HOME/skills/omni-learning-assistant/`，默认 `~/.dsh/skills/omni-learning-assistant/`。已有同名安装时先备份，再替换；不要覆盖课程数据。
 3. 确保最终路径是 `.../skills/omni-learning-assistant/SKILL.md`，旁边有 `scripts/`、`references/`、`agents/`。不要套上额外的仓库目录。
 4. 在 DSH 技能目录中确认 `omni-learning-assistant` 已出现。默认文件系统 provider 会监听变更；自定义配置需启用 `@deepseek-ai/dsh-skill` 和 `@deepseek-ai/dsh-skill-filesystem`。
@@ -60,7 +60,7 @@ v0.2.0 已在 DSH Desktop 0.2.0-rc.2 实测公开 ZIP 安装、原生技能加�
 
 ### Install and start
 
-Download the [v0.2.0 skill ZIP](https://github.com/ShawnRen57/learnpath/releases/download/v0.2.0/omni-learning-assistant-skill-v0.2.0.zip). Extract the complete `omni-learning-assistant/` folder into either `<project>/.dsh/skills/` or `$DSH_HOME/skills/` (default `~/.dsh/skills/`). Back up an existing installation before replacement. Keep course data outside the installed bundle.
+Download the [v0.2.0 skill ZIP](https://github.com/ShawnRen57/omni-learning-assistant/releases/download/v0.2.0/omni-learning-assistant-skill-v0.2.0.zip). Extract the complete `omni-learning-assistant/` folder into either `<project>/.dsh/skills/` or `$DSH_HOME/skills/` (default `~/.dsh/skills/`). Back up an existing installation before replacement. Keep course data outside the installed bundle.
 
 The final layout must be `<skill-root>/omni-learning-assistant/SKILL.md`, with sibling scripts, references and agents directories. DSH scans one directory level. Its filesystem skill provider watches changes by default; custom profiles need both `@deepseek-ai/dsh-skill` and `@deepseek-ai/dsh-skill-filesystem`. Verify that `omni-learning-assistant` appears in the skill catalog. This is an Agent Skill integration, not an npm/Cordis service plugin.
 

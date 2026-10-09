@@ -6,7 +6,7 @@ Date: 2026-10-09 · macOS · Skill: `omni-learning-assistant` (formerly LearnPat
 
 ## 安装来源与一致性
 
-使用公开 [v0.2.0 release](https://github.com/ShawnRen57/learnpath/releases/tag/v0.2.0) 中的 `omni-learning-assistant-skill-v0.2.0.zip`，21,620 bytes。
+使用公开 [v0.2.0 release](https://github.com/ShawnRen57/omni-learning-assistant/releases/tag/v0.2.0) 中的 `omni-learning-assistant-skill-v0.2.0.zip`，21,620 bytes。
 
 SHA256: `634a4e5f5c4cecb9d8650971ceb41097803ce38eba2190283ba04af103c320b6`。
 

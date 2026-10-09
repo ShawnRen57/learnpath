@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository rename — 2026-10-09
+
+- Rename the GitHub repository to `ShawnRen57/omni-learning-assistant`.
+- Update current repository URLs, installation commands, release notes and the existing DSH community post.
+- This repository-only change keeps the installable skill at v0.2.0.
+
+
 ## 0.2.0 — 2026-10-09
 
 - Rename the installable skill and invocation to `omni-learning-assistant` (Omni Learning Assistant).
