@@ -18,7 +18,7 @@ Web search followed by opening key pages. Official documentation for platform be
 - [Agent Skills specification](https://agentskills.io/specification): standard `SKILL.md` package, references, scripts.
 - Codex bundled skill-creator and skill-installer documentation, inspected locally. Native scheduler tool capability inspected in current Codex environment.
 - [WorkBuddy Skills](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) and [Automations](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide): documentation evidence only.
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): local official checkout's skill filesystem provider and schedule guide inspected. Schedule overlay is session-local; no durable calendar delivery claimed.
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): the original 2026-10-08 local checkout inspection found a session-local schedule overlay. A separate 2026-10-09 upstream check found the newer persistent Host Schedule. See the [DSH guide](deepseek-harness.md) for pinned sources; this correction does not change the sample research date.
 - [OpenClaw skills](https://docs.openclaw.ai/tools/skills) and [cron](https://docs.openclaw.ai/cron): documentation evidence only.
 - Doubao native third-party Skill import, shell/PDF and scheduling were not verified for a specific client/version. No full native support claim.
 

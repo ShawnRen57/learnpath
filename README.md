@@ -13,7 +13,7 @@ LearnPath is an independent Agent Skill for broad subjects and focused topics. I
 
 ### 1. 安装
 
-**通用方式：** 下载仓库 ZIP，找到 `skills/learnpath/`，将整个文件夹导入或复制到 Agent 的技能目录。不要只复制 `SKILL.md`，它还需要 `scripts/` 和 `references/`。可单独下载 [轻量安装包](dist/learnpath-skill-v0.1.0.zip)，解压后根目录为 `learnpath/`。
+**通用方式：** 下载仓库 ZIP，找到 `skills/learnpath/`，将整个文件夹导入或复制到 Agent 的技能目录。不要只复制 `SKILL.md`，它还需要 `scripts/` 和 `references/`。可单独下载 [轻量安装包](dist/learnpath-skill-v0.1.1.zip)，解压后根目录为 `learnpath/`。
 
 支持 [Skills CLI](https://www.skills.sh/docs/cli) 的环境可运行以下命令，并在交互界面选择目标 Agent。该命令依赖 Node.js、网络和 CLI 对目标客户端的支持。
 
@@ -34,11 +34,13 @@ npx skills add ShawnRen57/learnpath
 |---|---|---|
 | Codex | Skill 安装器或用户技能目录 | 在 Codex 工作环境完成内容研究、图片、Python/XeLaTeX 试跑；未连续多日实测定时通知 |
 | WorkBuddy | Skills 界面的本地包导入 | 官方文档支持；未在客户端实测完整链路 |
-| DeepSeek Harness | 配置的 `.dsh/skills/learnpath/` | 已检查官方本地源码与文档；其 schedule overlay 为会话内计时，不等于持久每日任务 |
+| DeepSeek Harness | 配置的 `.dsh/skills/learnpath/` | 已核验官方文件系统 Skill 与持久 Host Schedule 文档；未实测 DSH 内完整链路 |
 | OpenClaw | 工作区 skills 或 `~/.openclaw/skills/learnpath/` | 官方文档支持；未在客户端实测完整链路 |
 | 豆包 | 须先确认具体客户端版本与能力 | 未验证原生第三方 Skill + 本地执行 + 定时链路；可人工使用提示词，但不等于安装即用 |
 
 平台入口、依据和限制见 [平台适配说明](skills/learnpath/references/platforms.md)。**安装 Skill 不会自动补齐搜索、运行代码、文生图或定时能力。** 完整使用需要这些宿主能力以及 Python 3.10+、XeLaTeX。Agent 会按[环境说明](skills/learnpath/references/setup.md)检查并安装缺失依赖；受限设备需采用其允许的安装方式。
+
+**DeepSeek Harness 用户：** 见[中英双语安装与定时指南](docs/deepseek-harness.md)。使用原生文件系统 Skill 加载，无需另装 Cordis 服务插件。
 
 ### 2. 只说你想学什么
 
@@ -106,7 +108,7 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 
 ### Install
 
-Download the repository ZIP and import or copy the complete `skills/learnpath/` folder into your agent's supported skill directory. The [standalone ZIP](dist/learnpath-skill-v0.1.0.zip) contains a top-level `learnpath/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
+Download the repository ZIP and import or copy the complete `skills/learnpath/` folder into your agent's supported skill directory. The [standalone ZIP](dist/learnpath-skill-v0.1.1.zip) contains a top-level `learnpath/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
 
 ```sh
 npx skills add ShawnRen57/learnpath
@@ -115,6 +117,8 @@ npx skills add ShawnRen57/learnpath
 For Codex, ask its skill installer to install `skills/learnpath` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/learnpath/references/platforms.md).
 
 Full operation requires an agent with web research, file/command access, image access or generation, PDF inspection and suitable scheduling/delivery, plus Python 3.10+ and XeLaTeX. The package does not supply an LLM, a search subscription or a scheduler. Follow [runtime setup](skills/learnpath/references/setup.md).
+
+**DeepSeek Harness:** see the [bilingual installation and scheduling guide](docs/deepseek-harness.md). LearnPath loads through the native filesystem skill provider.
 
 ### Start with a topic
 

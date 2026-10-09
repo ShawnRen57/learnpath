@@ -3,7 +3,7 @@ name: learnpath
 description: Build a personalized, source-grounded learning course on any topic, with a PDF plan approved by the learner before daily scheduled PDF lessons. Use for systematic study, learning plans, or continuing a LearnPath course; not for a one-off factual answer.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   runtime: "Python 3.10+, XeLaTeX; host web search, files, commands and PDF viewing. Scheduling and images depend on host."
 ---
 

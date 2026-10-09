@@ -25,7 +25,7 @@ These checks do not mechanically verify factual truth, pedagogy, actual learner 
 |---|---|---|
 | Codex local work environment | Authoring and all six examples executed | Native tool available; multi-day delivery not tested |
 | WorkBuddy | Documentation-backed import instructions | Not tested |
-| DeepSeek Harness | Official local source and guide inspected | Session-local overlay limitations documented; not tested |
+| DeepSeek Harness | Filesystem provider documentation rechecked against upstream on 2026-10-09 | Persistent Host Schedule documented upstream; native end-to-end execution not tested |
 | OpenClaw | Documentation-backed install instructions | Not tested |
 | Doubao consumer client | Native import/execution not verified | Not verified |
 
@@ -46,3 +46,7 @@ The test suite needs pypdf, pypdfium2, Pillow, and XeLaTeX for the integration t
 ## Publication verification — 2026-10-09
 
 The public repository `ShawnRen57/learnpath`, default branch `main`, was published through the official GitHub CLI. All 279 remote file blob hashes matched the local committed files. Source-check dates in the sample materials remain 2026-10-08; publication does not relabel the research date.
+
+## DeepSeek Harness documentation update — 2026-10-09
+
+v0.1.1 refreshes DSH guidance against upstream commit `5badb15009ae1756c3afe0ae0cef1faafc290ccc`. The updated bundle passed the skill metadata validator, ZIP extraction and the extracted `doctor` command (Python, XeLaTeX and an existing writable course directory). Local links in the changed installation guides resolve. Runtime code and all 24 historical PDF samples are unchanged; the full PDF/test suite was not rerun for this documentation-only patch. Native DSH discovery/model execution/scheduled delivery remain untested.
