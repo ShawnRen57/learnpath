@@ -50,3 +50,5 @@ The public repository `ShawnRen57/learnpath`, default branch `main`, was publish
 ## DeepSeek Harness documentation update — 2026-10-09
 
 v0.1.1 refreshes DSH guidance against upstream commit `5badb15009ae1756c3afe0ae0cef1faafc290ccc`. The updated bundle passed the skill metadata validator, ZIP extraction and the extracted `doctor` command (Python, XeLaTeX and an existing writable course directory). Local links in the changed installation guides resolve. Runtime code and all 24 historical PDF samples are unchanged; the full PDF/test suite was not rerun for this documentation-only patch. Native DSH discovery/model execution/scheduled delivery remain untested.
+
+Published in DSH's **Show Your Plugins!** category: [discussion #9207](https://github.com/deepseek-ai/deepseek-harness/discussions/9207). The repository carries the official discovery topic `dsh-plugin`. The post labels LearnPath as unofficial, describes the filesystem Skill integration, includes PDF screenshots and explicitly discloses the untested native DSH end-to-end workflow. This is community publication, not official certification.

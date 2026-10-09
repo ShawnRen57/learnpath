@@ -2,7 +2,7 @@
 
 **非官方社区项目 / Unofficial community project.** Independently maintained; no DeepSeek endorsement or certification is claimed.
 
-[中文](#中文) · [English](#english) · [LearnPath](../README.md) · [下载 / Download](https://github.com/ShawnRen57/learnpath/releases/tag/v0.1.1)
+[中文](#中文) · [English](#english) · [LearnPath](../README.md) · [社区介绍 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207) · [下载 / Download](https://github.com/ShawnRen57/learnpath/releases/tag/v0.1.1)
 
 ## 中文
 
