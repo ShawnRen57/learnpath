@@ -2,9 +2,12 @@
 from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
 import hashlib
+import re
 ROOT=Path(__file__).resolve().parents[1]
 out=ROOT/'dist';out.mkdir(exist_ok=True)
-archive=out/'omni-learning-assistant-skill-v0.2.1.zip'
+skill=ROOT/'skills/omni-learning-assistant'
+version=re.search(r'^  version: "([0-9]+\.[0-9]+\.[0-9]+)"$',(skill/'SKILL.md').read_text(),re.M).group(1)
+archive=out/f'omni-learning-assistant-skill-v{version}.zip'
 with ZipFile(archive,'w',ZIP_DEFLATED) as z:
  for p in sorted((ROOT/'skills/omni-learning-assistant').rglob('*')):
   if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc' and p.name!='.DS_Store':

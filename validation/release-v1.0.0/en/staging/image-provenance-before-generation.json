@@ -1,0 +1,14 @@
+{
+  "method": "host image_gen built-in tool",
+  "prompt_file": "research/image-prompt.txt",
+  "intended_asset": "assets/course-overview.png",
+  "status": "generation pending",
+  "disclosure": "AI-generated teaching illustration; not observational evidence or a dated sky map",
+  "source_image_attempts": [
+    {
+      "url": "https://science.nasa.gov/resource/phases-of-the-moon-2/",
+      "credit": "NASA/Bill Dunford",
+      "outcome": "page opened; image not downloaded because command DNS and browser routes unavailable"
+    }
+  ]
+}

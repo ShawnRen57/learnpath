@@ -1,0 +1,22 @@
+{
+  "topic": "Night Sky for Travelers",
+  "goal": "Distinguish stars from planets, explain Moon phases, and plan a simple stargazing outing while traveling in China.",
+  "baseline": "Complete beginner; naked eye plus an existing phone star chart; no telescope.",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "en",
+  "immediate_day01": true,
+  "sample_mode": true,
+  "scope": "General principles for city and rural skies in China; no predictions for a particular date.",
+  "execution_mode": "Isolated installation acceptance; manual continuation; nominal start time only; never register live schedules."
+}

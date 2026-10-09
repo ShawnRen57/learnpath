@@ -1,0 +1,34 @@
+{
+  "key": "Day03",
+  "pdf": "pdf/旅行观星入门_每日学习_Day03_安排观星：做一张肉眼出行卡.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "data/Day03.json": "26c33322cc11978378ff50d2dff58e7c19665126bdbe7af54169209fca12ab68",
+    "plan.json": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+    "config.json": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c",
+    "pdf/旅行观星入门_每日学习_Day03_安排观星：做一张肉眼出行卡.pdf": "dd2aa2ae0ee41eb0000e8b4cdc1a5aeaacf5c34cb131d42a3d2ebfe423962422",
+    "sources/旅行观星入门_每日学习_Day03_安排观星：做一张肉眼出行卡.tex": "a87e6e561de7c00e4af8ccc2c1f7a72fce984682464cb0cd430386202ae7e2b8",
+    "sources/旅行观星入门_每日学习_Day03_安排观星：做一张肉眼出行卡.md": "ad2aef44262dd3873c80bd80dca7a91285f92ce2f275ddf3e5292f75c5dedf60",
+    "assets/figure-7338e8d8739e.png": "7338e8d8739e91655d956c68cd22d12c549b9c272d00c9dce5ad87e503c8acdd",
+    "previews/Day03-01.png": "ded7953aadecd36887f4cfa652fa4a94a16da3bbf72a515c027c8740eecd6529",
+    "previews/Day03-02.png": "e09ef4822382fb2b4770e9d4616cd7d059d5b18a29c6f754ca9e5a3ae24c7f14",
+    "previews/Day03-03.png": "bcbed1f149cb41fe60c40dd2a31363fb1465bf927f4232279b608fc3653996dd"
+  },
+  "previews": [
+    "previews/Day03-01.png",
+    "previews/Day03-02.png",
+    "previews/Day03-03.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 3,
+    "links": 5,
+    "fonts": [
+      "/CRGGYN+FandolFang-Regular-Identity-H",
+      "/KRSQAE+TimesNewRomanPSMT",
+      "/MTELMA+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Viewed all three pages at readable preview resolution. Clear C-panel caption, seven numbered planning items, worked hypothetical case and cross-day retrieval. No overlap, clipping or blank pages. Fonts, five source links and 15-minute core/optional split verified. Circled-number font failure corrected in unshipped input; same lesson retried without advancing state."
+}

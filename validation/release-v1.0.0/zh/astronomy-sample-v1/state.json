@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "approved_plan": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-09",
+      "pdf": "pdf/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.pdf",
+      "manifest_hash": "af38ac7f4599cb7aea4d590b7bed3299d7dfa4c75b6ac91a083ed986b3a8f8fb"
+    },
+    "2": {
+      "delivered_at": "2026-10-09",
+      "pdf": "pdf/旅行观星入门_每日学习_Day02_理解月相：为什么月亮会变形.pdf",
+      "manifest_hash": "a1bbd80c59daa42c9d8f5120a5748dfcbb057f14d1d94c059582b2957bfe91cb"
+    },
+    "3": {
+      "delivered_at": "2026-10-09",
+      "pdf": "pdf/旅行观星入门_每日学习_Day03_安排观星：做一张肉眼出行卡.pdf",
+      "manifest_hash": "b726b23c9f4cee8624acaffd56c962e6fce5fc21f1a072eeaa77c3ee6ca233d4"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c"
+}

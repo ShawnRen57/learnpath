@@ -1,0 +1,244 @@
+{
+  "checked_at": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "searches": [
+    [
+      {
+        "q": "site.science.nasa.gov universe stars nuclear fusion sunlight planets reflected"
+      },
+      {
+        "q": "site.spaceplace.nasa.gov stars twinkle planets atmosphere"
+      },
+      {
+        "q": "site.jpl.nasa.gov edu find planets sky location date direction"
+      }
+    ],
+    [
+      {
+        "q": "site.nasa.gov planets \"reflect sunlight\" stars"
+      },
+      {
+        "q": "site.eso.org planets twinkle horizon"
+      }
+    ]
+  ],
+  "pages_read": [
+    [
+      {
+        "ref_id": "https://science.nasa.gov/universe/stars/"
+      },
+      {
+        "ref_id": "https://science.nasa.gov/image-article/apod-2000-july-25-why-stars-twinkle/"
+      },
+      {
+        "ref_id": "https://science.nasa.gov/skywatching/"
+      },
+      {
+        "ref_id": "https://science.nasa.gov/skywatching/faq/"
+      },
+      {
+        "ref_id": "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/"
+      },
+      {
+        "ref_id": "https://imagine.gsfc.nasa.gov/ask_astro/night_sky.html"
+      }
+    ],
+    [
+      {
+        "ref_id": "turn6view3",
+        "lineno": 247
+      },
+      {
+        "ref_id": "turn6view5",
+        "lineno": 170
+      }
+    ],
+    [
+      {
+        "ref_id": "https://science.nasa.gov/venus/facts/"
+      }
+    ],
+    [
+      {
+        "ref_id": "https://science.nasa.gov/moon/moonlight/"
+      }
+    ]
+  ],
+  "page_find_operations": [
+    [
+      {
+        "ref_id": "turn6view5",
+        "pattern": "twinkle"
+      },
+      {
+        "ref_id": "turn6view5",
+        "pattern": "reflected"
+      },
+      {
+        "ref_id": "turn6view1",
+        "pattern": "Explanation"
+      },
+      {
+        "ref_id": "turn6view3",
+        "pattern": "brightest"
+      },
+      {
+        "ref_id": "turn6view2",
+        "pattern": "steady"
+      },
+      {
+        "ref_id": "turn6view4",
+        "pattern": "Step 3"
+      }
+    ],
+    [
+      {
+        "ref_id": "turn6view5",
+        "pattern": "Last Updated"
+      },
+      {
+        "ref_id": "turn6view3",
+        "pattern": "tools do I need"
+      }
+    ],
+    [
+      {
+        "ref_id": "turn9view0",
+        "pattern": "reflect"
+      },
+      {
+        "ref_id": "turn9view0",
+        "pattern": "star"
+      },
+      {
+        "ref_id": "turn9view0",
+        "pattern": "Last Updated"
+      }
+    ],
+    [
+      {
+        "ref_id": "https://science.nasa.gov/moon/moonlight/",
+        "pattern": "Venus"
+      }
+    ]
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "恒星为什么会发光（Stars）",
+      "url": "https://science.nasa.gov/universe/stars/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "last_updated": "2026-08-12",
+      "note": "选读开头与Life第一段：认识太阳也是恒星，以及主序恒星的能量来源；不必阅读全部演化过程。"
+    },
+    {
+      "id": "S2",
+      "title": "反射光也能很亮（Moonlight）",
+      "url": "https://science.nasa.gov/moon/moonlight/",
+      "publisher": "NASA Science / Caela Barry；科学顾问John Keller、Bill Farrell",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "last_updated": "2026-02-12",
+      "note": "只读Albedo中月球、地球与金星的比较：金星反射阳光，说明“很亮”并不证明是恒星。"
+    },
+    {
+      "id": "S3",
+      "title": "恒星闪烁、行星较稳定的原因",
+      "url": "https://imagine.gsfc.nasa.gov/ask_astro/night_sky.html",
+      "publisher": "NASA GSFC / Koji Mukai、Maggie Masetti",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "last_updated": "2020-10-22",
+      "question_submitted_at": "1998-12-17",
+      "note": "在页面查找“Why do the stars appear to twinkle”：读Question ID 981217a的回答，理解大气扰动和行星光线的平均效应。问题提交日期不当作回答发布日期。"
+    },
+    {
+      "id": "S4",
+      "title": "夜空中的行星与恒星",
+      "url": "https://science.nasa.gov/skywatching/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "note": "只读What to Look for in the Sky的Planets和Stars：对比亮度、闪烁与背景位置，跳过当月天象栏目。"
+    },
+    {
+      "id": "S5",
+      "title": "设置星图并寻找行星",
+      "url": "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/",
+      "publisher": "NASA JPL Education",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "last_updated": "2024-09-27",
+      "note": "选读步骤3、5、6：检查地点、日期时间、方向和高度。只学核对流程，不必执行指定夜晚的观测或后续预测步骤。"
+    },
+    {
+      "id": "S6",
+      "title": "肉眼观星和手机星图常见问题",
+      "url": "https://science.nasa.gov/skywatching/faq/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "last_updated": "2024-09-03",
+      "note": "读What tools do I need和Can I see...：理解不需要购置器材，以及星图必须对应观察地点和时间。"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "太阳是恒星；主序阶段核聚变释放能量",
+      "ids": [
+        "S1"
+      ],
+      "evidence": "Stars的开头及Life，行277-294"
+    },
+    {
+      "claim": "金星反射阳光；很亮并不代表恒星",
+      "ids": [
+        "S2"
+      ],
+      "evidence": "Moonlight中Albedo对比，行334-337；不概括为所有波段零辐射"
+    },
+    {
+      "claim": "大气扰动导致闪烁；行星光线平均效应",
+      "ids": [
+        "S3"
+      ],
+      "evidence": "Question ID 981217a回答，行178-181"
+    },
+    {
+      "claim": "行星通常较稳定；相对背景恒星移动",
+      "ids": [
+        "S4"
+      ],
+      "evidence": "What to Look for in the Sky / Planets，行398"
+    },
+    {
+      "claim": "地点、日期时间、方向与高度核对",
+      "ids": [
+        "S5",
+        "S6"
+      ],
+      "evidence": "JPL步骤3、5、6；FAQ关于地点时间与app的问题"
+    },
+    {
+      "claim": "未确认外观不能单独定身份",
+      "ids": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "type": "教学方法与上述证据的推论，未声称某次现场核对"
+    },
+    {
+      "claim": "本课太阳系行星绕太阳；月球绕地球为天然卫星",
+      "ids": [
+        "S6"
+      ],
+      "evidence": "FAQ的The Moon and Planets月球绕地球及行星绕太阳段落；普通入门分类，未以反射光作为完整定义。"
+    }
+  ],
+  "excluded": "APOD解释阅读过但正文未使用其图片；Venus facts已打开但没找到reflect，不拿它支持反射机制；未使用搜索结果中的StarChild过时数值。来源发布日期不明则标未标注，更新日期另存。",
+  "scope": "稳定入门概念；不作具体中国城市、日期的天象预测；所有正文场景为明确标注的假设。"
+}

@@ -1,0 +1,27 @@
+{
+  "topic": "旅行观星入门",
+  "goal": "区分恒星和行星、理解月相，并能安排一次简单的肉眼观星。主要在中国旅行；只学通用知识，不预测具体日期地点的可见天象。",
+  "baseline": "完全零基础",
+  "daily_minutes": 15,
+  "timezone": "Asia/Shanghai",
+  "time": "10:00",
+  "weekdays": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR",
+    "SA",
+    "SU"
+  ],
+  "language": "zh",
+  "immediate_day01": true,
+  "sample_mode": true,
+  "execution_mode": "isolated_acceptance_no_live_schedule",
+  "time_semantics": "仅记录演示生成开始时间；生成及检查完成后交付，不承诺10:00交付",
+  "equipment": [
+    "肉眼",
+    "已有手机星图"
+  ],
+  "duration_days": 3
+}

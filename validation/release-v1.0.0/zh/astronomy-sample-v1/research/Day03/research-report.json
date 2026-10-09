@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "actor": "current Codex desktop; installed Skill resources",
+  "search_performed": true,
+  "opened_sources": [
+    "https://science.nasa.gov/solar-system/skywatching/how-to-find-good-places-to-stargaze/",
+    "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/",
+    "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/",
+    "https://science.nasa.gov/skywatching/faq/",
+    "https://science.nasa.gov/moon/viewing-tips/"
+  ],
+  "reading_minutes": 10,
+  "practice_minutes": 5,
+  "duration_estimated": true,
+  "image": "actual generated course roadmap reused with a different panel focus",
+  "simulated_learner": true,
+  "live_schedule": null,
+  "recovery": "Day03 selected by installed next after simulated QA receipt of Day02"
+}

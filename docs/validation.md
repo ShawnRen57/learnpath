@@ -3,18 +3,21 @@
 测试范围：Skill 安装、资源读取、计划确认、内容与 PDF 输出、课程状态及失败恢复。宿主的定时器可靠性不纳入测试。
 
 - 六组样例：每组完整 30 天计划与 Day01–03，共 24 份 PDF、55 页。实际来源核验日期为 2026-10-08。
-- 21 项测试覆盖审批、变更后的审批失效、连续天数、交付门禁、重复执行、失败复用、暂停完成、并发锁、路径与 TeX 安全、真实 XeLaTeX 输出。
+- 29 项测试覆盖审批、变更后的审批失效、连续天数、交付门禁、重复执行、失败复用、暂停完成、并发锁、路径与 TeX 安全、真实 XeLaTeX 输出。
 - PDF 检查包含全部页面预览、嵌入字体、图示、至少五个链接和版式警告。PDFium 用于中文提取，pypdf 用于字体与链接对象检查。
 - [首次安装验收](installation-validation.md)：Codex CLI 与 DSH Desktop 从公开包加载资源并生成测试 PDF；使用干净 Python 环境，保留原始测试输入与输出。
 - 元数据验证与独立 ZIP 解压检查确认包自包含。安装方法依据见 [install.md](../skills/omni-learning-assistant/references/install.md)。
 
 样例计划批准与交付为明确标注的模拟操作。来源真实性、教学质量及页面目视检查由执行 Agent 核对；脚本不会自动判断事实正确或学习者是否掌握。
 
+[v1.0.0 发布验收](release-validation-v1.0.0.md)记录新增双语样例、原生安装、恢复行为与测试边界；[六份最终 PDF 索引](../validation/release-v1.0.0/README.md)。
+
 ## Reproduce
 
 ```sh
 python3 -m unittest discover -s tests -v
 python3 tools/validate_artifacts.py
+python3 tools/validate_release_samples.py
 python3 tools/package_skill.py
 ```
 

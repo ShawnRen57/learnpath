@@ -1,0 +1,10 @@
+{
+  "failure": "Missing U+2460–U+2466 glyphs in local Times New Roman",
+  "fix": "Replace decorative circled numbers with plain numbered items in unshipped input",
+  "accepted_manifest_before_retry": false,
+  "progress_before_retry": [
+    1,
+    2
+  ],
+  "retry": "same Day03, no state edits"
+}

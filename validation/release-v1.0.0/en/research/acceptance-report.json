@@ -1,0 +1,49 @@
+{
+  "acceptance_mode": "isolated sample; no simulated approval or accelerated lessons performed",
+  "installed_skill": "<local-user>/.codex/skills/omni-learning-assistant",
+  "interpreter": "<local-repository>/tmp/first-use-venv/bin/python",
+  "compiler": "<local-user>/Library/TinyTeX/bin/universal-darwin/xelatex",
+  "commands_completed": [
+    "doctor",
+    "init",
+    "render --key plan",
+    "review --key plan"
+  ],
+  "commands_not_run": [
+    "approve",
+    "next",
+    "schedule-record",
+    "lesson rendering",
+    "delivered"
+  ],
+  "pdf": "pdf/Night Sky for Travelers_学习计划.pdf",
+  "reviewed_at": "2026-10-09",
+  "review_note": "Visually inspected all four previews at readable resolution on 2026-10-09: page 1 learner brief, outcomes, three-panel figure, caption and AI provenance; page 2 nominal schedule and complete Days 1 and 2; page 3 Day 3, assessment, evidence limits and start of optional reading; page 4 remaining sources. Text and figure labels are legible, margins and page flow are clean, no clipping, overlap or blank pages. All five source URLs are embedded as PDF link annotations and their target pages were opened during research. Helper verified embedded Times New Roman and FandolFang fonts. Full LaTeX log has no warnings, overfull/underfull boxes or missing characters. Timings are estimates, no phone app or learner pace was tested. AI Moon icons are explicitly alternatives, not simultaneous observations. Review is PDF QA, not learner approval.",
+  "pdf_checks": {
+    "pages": 4,
+    "links": 5,
+    "fonts": [
+      "/JURQSJ+TimesNewRomanPS-BoldMT",
+      "/QCQNDX+FandolFang-Regular-Identity-H",
+      "/TRRIBK+TimesNewRomanPSMT"
+    ]
+  },
+  "overfull_warnings": 0,
+  "state_checks": {
+    "schema": 1,
+    "status": "awaiting_approval",
+    "approved_plan": null,
+    "lessons": {},
+    "schedule": null,
+    "mastery": {}
+  },
+  "storage": "All course-owned inputs, assets, previews, exports and reports under the current directory. Host image generation retained its native cache externally; see research/image-provenance.json.",
+  "capability_limits": [
+    "command network DNS unavailable",
+    "IAB unavailable",
+    "Chrome extension request-header policy unavailable",
+    "native Chrome access not approved",
+    "no live scheduler or external notification tested, per sample scope",
+    "no phone star chart operated or China network availability tested"
+  ]
+}

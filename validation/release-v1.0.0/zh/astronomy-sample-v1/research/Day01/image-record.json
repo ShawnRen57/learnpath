@@ -1,0 +1,14 @@
+{
+  "asset": "assets/course-roadmap.png",
+  "method": "reuse_actual_text_to_image_multi_panel_figure",
+  "original_record": "research/image-record.json",
+  "generated_at": "2026-10-09",
+  "new_image_generation_this_run": false,
+  "third_party_image_used": false,
+  "original_prompt": "Use case: scientific-educational. Asset type: explanatory course roadmap for a Chinese beginner's 3-day naked-eye astronomy PDF, wide landscape 3:1 composition, crisp legible print typography, pale ivory background and muted navy/teal accents. Create exactly THREE clearly separated illustrated panels connected left-to-right by two simple arrows. Exact text: panel 1 heading 'Day01 辨认亮点', sublabel '恒星 / 行星'; panel 2 heading 'Day02 理解月相', sublabel '太阳照亮，视角改变'; panel 3 heading 'Day03 安排观星', sublabel '天气 / 月光 / 场地'. Panel 1 illustrates a naked-eye observer comparing points of light overhead with a smartphone star map; planets must appear as points in the night sky, NOT large Saturn discs. Panel 2 shows FOUR clean lunar discs in a horizontal row: fully dark new moon, right half white first quarter, fully white full moon, left half white last quarter, all dark parts neutral gray. No Earth shadow, no orbital geometry, no apparent-size claims. Panel 3 shows an adult standing on flat open ground away from a few distant dim buildings, holding a phone, with a small checklist icon; no telescope or binoculars. Restrained professional educational illustration, substantial breathing room. No logos, no photo-real claim, no real coordinates, no date, no exact star positions or constellation patterns. All imagery schematic, not to scale. Do not add any text beyond the six exact quoted strings.",
+  "purpose": "本课只研究左栏肉眼观察+手机核对两个动作，回答为什么点状外观不能单独确认身份；其余两栏只作课程导航。",
+  "inspection_at": "2026-10-09",
+  "inspection": "本轮实际用view_image打开完整原图。左栏文字清晰，天空亮点为示意，没有行星巨大圆盘、天文仪器或实际坐标。未将点大小、星点分布或手机图案当作科学证据。图注和正文明确说明只看左栏，复用并未声称本轮新生成。",
+  "rights": "真实宿主image_gen生成，原始提示词与生成结果记录存在；未嵌入第三方来源图片，不伪称CC授权。",
+  "original_result_hint": "Generated images are saved to <local-user>/.codex/generated_images/01a12016-73c4-7b71-a9e2-b51108ff1ed7 as <local-user>/.codex/generated_images/01a12016-73c4-7b71-a9e2-b51108ff1ed7/exec-57c0d31b-08a2-4f9a-afd9-43cd908a057e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

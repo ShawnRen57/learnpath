@@ -77,7 +77,11 @@ def render(root,input_path,key):
             day=data.get('day'); action=c.next_action(root)
             if not isinstance(day,int) or key!=f'Day{day:02d}' or action.get('day')!=day or action['action']!='generate': raise ValueError('Render only the next ungenerated lesson; reuse existing artifacts.')
             if data.get('title')!=plan['days'][day-1]['topic']: raise ValueError('Lesson title differs from approved plan.')
-            config=c.read(root/'config.json'); mins=data.get('reading_minutes',0)+data.get('practice_minutes',0)
+            config=c.read(root/'config.json')
+            reading=data.get('reading_minutes'); practice=data.get('practice_minutes')
+            if type(reading) is not int or reading<1 or type(practice) is not int or practice<0:
+                raise ValueError('Reading minutes must be a positive integer; practice minutes a nonnegative integer.')
+            mins=reading+practice
             if not 1<=mins<=config['daily_minutes']: raise ValueError('Lesson exceeds agreed time budget.')
         validate_document(data,root)
         compiler=executable('xelatex')
@@ -102,12 +106,12 @@ def render(root,input_path,key):
                 tex.extend([r'\begin{center}\includegraphics[width=\linewidth,height=0.26\textheight,keepaspectratio]{../assets/'+img+r'}\par',r'{\small '+esc(data['figure']['caption'])+r'}\par',r'{\footnotesize '+esc(data['figure']['credit'])+r'}\end{center}'])
                 md.extend(['!['+data['figure']['caption']+'](../assets/'+img+')',data['figure']['credit']])
         tex.append(r'\Needspace{6\baselineskip}\section*{Further reading}\small Optional; outside the daily core time budget.\begin{enumerate}[leftmargin=1.6em]' if english else r'\Needspace{6\baselineskip}\section*{扩展学习 / Further reading}\small 以下为选读，不计入每日必做时间。\begin{enumerate}[leftmargin=1.6em]')
-        md.append('## 扩展学习（选读）')
+        md.append('## Further reading (optional)' if english else '## 扩展学习（选读）')
         for s in data['sources']:
             published=' | Published: ' if english else ' | 发布：'
             checked=' | Checked: ' if english else ' | 核验：'
             tex.append(r'\item ['+esc(s['id'])+r'] \href{'+esc(s['url'])+'}{'+esc(s['title'])+'} — '+esc(s['note'])+r'\par '+esc(s['publisher']+published+s['published_at']+checked+s['checked_at']))
-            md.append(f"- [{s['id']}] [{s['title']}]({s['url']})：{s['note']}；{s['publisher']}；发布 {s['published_at']}；核验 {s['checked_at']}")
+            md.append(f"- [{s['id']}] [{s['title']}]({s['url']}): {s['note']}; {s['publisher']}{published}{s['published_at']}{checked}{s['checked_at']}")
         tex.extend([r'\end{enumerate}',r'\end{document}'])
         texfile=root/'sources'/(stem+'.tex'); texfile.write_text('\n\n'.join(tex),encoding='utf-8')
         mdfile=texfile.with_suffix('.md'); mdfile.write_text('\n\n'.join(md)+'\n',encoding='utf-8')
@@ -152,6 +156,9 @@ def inspect_pdf(pdf,sources):
 def review(root,key,note):
     if not re.fullmatch(r'plan|Day[0-9]{2,}',key): raise ValueError('Invalid document key.')
     with c.lock(root):
+        state=c.read(root/'state.json')
+        if key!='plan' and str(int(key[3:])) in state['lessons']:
+            raise ValueError('Delivered review is immutable; retain the original archive.')
         path=root/'manifests'/(key+'.json'); m=c.read(path); c.manifest_ok(root,m)
         if not note.strip(): raise ValueError('Record what was visually checked.')
         m.update(reviewed_at=c.today(root),review_note=note); c.save(path,m)

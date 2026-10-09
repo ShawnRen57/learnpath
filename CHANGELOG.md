@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 — 2026-10-09
+
+- Preserve pause/completion on repeated approval; validate supplied settings and lesson time components.
+- Make delivered reviews immutable and verify saved delivery manifests before continuation or repeated recording.
+- Verify compile-failure recovery with real XeLaTeX; correct English Markdown reading/date labels.
+- Add six new bilingual acceptance PDFs (20 pages), with new-topic intake, explicit simulated approval, fresh research, page inspection and quota-interruption recovery.
+- Check native Skill installation/discovery and installed resource execution in Codex, DSH, WorkBuddy, Doubao work mode and OpenClaw; document each platform’s exact scope.
+- Derive the lightweight ZIP version from Skill metadata; keep course artifacts outside the installable bundle.
+
 ## 0.2.1 — 2026-10-09
 
 - Unify the skill, modules, lock, examples and documentation under omni-learning-assistant.

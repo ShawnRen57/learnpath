@@ -91,5 +91,36 @@ class CoreTests(unittest.TestCase):
     def test_validation_rejects_fewer_than_five_links(self):
         from omni_pdf import validate_document
         with self.assertRaises(ValueError): validate_document({'sources':[]},self.root)
+    def test_repeat_approval_preserves_pause(self):
+        self.fixture_manifest('plan'); c.approve(self.root); c.set_status(self.root,'paused')
+        c.approve(self.root)
+        self.assertEqual(c.read(self.root/'state.json')['status'],'paused')
+    def test_repeat_approval_preserves_completion(self):
+        self.fixture_manifest('plan'); c.approve(self.root)
+        state=c.read(self.root/'state.json'); state['status']='complete'; c.save(self.root/'state.json',state)
+        c.approve(self.root)
+        self.assertEqual(c.read(self.root/'state.json')['status'],'complete')
+    def test_delivered_review_is_immutable(self):
+        from omni_pdf import review
+        self.ready(); self.fixture_manifest('Day01'); c.deliver(self.root,1)
+        before=(self.root/'manifests/Day01.json').read_bytes()
+        with self.assertRaises(ValueError): review(self.root,'Day01','Overwrite delivered review')
+        self.assertEqual((self.root/'manifests/Day01.json').read_bytes(),before)
+    def test_modified_delivery_manifest_blocks_continuation(self):
+        self.ready(); self.fixture_manifest('Day01'); c.deliver(self.root,1)
+        path=self.root/'manifests/Day01.json'; c.save(path,dict(c.read(path),review_note='changed'))
+        with self.assertRaises(ValueError): c.next_action(self.root)
+    def test_modified_delivery_manifest_blocks_repeat_recording(self):
+        self.ready(); self.fixture_manifest('Day01'); c.deliver(self.root,1)
+        path=self.root/'manifests/Day01.json'; c.save(path,dict(c.read(path),review_note='changed'))
+        with self.assertRaises(ValueError): c.deliver(self.root,1)
+    def test_invalid_config_fails_before_initialization(self):
+        for field,value in [('time','99:99'),('time','9:3'),('weekdays',['InvalidDay']),
+                            ('weekdays',[]),('daily_minutes',-1),('daily_minutes',True),
+                            ('daily_minutes','15'),('sample_mode','false'),('language','unknown')]:
+            with self.subTest(field=field,value=value):
+                root=self.root/'invalid'; config={'timezone':'UTC',field:value}
+                with self.assertRaises(ValueError): c.initialize(root,config,self.plan)
+                self.assertFalse((root/'state.json').exists())
 
 if __name__=='__main__': unittest.main()

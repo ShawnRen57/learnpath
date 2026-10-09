@@ -1,0 +1,34 @@
+{
+  "key": "Day02",
+  "pdf": "pdf/旅行观星入门_每日学习_Day02_理解月相：为什么月亮会变形.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "data/Day02.json": "04ea1aa75a8bafef5f38acbcfa3ab542859d07def36ab990b1e0ae4132c92977",
+    "plan.json": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+    "config.json": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c",
+    "pdf/旅行观星入门_每日学习_Day02_理解月相：为什么月亮会变形.pdf": "1005c207c3f968a94e33df3c4cf75b467157da0d3d0715e2794c760d60918dc5",
+    "sources/旅行观星入门_每日学习_Day02_理解月相：为什么月亮会变形.tex": "e26f7203d5869ca1ab44edff601ac8220823fe5eaa6f68ab902a93a45b6d4f8d",
+    "sources/旅行观星入门_每日学习_Day02_理解月相：为什么月亮会变形.md": "d3ad4c052448e484e2e0c1ed713e6e1b4610616d66b748635aeb1ef1c6a7f356",
+    "assets/figure-7338e8d8739e.png": "7338e8d8739e91655d956c68cd22d12c549b9c272d00c9dce5ad87e503c8acdd",
+    "previews/Day02-01.png": "8a59aa3705686ebee118c3ae8e588893bcd6504d46ff42758f744ffe7e00c911",
+    "previews/Day02-02.png": "4332aeca41b51b3f6e432b6053c2217e539a67c74eb9f389d203cf66cb5053fc",
+    "previews/Day02-03.png": "5cf91fad8931a07bc3b32a30df790e4d3ebc014e080a702880b2934bb9c6d15f"
+  },
+  "previews": [
+    "previews/Day02-01.png",
+    "previews/Day02-02.png",
+    "previews/Day02-03.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 3,
+    "links": 5,
+    "fonts": [
+      "/DTVJGE+TimesNewRomanPSMT",
+      "/RARYCG+FandolFang-Regular-Identity-H",
+      "/ZXMPOL+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Inspected all 3 page previews: no clipping or overlap; readable FangSong/Times text; B-panel reuse explained; 15-minute required workload and optional activity separated; five primary links and self-check present."
+}

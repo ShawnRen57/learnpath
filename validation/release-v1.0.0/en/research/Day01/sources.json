@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S1",
+    "title": "Why do stars twinkle while planets usually look steady?",
+    "url": "https://imagine.gsfc.nasa.gov/ask_astro/night_sky.html",
+    "publisher": "NASA Goddard, Imagine the Universe!",
+    "published_at": "Not stated",
+    "note": "Find the answer by Koji Mukai and Maggie Masetti (question submitted 1998-12-17). Read the atmosphere and apparent-size explanation; ignore unrelated legacy links. Page updated 2020-10-22.",
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "S2",
+    "title": "Skywatching FAQ",
+    "url": "https://science.nasa.gov/skywatching/faq/",
+    "publisher": "NASA Science",
+    "published_at": "Not stated",
+    "note": "Read the tools and light-pollution answers. Connect naked-eye observing with realistic city expectations. Page last updated 2024-09-03.",
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "S3",
+    "title": "How to Use the Night Sky Map",
+    "url": "https://www.timeanddate.com/astronomy/night/help",
+    "publisher": "timeanddate.com",
+    "published_at": "Not stated",
+    "note": "Read object selection, date/time selection and compass troubleshooting. Compare these controls with your own chart; no new app is required.",
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "S4",
+    "title": "Altitude and Azimuth: The Horizontal Coordinate System",
+    "url": "https://www.timeanddate.com/astronomy/horizontal-coordinate-system.html",
+    "publisher": "timeanddate.com; Konstantin Bikos",
+    "published_at": "Not stated",
+    "note": "Read Altitude and Azimuth and Depends on Location and Time. Translate a chart position into direction and angular height.",
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "S5",
+    "title": "Skywatching: What to Look for in the Sky",
+    "url": "https://science.nasa.gov/skywatching/",
+    "publisher": "NASA Science",
+    "published_at": "Not stated",
+    "note": "Go to Planets and Satellites. Compare slow movement against background stars with a passing satellite; skip monthly event forecasts. Page last updated 2026-10-01.",
+    "checked_at": "2026-10-09"
+  },
+  {
+    "id": "S6",
+    "title": "Cosmicopia: Studying and Exploring Space",
+    "url": "https://science.gsfc.nasa.gov/attic/cosmicopia.gsfc.nasa.gov/qa_study.html",
+    "publisher": "NASA Goddard; Dr. Eric Christian",
+    "published_at": "Not stated",
+    "note": "Find the stars-and-planets brightness answer dated June 2000. Use its own-light versus reflected-light distinction; unrelated archived guidance is outside this lesson.",
+    "checked_at": "2026-10-09"
+  }
+]

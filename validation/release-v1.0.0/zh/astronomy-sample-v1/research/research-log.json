@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "method": "宿主web.run真实搜索、open/click读取；保留逐次调用的返回结果。命令网络DNS失败，未将下载失败视为成功。",
+  "searches": [
+    {
+      "call": 1,
+      "queries": [
+        "site.science.nasa.gov skywatching stars planets twinkle beginner",
+        "site.science.nasa.gov moon phases sunlight shadows",
+        "site.commons.wikimedia.org moon phases diagram CC BY SA"
+      ]
+    },
+    {
+      "call": 2,
+      "queries": [
+        "site.science.nasa.gov skywatching prepare stargazing dark adapt light pollution",
+        "site.stellarium.org guide location time web planetarium"
+      ]
+    }
+  ],
+  "opened": [
+    {
+      "call": 2,
+      "urls": [
+        "https://science.nasa.gov/skywatching/faq/",
+        "https://science.nasa.gov/moon/moon-phases/",
+        "https://commons.wikimedia.org/wiki/File:Phases-of-the-moon-diagram.svg"
+      ],
+      "status": "成功"
+    },
+    {
+      "call": 3,
+      "urls": [
+        "https://science.nasa.gov/skywatching/faq/",
+        "https://science.nasa.gov/moon/moon-phases/",
+        "https://commons.wikimedia.org/wiki/File:Phases-of-the-moon-diagram.svg",
+        "https://science.nasa.gov/solar-system/skywatching/how-to-find-good-places-to-stargaze/",
+        "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/"
+      ],
+      "status": "成功，前三项为定位阅读"
+    },
+    {
+      "call": 3,
+      "url": "https://stellarium.org/guide/",
+      "status": "Internal Error；排除，不作证据或扩展链接"
+    },
+    {
+      "call": 4,
+      "urls": [
+        "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/",
+        "https://science.nasa.gov/skywatching/",
+        "https://science.nasa.gov/solar-system/skywatching/how-to-find-good-places-to-stargaze/",
+        "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/"
+      ],
+      "status": "成功，后两项为定位阅读"
+    },
+    {
+      "call": 4,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Phases-of-the-moon-diagram.svg/1280px-Phases-of-the-moon-diagram.svg.png?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+      "status": "click图像返回URL，未因此声称已下载或目视检查"
+    },
+    {
+      "call": 4,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Phases-of-the-moon-diagram.svg",
+      "status": "Original file点击Internal Error"
+    },
+    {
+      "call": 4,
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "status": "成功"
+    },
+    {
+      "call": 5,
+      "urls": [
+        "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/",
+        "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+      ],
+      "status": "成功，定位阅读"
+    }
+  ],
+  "finds": [
+    {
+      "call": 5,
+      "url": "https://science.nasa.gov/skywatching/",
+      "patterns": [
+        "steady",
+        "Sep"
+      ],
+      "result": "steady成功；Sep无匹配"
+    },
+    {
+      "call": 5,
+      "urls": [
+        "https://science.nasa.gov/moon/moon-phases/",
+        "https://science.nasa.gov/skywatching/faq/"
+      ],
+      "pattern": "Last Updated",
+      "result": "成功"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "观星常见问题（Skywatching FAQ）",
+      "url": "https://science.nasa.gov/skywatching/faq/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "note": "读“需要什么工具”和“如何核对可见性”：了解肉眼观星的起点；适合 Day01。",
+      "last_updated": "2024-09-03"
+    },
+    {
+      "id": "S2",
+      "title": "月相（Moon Phases）",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "note": "读“All Moon Phases”和“Overview From Space”：把月面形状与太阳照明、观察视角联系起来；适合 Day02。",
+      "last_updated": "2026-08-03"
+    },
+    {
+      "id": "S3",
+      "title": "怎样选择观星地点",
+      "url": "https://science.nasa.gov/solar-system/skywatching/how-to-find-good-places-to-stargaze/",
+      "publisher": "NASA Science / Preston Dyches",
+      "published_at": "2021-07-28",
+      "checked_at": "2026-10-09",
+      "note": "读月光、场地和到达后的准备三节：用于 Day03 选址与暗适应；不用文中的美国地点作中国观星预测。",
+      "last_updated": "2024-11-04"
+    },
+    {
+      "id": "S4",
+      "title": "零器材观星入门",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/may2024-night-sky-notes/",
+      "publisher": "NASA Night Sky Network / Kat Troche（ASP）",
+      "published_at": "2024-05-01",
+      "checked_at": "2026-10-09",
+      "note": "读“No Equipment? No Problem!”及手机光线段落：学习星图配合肉眼的方法；跳过特定月份星空图。",
+      "last_updated": "2024-11-04"
+    },
+    {
+      "id": "S5",
+      "title": "用星图寻找行星",
+      "url": "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/",
+      "publisher": "NASA JPL Education",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "note": "选读步骤 2、3、5、6：核对星图地点与时间，理解方向和高度；不要求本课程预测某颗行星。",
+      "last_updated": "2024-09-27"
+    },
+    {
+      "id": "S6",
+      "title": "夜空里可以看什么",
+      "url": "https://science.nasa.gov/skywatching/",
+      "publisher": "NASA Science",
+      "published_at": "未标注",
+      "checked_at": "2026-10-09",
+      "note": "只读“What to Look for in the Sky”的 Planets、Stars：对比行星与恒星的观测线索，跳过当月天象。"
+    }
+  ],
+  "conclusions": [
+    "原文日期未标注时不用搜索摘要的相对日期推算；已显示的更新日期独立记录。",
+    "教学顺序为辨认、月相、观星准备。",
+    "15分钟内不强制户外暗适应；选读和户外观测另计。",
+    "不采用美国场地、当月热点或星图截图作为中国具体天象预测。"
+  ]
+}

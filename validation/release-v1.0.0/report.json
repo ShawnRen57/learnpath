@@ -1,0 +1,87 @@
+{
+  "result": "passed",
+  "pdfs": 6,
+  "pages": 20,
+  "documents": [
+    {
+      "course": "zh/astronomy-sample-v1",
+      "key": "plan",
+      "pages": 3,
+      "links": 6,
+      "fonts": [
+        "/BNDGZZ+TimesNewRomanPSMT",
+        "/ILVGZF+FandolFang-Regular-Identity-H",
+        "/PHTDQT+TimesNewRomanPS-BoldMT"
+      ]
+    },
+    {
+      "course": "zh/astronomy-sample-v1",
+      "key": "Day01",
+      "pages": 3,
+      "links": 6,
+      "fonts": [
+        "/AUFZSE+TimesNewRomanPS-BoldMT",
+        "/UQUXZR+FandolFang-Regular-Identity-H",
+        "/ZPTHAM+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "course": "zh/astronomy-sample-v1",
+      "key": "Day02",
+      "pages": 3,
+      "links": 5,
+      "fonts": [
+        "/DTVJGE+TimesNewRomanPSMT",
+        "/RARYCG+FandolFang-Regular-Identity-H",
+        "/ZXMPOL+TimesNewRomanPS-BoldMT"
+      ]
+    },
+    {
+      "course": "zh/astronomy-sample-v1",
+      "key": "Day03",
+      "pages": 3,
+      "links": 5,
+      "fonts": [
+        "/CRGGYN+FandolFang-Regular-Identity-H",
+        "/KRSQAE+TimesNewRomanPSMT",
+        "/MTELMA+TimesNewRomanPS-BoldMT"
+      ]
+    },
+    {
+      "course": "en",
+      "key": "plan",
+      "pages": 4,
+      "links": 5,
+      "fonts": [
+        "/JURQSJ+TimesNewRomanPS-BoldMT",
+        "/QCQNDX+FandolFang-Regular-Identity-H",
+        "/TRRIBK+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "course": "en",
+      "key": "Day01",
+      "pages": 4,
+      "links": 6,
+      "fonts": [
+        "/CVGONP+TimesNewRomanPSMT",
+        "/ECGXCF+FandolFang-Regular-Identity-H",
+        "/ZCFSEJ+TimesNewRomanPS-BoldMT"
+      ]
+    }
+  ],
+  "date": "2026-10-09",
+  "sample_mode": true,
+  "simulated_learner": true,
+  "simulated_approval": true,
+  "accelerated_days": true,
+  "live_jobs_created": 0,
+  "timing": "estimated; no real learner timing or mastery evidence",
+  "execution": "native Codex CLI plus current Codex desktop continuation after CLI quota failure",
+  "unit_tests": 29,
+  "original_examples": {
+    "pdfs": 24,
+    "pages": 55,
+    "research_date": "2026-10-08"
+  }
+}

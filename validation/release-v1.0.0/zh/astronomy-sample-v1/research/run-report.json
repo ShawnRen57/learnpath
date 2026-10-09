@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-09",
+  "skill_path": "<local-user>/.codex/skills/omni-learning-assistant",
+  "python": "<local-repository>/tmp/first-use-venv/bin/python",
+  "xelatex": "<local-user>/Library/TinyTeX/bin/universal-darwin/xelatex",
+  "mode": "isolated_acceptance",
+  "sample_mode": true,
+  "schedule_time": "10:00 Asia/Shanghai（演示生成开始时间）",
+  "live_job_created": false,
+  "simulated_approval": false,
+  "accelerated_days": false,
+  "approve_run": false,
+  "Day01_generated": false,
+  "state": {
+    "schema": 1,
+    "status": "awaiting_approval",
+    "approved_plan": null,
+    "lessons": {},
+    "schedule": null,
+    "mastery": {}
+  },
+  "review_record": "manifests/plan.json",
+  "pdf_report": {
+    "pages": 3,
+    "links": 6,
+    "fonts": [
+      "/BNDGZZ+TimesNewRomanPSMT",
+      "/ILVGZF+FandolFang-Regular-Identity-H",
+      "/PHTDQT+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "font_embedding_verified": true,
+  "all_manifest_hashes_verified": true,
+  "visual_inspection": "实际目视检查previews/plan-01.png至plan-03.png全部3页。第1页目标、演示时间和三栏图清晰，图中文字和月相顺序正确，Day01正文续至第2页且无裁切；第2页续文、Day02、Day03、复习及图片说明完整，无孤立标题或重叠；第3页6项扩展阅读均可读。逐项核对PDF中的6个URI与已实际打开来源一致；字体嵌入检查通过；LaTeX Overfull为0且无Missing character。pypdf中文提取异常，另用PDFium成功提取并复核3页中文，确认属提取器差异，不将pypdf输出视为正文。每日时长相加为15分钟，户外与选读另计。sample_mode:true；未批准、未生成Day01、未注册任务。",
+  "text_extraction": "PDFium三页中文正确；pypdf中文提取异常，已记录，未据此改写正文",
+  "sources": "research/research-log.json及research/web-tool-transcripts.json",
+  "image": "research/image-record.json；真正image_gen生成，授权来源图未下载或使用",
+  "next_step": "等待学习者明确确认当前计划；本轮不approve、不生成Day01。后续新课必须重新搜索并打开来源。"
+}

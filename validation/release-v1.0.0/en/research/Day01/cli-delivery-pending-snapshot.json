@@ -1,0 +1,9 @@
+{
+  "day": 1,
+  "pdf": "pdf/Night Sky for Travelers_\u6bcf\u65e5\u5b66\u4e60_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf",
+  "reviewed": true,
+  "recorded_delivered": false,
+  "intended_channel": "final reply in current turn",
+  "reconciliation": "Check the actual prior final reply or user receipt on a later turn, then use the installed delivered command. This file is a pending handoff, not a delivery receipt.",
+  "continue_scope": "Day01 only; do not begin Day02 without a later user request"
+}

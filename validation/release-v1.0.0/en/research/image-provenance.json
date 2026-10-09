@@ -1,0 +1,19 @@
+{
+  "method": "host image_gen built-in tool",
+  "prompt_file": "research/image-prompt.txt",
+  "intended_asset": "assets/course-overview.png",
+  "status": "generated and copied into current course directory",
+  "disclosure": "AI-generated teaching illustration; not observational evidence or a dated sky map",
+  "source_image_attempts": [
+    {
+      "url": "https://science.nasa.gov/resource/phases-of-the-moon-2/",
+      "credit": "NASA/Bill Dunford",
+      "outcome": "page opened; image not downloaded because command DNS and browser routes unavailable"
+    }
+  ],
+  "asset": "assets/course-overview.png",
+  "sha256": "8540a079e44606a933f1dea1949313f833d11b7858b2afb5a3a9162b43854c7c",
+  "native_tool_cache": "<local-user>/.codex/generated_images/01a1201d-1159-7fe1-924f-dbd864c63aef/exec-80c0acb4-4eae-4af6-83ed-410ff1963e89.png",
+  "storage_limit": "The built-in generation tool uses its own cache outside this directory; all course-owned inputs, exports and references are inside this directory.",
+  "rights": "Generated illustration; no source image used; no institutional logo or endorsement. Not primary evidence."
+}

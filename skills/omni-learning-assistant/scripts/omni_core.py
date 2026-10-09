@@ -2,6 +2,7 @@
 import hashlib
 import json
 import os
+import re
 from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
@@ -41,9 +42,26 @@ def validate_plan(plan):
         raise ValueError('Plan needs a topic and consecutive days starting at 1.')
 
 
+def validate_config(config):
+    ZoneInfo(config['timezone'])
+    if 'daily_minutes' in config and (type(config['daily_minutes']) is not int or config['daily_minutes']<1):
+        raise ValueError('daily_minutes must be a positive integer.')
+    if 'time' in config and not re.fullmatch(r'(?:[01]\d|2[0-3]):[0-5]\d',str(config['time'])):
+        raise ValueError('time must use HH:MM, from 00:00 to 23:59.')
+    if 'weekdays' in config:
+        days=config['weekdays']
+        if not isinstance(days,list) or not days or any(d not in ('MO','TU','WE','TH','FR','SA','SU') for d in days):
+            raise ValueError('weekdays must be a nonempty list of MO, TU, WE, TH, FR, SA, SU.')
+    if 'language' in config and config['language'] not in ('zh','en'):
+        raise ValueError('language must be zh or en.')
+    for key in ('sample_mode','immediate_day01'):
+        if key in config and type(config[key]) is not bool:
+            raise ValueError(key+' must be a boolean.')
+
+
 def initialize(root,config,plan):
     root=Path(root); root.mkdir(parents=True,exist_ok=True)
-    validate_plan(plan); ZoneInfo(config['timezone'])
+    validate_plan(plan); validate_config(config)
     with lock(root):
         if any((root/p).exists() for p in ('config.json','plan.json','state.json')):
             raise ValueError('Project already initialized; existing files were not changed.')
@@ -69,9 +87,19 @@ def reviewed(root,key):
     return m
 
 
+def check_deliveries(root,state):
+    for day,record in state['lessons'].items():
+        path=root/'manifests'/f'Day{int(day):02d}.json'
+        if not path.is_file() or digest(path)!=record['manifest_hash']:
+            raise ValueError('Delivered document manifest changed: Day'+f'{int(day):02d}')
+        reviewed(root,f'Day{int(day):02d}')
+
+
 def approve(root):
     with lock(root):
         reviewed(root,'plan'); state=read(root/'state.json')
+        if state.get('approved_plan')==digest(root/'plan.json') and state.get('approved_config')==digest(root/'config.json'):
+            return  # Repeated approval cannot resume a paused or completed course.
         if state['lessons'] and state.get('approved_plan')!=digest(root/'plan.json'):
             raise ValueError('Changing a started curriculum requires a new project; preserve the old archive.')
         state.update(approved_plan=digest(root/'plan.json'),approved_config=digest(root/'config.json'),status='active'); save(root/'state.json',state)
@@ -79,6 +107,7 @@ def approve(root):
 
 def next_action(root):
     state=read(root/'state.json'); check_approval(root,state)
+    check_deliveries(root,state)
     if state['status'] in ('paused','complete'): return {'action':state['status']}
     plan=read(root/'plan.json'); validate_plan(plan)
     day=next((d for d in plan['days'] if str(d['day']) not in state['lessons']),None)
@@ -95,6 +124,7 @@ def next_action(root):
 def deliver(root,day):
     with lock(root):
         state=read(root/'state.json'); check_approval(root,state)
+        check_deliveries(root,state)
         if str(day) in state['lessons']:
             m=reviewed(root,f'Day{day:02d}'); return {'action':'already_recorded','pdf':m['pdf']}
         action=next_action(root)

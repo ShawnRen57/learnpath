@@ -1,0 +1,5 @@
+{
+  "record": "Original native search/open log retained locally; full retrieved text is not redistributed.",
+  "source_records": "research-log.json",
+  "redaction": "Curated for public release; original CLI/host logs remain outside Git."
+}

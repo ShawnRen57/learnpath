@@ -1,0 +1,34 @@
+{
+  "key": "Day01",
+  "pdf": "pdf/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "data/Day01.json": "a5d70a4e42883b5922aa5daa058e7576d09a9508a8101d10c2a01f4cca352086",
+    "plan.json": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+    "config.json": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c",
+    "pdf/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.pdf": "157c2615c9c06096bcbff104e31907c57d9c2db5ed6fffc6b00b7cdd8ef4aac7",
+    "sources/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.tex": "83a60571bb38af856cafe743468cae1402659d4c9ae98eb1b289bd7e8337085f",
+    "sources/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.md": "2bda9129b2075fe70756180a2a034c24eb81178801dcc1b9c08b55107db73a5c",
+    "assets/figure-7338e8d8739e.png": "7338e8d8739e91655d956c68cd22d12c549b9c272d00c9dce5ad87e503c8acdd",
+    "previews/Day01-01.png": "b1379c87937f658d89cd163ed7fbf7b905898b8c0220b9c0ba927ce291f1228d",
+    "previews/Day01-02.png": "a92e10a91a3e41e78dfc7e650d1c73dfd9cf309e691463dceb4c32b64aad8649",
+    "previews/Day01-03.png": "8bf6ff58196a650f90e48d68445a158b2731d6283540241c8177f07900e985e0"
+  },
+  "previews": [
+    "previews/Day01-01.png",
+    "previews/Day01-02.png",
+    "previews/Day01-03.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 3,
+    "links": 6,
+    "fonts": [
+      "/AUFZSE+TimesNewRomanPS-BoldMT",
+      "/UQUXZR+FandolFang-Regular-Identity-H",
+      "/ZPTHAM+TimesNewRomanPSMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "实际打开并目视检查当前渲染的Day01-01.png、Day01-02.png、Day01-03.png全部3页。第1页目标、11+4分钟预算、恒星/行星/天然卫星边界、插图和复用声明可读，图注未截断；第2页闪烁机制、星图核对方法、假设示例与4分钟练习完整，正文和填空无溢出；第3页答案、回顾、下课连接与6个选读项完整，练习和答案分页便于先作答。三页无乱码、重叠、孤立标题或裁切。PDFium中文全文实际提取核对；正文S1-S6与本轮真实重新打开的资料逐项对应，提交日期未伪装成发布日期。6个PDF URI与来源列表一致，字体嵌入检查通过，Overfull为0，无Missing character。插图本轮view_image复核，仅左栏用于本课，不将其视为证据。阅读预算11分钟含起点自问/图解/自检，练习4分钟，总15分钟为估算、未冒充学员实测。未调用delivered，未生成Day02，未注册真实任务。"
+}

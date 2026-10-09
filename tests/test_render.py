@@ -19,6 +19,10 @@ class RenderTest(unittest.TestCase):
    for s in plan['sources']:s['checked_at']=c.today(root)
    c.save(root/'plan.json',plan)
    m=p.render(root,root/'plan.json','plan');self.assertEqual(m['report']['links'],5)
+   markdown=next((root/'sources').glob('*.md')).read_text()
+   self.assertIn('## Further reading (optional)',markdown)
+   self.assertIn('Published:',markdown)
+   self.assertIn('Checked:',markdown)
    reader=PdfReader(root/m['pdf'])
    import pypdfium2 as pdfium
    doc=pdfium.PdfDocument(root/m['pdf']);text=''.join(doc[i].get_textpage().get_text_range() for i in range(len(doc)));doc.close()

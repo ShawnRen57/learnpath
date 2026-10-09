@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S1",
+    "title": "Skywatching FAQ",
+    "url": "https://science.nasa.gov/skywatching/faq/",
+    "publisher": "NASA Science",
+    "published_at": "Not stated",
+    "checked_at": "2026-10-09",
+    "note": "Read General Questions for naked-eye tools and light pollution; Moon and Planets for visibility basics. Page last updated 2024-09-03."
+  },
+  {
+    "id": "S2",
+    "title": "Why do stars twinkle while planets usually look steady?",
+    "url": "https://imagine.gsfc.nasa.gov/ask_astro/night_sky.html",
+    "publisher": "NASA Goddard, Imagine the Universe!",
+    "published_at": "Not stated",
+    "checked_at": "2026-10-09",
+    "note": "Find the twinkling answer by Koji Mukai and Maggie Masetti, question submitted 1998-12-17. Use the atmospheric explanation; unrelated old links are not required."
+  },
+  {
+    "id": "S3",
+    "title": "Moon Phases",
+    "url": "https://science.nasa.gov/moon/moon-phases/",
+    "publisher": "NASA Science",
+    "published_at": "Not stated",
+    "checked_at": "2026-10-09",
+    "note": "Read All Moon Phases and Daytime Moons. Connect the changing view of the lit half to approximate viewing times. Updated 2026-08-03; exact times need local data."
+  },
+  {
+    "id": "S4",
+    "title": "How to Use the Night Sky Map",
+    "url": "https://www.timeanddate.com/astronomy/night/help",
+    "publisher": "timeanddate.com",
+    "published_at": "Not stated",
+    "checked_at": "2026-10-09",
+    "note": "Read location selection, object selection and tracking. Use the workflow with your existing chart; this service is an optional example, not a required app."
+  },
+  {
+    "id": "S5",
+    "title": "How to Find Good Places to Stargaze",
+    "url": "https://science.nasa.gov/solar-system/how-to-find-good-places-to-stargaze/",
+    "publisher": "NASA Science",
+    "published_at": "Not stated",
+    "checked_at": "2026-10-09",
+    "note": "Read weather, Moon phase, landscape and arrival sections to build an outing checklist. Last updated 2024-11-04. Use local Moon rise/set data, not a fixed date rule."
+  }
+]

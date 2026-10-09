@@ -4,7 +4,7 @@ Use a dedicated writable course folder. Resolve the installed script path from t
 
 ## Files
 
-`config.json`: topic, goal, baseline, daily_minutes (integer), timezone (IANA), time (HH:MM), weekdays (list of weekday names), language (`zh` or `en`), immediate_day01 (bool), sample_mode (false in real courses). Keep learner data in the course folder, not in the installed package.
+`config.json`: topic, goal, baseline, daily_minutes (positive integer), timezone (IANA), time (HH:MM, 00:00–23:59), weekdays (nonempty list using `MO`, `TU`, `WE`, `TH`, `FR`, `SA`, `SU`), language (`zh` or `en`), immediate_day01 (bool), sample_mode (false in real courses). Keep learner data in the course folder, not in the installed package.
 
 `plan.json`: topic, title, days (ordered objects: day integer, topic, objective), sections (ordered title/body strings), sources, figure. The PDF must visibly include the full curriculum and schedule; put these into sections, not only the days array.
 
@@ -19,7 +19,7 @@ Figure: `{"path":"assets/teaching.png","caption":"What the reader should notice"
 1. Write intake files in a temporary staging directory, keeping original inputs. `OMNI init --config /staging/config.json --plan /staging/plan.json` creates canonical files without overwriting existing projects. Copy teaching image under course/assets.
 2. `OMNI render --input /course/plan.json --key plan` creates PDF, Markdown, LaTeX, previews, manifest and font/link report. Inspect every page.
 3. `OMNI review --key plan --note "Observed all pages: ..."` records the inspection. It is an agent attestation, not automatic visual verification.
-4. Send the plan to the learner. Only after explicit approval: `OMNI approve`.
+4. Send the plan to the learner. Only after explicit approval: `OMNI approve`. Repeating approval preserves the current status; use `resume` to resume a paused course. Completed courses remain complete.
 5. Create/verify a live schedule in the host, then `OMNI schedule-record --host codex --job-id ACTUAL_RETURNED_ID`. This command does not itself create a host task.
 6. `OMNI next` selects earliest undelivered lesson, or returns existing material / paused / already_delivered_today / complete. Read its action, not just its day.
 7. Research, write JSON, then `OMNI render --input /course/data/Day01.json --key Day01`. Inspect previews, then `OMNI review --key Day01 --note "..."`.
@@ -32,4 +32,4 @@ Do not use `sample_mode` to bypass a real user's confirmation or daily limits. R
 
 A project lock prevents simultaneous mutations. If a crashed process leaves `.omni-learning-assistant.lock`, verify that no Omni Learning Assistant process is running, then remove only that empty lock directory. Never delete state to "fix" duplicate delivery.
 
-A failed render leaves no accepted manifest. Correct input and retry that same day. To revise an unshipped existing manifest, move its current PDF/source/manifest into a dated revision subfolder first; then rerender. Delivered artifacts are immutable. If a source or file hash changed, investigate before accepting it.
+A failed render leaves no accepted manifest. Correct input and retry that same day. To revise an unshipped existing manifest, move its current PDF/source/manifest into a dated revision subfolder first; then rerender. Delivered artifacts and their review manifests are immutable and checked before continuation or repeated delivery recording. Keep later errata in a separate file. If a source or file hash changed, investigate before accepting it.

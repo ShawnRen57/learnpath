@@ -1,0 +1,35 @@
+{
+  "key": "plan",
+  "pdf": "pdf/Night Sky for Travelers_学习计划.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "plan.json": "f56fd535c00c55297dff96270e6c080a3cb7aa782cb5463ff3474354a7db2b9c",
+    "config.json": "092228c2172e49aeafe2e9577c0befc2f5b66d44548440ab65da6dbb64de54c1",
+    "pdf/Night Sky for Travelers_学习计划.pdf": "28b87194bf23eae6028f0f35f4b4a8cb8a56780b88c6e72f14479268824ef95a",
+    "sources/Night Sky for Travelers_学习计划.tex": "a2fbe41815e72a3c0b45b9a7fbb85b688987cf7a6f921765d48bdf9a7884757c",
+    "sources/Night Sky for Travelers_学习计划.md": "fc2187ab85da3957032fb410fbac7b4c70e2e62c6f13f63b3737bd0487df0931",
+    "assets/figure-8540a079e446.png": "8540a079e44606a933f1dea1949313f833d11b7858b2afb5a3a9162b43854c7c",
+    "previews/plan-01.png": "18b0eaeedda7b23822b2dc0dae5931c357899d5f0edce42db240e190273b0f15",
+    "previews/plan-02.png": "cf2c6cdd7f1cbcd7088a59bc62787e469bc86840e4633656c6dd807ba7276986",
+    "previews/plan-03.png": "415f84ec64e6922fa3adfa4ce13d9854695888716542bd7bc74fae68f59cfb6d",
+    "previews/plan-04.png": "efb48dd417c7d983e957d3c918805ecac9cda5a745d911c94865b1b26f7402ba"
+  },
+  "previews": [
+    "previews/plan-01.png",
+    "previews/plan-02.png",
+    "previews/plan-03.png",
+    "previews/plan-04.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 4,
+    "links": 5,
+    "fonts": [
+      "/JURQSJ+TimesNewRomanPS-BoldMT",
+      "/QCQNDX+FandolFang-Regular-Identity-H",
+      "/TRRIBK+TimesNewRomanPSMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Visually inspected all four previews at readable resolution on 2026-10-09: page 1 learner brief, outcomes, three-panel figure, caption and AI provenance; page 2 nominal schedule and complete Days 1 and 2; page 3 Day 3, assessment, evidence limits and start of optional reading; page 4 remaining sources. Text and figure labels are legible, margins and page flow are clean, no clipping, overlap or blank pages. All five source URLs are embedded as PDF link annotations and their target pages were opened during research. Helper verified embedded Times New Roman and FandolFang fonts. Full LaTeX log has no warnings, overfull/underfull boxes or missing characters. Timings are estimates, no phone app or learner pace was tested. AI Moon icons are explicitly alternatives, not simultaneous observations. Review is PDF QA, not learner approval."
+}

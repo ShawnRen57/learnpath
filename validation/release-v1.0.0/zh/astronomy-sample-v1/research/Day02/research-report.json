@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "actor": "current Codex desktop; installed Skill resources",
+  "search_performed": true,
+  "opened_sources": [
+    "https://science.nasa.gov/moon/moon-phases/",
+    "https://spaceplace.nasa.gov/moon-phases/en/",
+    "https://spaceplace.nasa.gov/eclipses/en/",
+    "https://www.jpl.nasa.gov/edu/resources/lesson-plan/moon-phases/",
+    "https://science.nasa.gov/moon/moonlight/"
+  ],
+  "reading_minutes": 11,
+  "practice_minutes": 4,
+  "duration_estimated": true,
+  "image": "actual generated course roadmap reused with a different panel focus",
+  "simulated_learner": true,
+  "live_schedule": null,
+  "recovery": "Day02 followed interrupted native Codex CLI research; same earliest undelivered lesson, no skipped progress"
+}

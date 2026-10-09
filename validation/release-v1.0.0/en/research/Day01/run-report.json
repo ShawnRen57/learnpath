@@ -1,0 +1,53 @@
+{
+  "mode": "isolated sample_mode acceptance",
+  "approval": "explicit simulated learner approval; actual installed approve run after user authorization",
+  "commands_completed": [
+    "approve",
+    "next (generate Day 1)",
+    "render Day01 (three iterations; two unreviewed versions archived)",
+    "review Day01",
+    "next (deliver_existing Day 1)"
+  ],
+  "delivery_status": "Prepared for delivery in this turn final reply; not yet recorded as delivered. On a later turn reconcile the actual final message before installed delivered --day 1. Do not regenerate or begin Day02 during reconciliation.",
+  "reviewed_at": "2026-10-09",
+  "pdf": "pdf/Night Sky for Travelers_\u6bcf\u65e5\u5b66\u4e60_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf",
+  "checks": {
+    "pages": 4,
+    "links": 6,
+    "fonts": [
+      "/CVGONP+TimesNewRomanPSMT",
+      "/ECGXCF+FandolFang-Regular-Identity-H",
+      "/ZCFSEJ+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "latex_warnings": [],
+  "preserved_revisions": [
+    "revisions/Day01-v1-unreviewed",
+    "revisions/Day01-v2-unreviewed"
+  ],
+  "verification_issue": "An intermediate assertion expected literal ASCII apostrophes, but XeLaTeX typesets them as typographic apostrophes; final check normalized that distinction and passed. Straight-double-quote framing was also removed for clean typography.",
+  "state": {
+    "schema": 1,
+    "status": "active",
+    "approved_plan": "f56fd535c00c55297dff96270e6c080a3cb7aa782cb5463ff3474354a7db2b9c",
+    "lessons": {},
+    "schedule": null,
+    "mastery": {},
+    "approved_config": "092228c2172e49aeafe2e9577c0befc2f5b66d44548440ab65da6dbb64de54c1"
+  },
+  "next_action": {
+    "action": "deliver_existing",
+    "day": 1,
+    "topic": "Stars or Planets? Read the Sky with a Phone Chart",
+    "pdf": "pdf/Night Sky for Travelers_\u6bcf\u65e5\u5b66\u4e60_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf"
+  },
+  "limits": [
+    "15-minute timing estimated, not learner-tested",
+    "phone chart, local weather, China network accessibility and outdoor observation not tested",
+    "existing generated overview reused; no new image-generation/cache outcome",
+    "final chat is the delivery route; its send occurs after all tool calls, so no delivery receipt is available yet"
+  ],
+  "live_schedule": "none; prohibited by sample scope",
+  "Day02": "not authored or rendered",
+  "skill_code": "unchanged"
+}

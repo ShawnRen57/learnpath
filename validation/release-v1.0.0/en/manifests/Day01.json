@@ -1,0 +1,36 @@
+{
+  "key": "Day01",
+  "pdf": "pdf/Night Sky for Travelers_每日学习_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "data/Day01.json": "106a54275acac45aadd6e01ab92c9403b34812c6d5745f27626c7cbc39558bfa",
+    "plan.json": "f56fd535c00c55297dff96270e6c080a3cb7aa782cb5463ff3474354a7db2b9c",
+    "config.json": "092228c2172e49aeafe2e9577c0befc2f5b66d44548440ab65da6dbb64de54c1",
+    "pdf/Night Sky for Travelers_每日学习_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf": "d552e9774402b6417e23e7790ee4e21886bfd71c0f08e9fcbf0132c72c8cae59",
+    "sources/Night Sky for Travelers_每日学习_Day01_Stars or Planets_ Read the Sky with a Phone Chart.tex": "e5d3c4c3d40d15cac5a3b3294c17db4142e896657cc6c134b6149c4e52e72f9f",
+    "sources/Night Sky for Travelers_每日学习_Day01_Stars or Planets_ Read the Sky with a Phone Chart.md": "fcc3ef38590d3218574c32ade209100937374480d2b03d0b697baa23217d6211",
+    "assets/figure-8540a079e446.png": "8540a079e44606a933f1dea1949313f833d11b7858b2afb5a3a9162b43854c7c",
+    "previews/Day01-01.png": "f8ba7bc9eddac215652f04183405d812d750d1ca99a6f866c5b875bda7e1ff45",
+    "previews/Day01-02.png": "ba0bfd7ee741e9a6689653f3262134d7b018edb58e71650f58aeaa857918c0c2",
+    "previews/Day01-03.png": "40cfca32df21377d58e2e54da366b51754dc7540d819e826be20361edd183533",
+    "previews/Day01-04.png": "e4798b00249aaa4ffbaae4351ed70536e544cf691a1de5f81a5a022a0ea29c79"
+  },
+  "previews": [
+    "previews/Day01-01.png",
+    "previews/Day01-02.png",
+    "previews/Day01-03.png",
+    "previews/Day01-04.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 4,
+    "links": 6,
+    "fonts": [
+      "/CVGONP+TimesNewRomanPSMT",
+      "/ECGXCF+FandolFang-Regular-Identity-H",
+      "/ZCFSEJ+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "Inspected every page of the final four-page English PDF on 2026-10-09 at readable resolution: page 1 goal, 15-minute allocation, sky-position concepts and focused Day1 figure/caption; page 2 classification clues, chart workflow and explicitly hypothetical worked example; page 3 five-minute practice, fallback and self-check answers plus first expansion links; page 4 remaining sources and metadata. No clipping, overlap, orphaned heading or blank page; optional references flow across pages 3 and 4. Figure text readable, first panel explained; generated sky pattern disclosed as invented and Moon icons as alternatives. Initial punctuation defects corrected only in authored input, with two unreviewed renders preserved. Final searchable text verified; normal typographic apostrophes retained. Six PDF URL annotations match freshly opened sources. Installed helper verified embedded Times New Roman and FandolFang fonts. Full final LaTeX log has no warnings, overfull/underfull boxes or missing glyphs. Timing estimated, no phone app or learner pace tested. Review is artifact QA, not delivery or mastery."
+}

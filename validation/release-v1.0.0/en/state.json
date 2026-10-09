@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "active",
+  "approved_plan": "f56fd535c00c55297dff96270e6c080a3cb7aa782cb5463ff3474354a7db2b9c",
+  "lessons": {
+    "1": {
+      "delivered_at": "2026-10-09",
+      "pdf": "pdf/Night Sky for Travelers_每日学习_Day01_Stars or Planets_ Read the Sky with a Phone Chart.pdf",
+      "manifest_hash": "a14809c32d369df5fc888511c45242495f98428f913ddadbe3edff24568d5e5f"
+    }
+  },
+  "schedule": null,
+  "mastery": {},
+  "approved_config": "092228c2172e49aeafe2e9577c0befc2f5b66d44548440ab65da6dbb64de54c1"
+}

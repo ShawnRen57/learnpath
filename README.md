@@ -3,7 +3,7 @@
 **把「我想学……」变成一条每天可以走下去的学习路径。**  
 **Turn “I want to learn…” into a source-grounded daily learning path.**
 
-[下载发布版 / Releases](https://github.com/ShawnRen57/omni-learning-assistant/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md) · [DSH 社区展示 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207)
+[下载发布版 / Releases](https://github.com/ShawnRen57/omni-learning-assistant/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md) · [v1.0.0 中英验收 / Bilingual acceptance](validation/release-v1.0.0/README.md) · [DSH 社区展示 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207)
 
 Omni Learning Assistant 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
 
@@ -24,7 +24,7 @@ https://github.com/ShawnRen57/omni-learning-assistant
 安装后确认技能可发现，并告诉我如何开始使用。
 ```
 
-客户端要求手动上传时，下载 [Skill ZIP](dist/omni-learning-assistant-skill-v0.2.1.zip)，按下方步骤完成。
+客户端要求手动上传时，下载 [Skill ZIP](dist/omni-learning-assistant-skill-v1.0.0.zip)，按下方步骤完成。
 
 #### b. 手动安装（按平台）
 
@@ -119,7 +119,7 @@ Prefer the latest lightweight Skill ZIP in Releases. Use this client's native
 skill installation mechanism, keep all bundled resources, then verify discovery.
 ```
 
-If the client requires an upload, download the [Skill ZIP](dist/omni-learning-assistant-skill-v0.2.1.zip) and follow the steps below.
+If the client requires an upload, download the [Skill ZIP](dist/omni-learning-assistant-skill-v1.0.0.zip) and follow the steps below.
 
 #### b. Manual installation by agent
 

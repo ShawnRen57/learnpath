@@ -1,0 +1,33 @@
+{
+  "key": "plan",
+  "pdf": "pdf/旅行观星入门_学习计划.pdf",
+  "created_at": "2026-10-09",
+  "files": {
+    "plan.json": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+    "config.json": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c",
+    "pdf/旅行观星入门_学习计划.pdf": "095c83ee0926d469230c2da00ec790c572d239de8c8ef408d650546baed10b1a",
+    "sources/旅行观星入门_学习计划.tex": "cd3f2fb65e9a975def1524f2c9f101761e38a2dafe2936c349c1aaaf36a364d5",
+    "sources/旅行观星入门_学习计划.md": "454ccd060304ad8b0d7c450a3cc01459e564e9ce4c91e63fc0a85e6aad9c9ee4",
+    "assets/figure-7338e8d8739e.png": "7338e8d8739e91655d956c68cd22d12c549b9c272d00c9dce5ad87e503c8acdd",
+    "previews/plan-01.png": "c0200fa253c1e99550b5254555e805b48c11aa10c357b78f2aeb8b0b34f74364",
+    "previews/plan-02.png": "92d6ee852a7147316e00de321bcf27a478a9ac4f1ef9e5d5327737b38872e4d7",
+    "previews/plan-03.png": "8cee45e7bd4365714ea8f1243cb359d8775d221b25b1a1c8ef11844291de659e"
+  },
+  "previews": [
+    "previews/plan-01.png",
+    "previews/plan-02.png",
+    "previews/plan-03.png"
+  ],
+  "reviewed_at": "2026-10-09",
+  "report": {
+    "pages": 3,
+    "links": 6,
+    "fonts": [
+      "/BNDGZZ+TimesNewRomanPSMT",
+      "/ILVGZF+FandolFang-Regular-Identity-H",
+      "/PHTDQT+TimesNewRomanPS-BoldMT"
+    ]
+  },
+  "layout_warnings": 0,
+  "review_note": "实际目视检查previews/plan-01.png至plan-03.png全部3页。第1页目标、演示时间和三栏图清晰，图中文字和月相顺序正确，Day01正文续至第2页且无裁切；第2页续文、Day02、Day03、复习及图片说明完整，无孤立标题或重叠；第3页6项扩展阅读均可读。逐项核对PDF中的6个URI与已实际打开来源一致；字体嵌入检查通过；LaTeX Overfull为0且无Missing character。pypdf中文提取异常，另用PDFium成功提取并复核3页中文，确认属提取器差异，不将pypdf输出视为正文。每日时长相加为15分钟，户外与选读另计。sample_mode:true；未批准、未生成Day01、未注册任务。"
+}

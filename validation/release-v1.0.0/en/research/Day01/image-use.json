@@ -1,0 +1,11 @@
+{
+  "asset": "assets/course-overview.png",
+  "sha256": "8540a079e44606a933f1dea1949313f833d11b7858b2afb5a3a9162b43854c7c",
+  "method": "reuse existing real AI-generated multi-panel figure; no new generation or code drawing",
+  "original_prompt": "research/image-prompt.txt",
+  "original_provenance": "research/image-provenance.json",
+  "Day01_focus": "First panel: matching chart position and surrounding pattern, rather than identifying by shine alone. The generic invented pattern cannot identify a real object.",
+  "caption": "Study the Day1 panel: compare position and pattern with a correctly set chart. It cannot identify the drawn point. Later panels are course navigation; Moon icons are alternative appearances.",
+  "disclosure": "AI-generated teaching illustration reused from this course\u2019s reviewed plan. Invented sky pattern; no observation or official diagram. Original prompt and provenance retained in research/.",
+  "inspection": "Day headings, footer and first-panel chart comparison inspected; neither Moon icon nor sky dots are observational evidence."
+}

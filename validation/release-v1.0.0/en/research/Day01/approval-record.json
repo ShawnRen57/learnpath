@@ -1,0 +1,8 @@
+{
+  "mode": "isolated sample; simulated learner approval explicitly supplied by user",
+  "recorded_at": "2026-10-09T18:13:42.857759+08:00",
+  "user_approval": "I have received and reviewed the current three-day PDF plan from your previous final reply. I approve its goals, curriculum, 15-minute workload and nominal timing. Please begin Day01 now, only.",
+  "approved_plan_hash": "f56fd535c00c55297dff96270e6c080a3cb7aa782cb5463ff3474354a7db2b9c",
+  "approved_config_hash": "092228c2172e49aeafe2e9577c0befc2f5b66d44548440ab65da6dbb64de54c1",
+  "scope": "Day01 only; no live schedule; delivery state must remain unchanged until final reply actually sent"
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "reviewed_ready_for_final_reply",
+  "checked_at": "2026-10-09",
+  "sample_mode": true,
+  "simulated_learner_confirmation": true,
+  "approve_method": "用户本轮明确确认当前计划后执行原生approve",
+  "next_before_research": "generate Day01",
+  "recent_lessons_before_generation": [],
+  "pdf": "pdf/旅行观星入门_每日学习_Day01_辨认亮点：恒星、行星与手机星图.pdf",
+  "reviewed_at": "2026-10-09",
+  "review_note": "实际打开并目视检查当前渲染的Day01-01.png、Day01-02.png、Day01-03.png全部3页。第1页目标、11+4分钟预算、恒星/行星/天然卫星边界、插图和复用声明可读，图注未截断；第2页闪烁机制、星图核对方法、假设示例与4分钟练习完整，正文和填空无溢出；第3页答案、回顾、下课连接与6个选读项完整，练习和答案分页便于先作答。三页无乱码、重叠、孤立标题或裁切。PDFium中文全文实际提取核对；正文S1-S6与本轮真实重新打开的资料逐项对应，提交日期未伪装成发布日期。6个PDF URI与来源列表一致，字体嵌入检查通过，Overfull为0，无Missing character。插图本轮view_image复核，仅左栏用于本课，不将其视为证据。阅读预算11分钟含起点自问/图解/自检，练习4分钟，总15分钟为估算、未冒充学员实测。未调用delivered，未生成Day02，未注册真实任务。",
+  "report": {
+    "pages": 3,
+    "links": 6,
+    "fonts": [
+      "/AUFZSE+TimesNewRomanPS-BoldMT",
+      "/UQUXZR+FandolFang-Regular-Identity-H",
+      "/ZPTHAM+TimesNewRomanPSMT"
+    ]
+  },
+  "actual_pdf_uris": [
+    "https://imagine.gsfc.nasa.gov/ask_astro/night_sky.html",
+    "https://science.nasa.gov/moon/moonlight/",
+    "https://science.nasa.gov/skywatching/",
+    "https://science.nasa.gov/skywatching/faq/",
+    "https://science.nasa.gov/universe/stars/",
+    "https://www.jpl.nasa.gov/edu/resources/project/find-planets-in-the-sky/"
+  ],
+  "inline_source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "all_sources_researched_again": true,
+  "web_transcript": "web-tool-transcripts.json",
+  "image_record": "image-record.json",
+  "font_embedding_check": "原生inspect_pdf检查通过",
+  "layout_warnings": 0,
+  "pdfium_chinese_text": "pdf-text.txt",
+  "plan_and_lesson_hashes": "全部通过",
+  "daily_minutes": 15,
+  "time_budget_test": "估算，未进行学员真实阅读计时；手机操作2分钟设停止条件",
+  "unshipped_revision_archive": "../../revisions/Day01-20261009-r1",
+  "delivery_status": "pending_final_reply; 此记录创建时尚未通过最终回复发送PDF",
+  "delivered_command_run": false,
+  "delivery_reconciliation": "最终回复为唯一交付方式；下一轮先核对该最终消息后才用原生命令delivered记账。不能手改state。",
+  "native_next_expected": "deliver_existing Day01",
+  "live_schedule_created": false,
+  "day02_generated": false,
+  "state_snapshot": {
+    "schema": 1,
+    "status": "active",
+    "approved_plan": "ca830db6f442dca18fe433fe94bd063b696f621485ddab40e98d39a42e9cd745",
+    "lessons": {},
+    "schedule": null,
+    "mastery": {},
+    "approved_config": "eb3846f28458c1b91703304d590bc112ab713ccbb85f571d64d25b3c5818793c"
+  },
+  "skill_code_modified": false
+}
