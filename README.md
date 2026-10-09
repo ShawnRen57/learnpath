@@ -1,19 +1,23 @@
-# LearnPath
+# Omni Learning Assistant
 
 **把「我想学……」变成一条每天可以走下去的学习路径。**  
 **Turn “I want to learn…” into a source-grounded daily learning path.**
 
 [下载发布版 / Releases](https://github.com/ShawnRen57/learnpath/releases) · [中文](#中文使用指南) · [English](#english-guide) · [24 份样例 / 24 sample PDFs](examples/README.md) · [验证记录 / Validation](docs/validation.md) · [DSH 社区展示 / Community showcase](https://github.com/deepseek-ai/deepseek-harness/discussions/9207)
 
-LearnPath 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
+Omni Learning Assistant 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
 
-LearnPath is an independent Agent Skill for broad subjects and focused topics. It clarifies your goals and baseline, produces a PDF curriculum, and creates daily tasks only after you approve the plan. It is not affiliated with other products named LearnPath.
+Omni Learning Assistant is an independent Agent Skill for broad subjects and focused topics. It clarifies your goals and baseline, produces a PDF curriculum, and creates daily tasks only after you approve the plan. It is not affiliated with other products named Omni Learning Assistant.
+
+原名 LearnPath，自 v0.2.0 起技能名与调用指令为 `omni-learning-assistant`。仓库地址保持不变；现有样例和旧发布包保留原名称。
+
+Formerly LearnPath. Since v0.2.0, the skill identifier is `omni-learning-assistant`; repository URLs and historical samples remain unchanged.
 
 ## 中文使用指南
 
 ### 1. 安装
 
-**通用方式：** 下载仓库 ZIP，找到 `skills/learnpath/`，将整个文件夹导入或复制到 Agent 的技能目录。不要只复制 `SKILL.md`，它还需要 `scripts/` 和 `references/`。可单独下载 [轻量安装包](dist/learnpath-skill-v0.1.1.zip)，解压后根目录为 `learnpath/`。
+**通用方式：** 下载仓库 ZIP，找到 `skills/omni-learning-assistant/`，将整个文件夹导入或复制到 Agent 的技能目录。不要只复制 `SKILL.md`，它还需要 `scripts/` 和 `references/`。可单独下载 [轻量安装包](dist/omni-learning-assistant-skill-v0.2.0.zip)，解压后根目录为 `omni-learning-assistant/`。
 
 支持 [Skills CLI](https://www.skills.sh/docs/cli) 的环境可运行以下命令，并在交互界面选择目标 Agent。该命令依赖 Node.js、网络和 CLI 对目标客户端的支持。
 
@@ -25,27 +29,27 @@ npx skills add ShawnRen57/learnpath
 
 ```text
 请用 skill-installer 安装 https://github.com/ShawnRen57/learnpath
-仓库中的 skills/learnpath，然后按客户端提示刷新或重启以加载。
+仓库中的 skills/omni-learning-assistant，然后按客户端提示刷新或重启以加载。
 ```
 
-也可将技能文件夹复制到当前 Codex 支持的用户技能目录；本项目开发环境为 `~/.codex/skills/learnpath/`。以你的客户端配置和安装器检测结果为准。
+也可将技能文件夹复制到当前 Codex 支持的用户技能目录；本项目开发环境为 `~/.codex/skills/omni-learning-assistant/`。以你的客户端配置和安装器检测结果为准。
 
 | 平台 | 安装入口 | 本版本验证范围 |
 |---|---|---|
 | Codex | Skill 安装器或用户技能目录 | 在 Codex 工作环境完成内容研究、图片、Python/XeLaTeX 试跑；未连续多日实测定时通知 |
 | WorkBuddy | Skills 界面的本地包导入 | 官方文档支持；未在客户端实测完整链路 |
-| DeepSeek Harness | 配置的 `.dsh/skills/learnpath/` | 已核验官方文件系统 Skill 与持久 Host Schedule 文档；未实测 DSH 内完整链路 |
-| OpenClaw | 工作区 skills 或 `~/.openclaw/skills/learnpath/` | 官方文档支持；未在客户端实测完整链路 |
+| DeepSeek Harness | 配置的 `.dsh/skills/omni-learning-assistant/` | 已核验官方文件系统 Skill 与持久 Host Schedule 文档；未实测 DSH 内完整链路 |
+| OpenClaw | 工作区 skills 或 `~/.openclaw/skills/omni-learning-assistant/` | 官方文档支持；未在客户端实测完整链路 |
 | 豆包 | 须先确认具体客户端版本与能力 | 未验证原生第三方 Skill + 本地执行 + 定时链路；可人工使用提示词，但不等于安装即用 |
 
-平台入口、依据和限制见 [平台适配说明](skills/learnpath/references/platforms.md)。**安装 Skill 不会自动补齐搜索、运行代码、文生图或定时能力。** 完整使用需要这些宿主能力以及 Python 3.10+、XeLaTeX。Agent 会按[环境说明](skills/learnpath/references/setup.md)检查并安装缺失依赖；受限设备需采用其允许的安装方式。
+平台入口、依据和限制见 [平台适配说明](skills/omni-learning-assistant/references/platforms.md)。**安装 Skill 不会自动补齐搜索、运行代码、文生图或定时能力。** 完整使用需要这些宿主能力以及 Python 3.10+、XeLaTeX。Agent 会按[环境说明](skills/omni-learning-assistant/references/setup.md)检查并安装缺失依赖；受限设备需采用其允许的安装方式。
 
 **DeepSeek Harness 用户：** 见[中英双语安装与定时指南](docs/deepseek-harness.md)。使用原生文件系统 Skill 加载，无需另装 Cordis 服务插件。
 
 ### 2. 只说你想学什么
 
 ```text
-用 LearnPath 带我学习西方建筑史，目标是旅行时能看懂建筑。
+用 omni-learning-assistant 带我学习西方建筑史，目标是旅行时能看懂建筑。
 ```
 
 Agent 会集中追问：学习目标和已有基础、学习多少天、每天几分钟、每日执行时间与时区、是否包括周末、文档语言及保存位置。你已经提供的信息不会重复询问。
@@ -53,7 +57,7 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 也可以一次说完整：
 
 ```text
-用 LearnPath 学习 Agent 产品设计。我是产品经理，有产品经验但 AI 基础有限。
+用 omni-learning-assistant 学习 Agent 产品设计。我是产品经理，有产品经验但 AI 基础有限。
 目标是能独立定义 Agent 产品并准备面试。学习 30 天，每天 15 分钟，
 每天 10:00，Asia/Shanghai，含周末，中文，保存到我指定的课程文件夹。
 先给我 PDF 计划，等我确认后创建每日任务；确认后立即开始 Day01。
@@ -74,7 +78,7 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 继续、暂停和调整示例：
 
 ```text
-继续这个 LearnPath 课程，先检查上次交付到了哪一天。
+继续这个 Omni Learning Assistant 课程，先检查上次交付到了哪一天。
 暂停这个课程，同时暂停对应的定时任务。
 我想调整学习目标，请保留旧档案，为我生成新的计划供确认。
 ```
@@ -108,28 +112,28 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 
 ### Install
 
-Download the repository ZIP and import or copy the complete `skills/learnpath/` folder into your agent's supported skill directory. The [standalone ZIP](dist/learnpath-skill-v0.1.1.zip) contains a top-level `learnpath/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
+Download the repository ZIP and import or copy the complete `skills/omni-learning-assistant/` folder into your agent's supported skill directory. The [standalone ZIP](dist/omni-learning-assistant-skill-v0.2.0.zip) contains a top-level `omni-learning-assistant/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
 
 ```sh
 npx skills add ShawnRen57/learnpath
 ```
 
-For Codex, ask its skill installer to install `skills/learnpath` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/learnpath/references/platforms.md).
+For Codex, ask its skill installer to install `skills/omni-learning-assistant` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/omni-learning-assistant/references/platforms.md).
 
-Full operation requires an agent with web research, file/command access, image access or generation, PDF inspection and suitable scheduling/delivery, plus Python 3.10+ and XeLaTeX. The package does not supply an LLM, a search subscription or a scheduler. Follow [runtime setup](skills/learnpath/references/setup.md).
+Full operation requires an agent with web research, file/command access, image access or generation, PDF inspection and suitable scheduling/delivery, plus Python 3.10+ and XeLaTeX. The package does not supply an LLM, a search subscription or a scheduler. Follow [runtime setup](skills/omni-learning-assistant/references/setup.md).
 
-**DeepSeek Harness:** see the [bilingual installation and scheduling guide](docs/deepseek-harness.md). LearnPath loads through the native filesystem skill provider.
+**DeepSeek Harness:** see the [bilingual installation and scheduling guide](docs/deepseek-harness.md). Omni Learning Assistant loads through the native filesystem skill provider.
 
 ### Start with a topic
 
 ```text
-Use LearnPath to teach me Western architectural history so I can understand buildings when traveling.
+Use $omni-learning-assistant to teach me Western architectural history so I can understand buildings when traveling.
 ```
 
 The agent asks for missing goals, prior knowledge, course length, daily study time, execution time/timezone, weekdays, language and output folder. For a complete request:
 
 ```text
-Use LearnPath to help me learn Agent product design. I am a product manager
+Use $omni-learning-assistant to help me learn Agent product design. I am a product manager
 with limited AI background. Plan 30 days at 15 minutes per day, at 10:00
 Asia/Shanghai including weekends. Use English and save to my course folder.
 Send the PDF plan first. Wait for my approval before scheduling daily lessons.
@@ -141,7 +145,7 @@ Approve the plan or request revisions. The agent then creates and verifies a nat
 Each lesson includes focused explanation, an illustrative image, a short exercise and answer guidance, a recap, and at least five useful expansion links. Optional reading is outside the core time budget. PDFs use XeLaTeX with detected font fallbacks. Progress advances after delivery, failed work resumes at the same lesson, and completion stops the host schedule.
 
 ```text
-Continue my LearnPath course from the earliest undelivered day.
+Continue my Omni Learning Assistant course from the earliest undelivered day.
 Pause this course and its host schedule.
 Preserve the old course and propose a revised plan for my new goal.
 ```
@@ -157,7 +161,7 @@ These are accelerated, isolated demo runs with simulated approval/delivery, not 
 ## Repository & development
 
 ```text
-skills/learnpath/     Installable, self-contained skill
+skills/omni-learning-assistant/     Installable, self-contained skill
 examples/            Six curricula, 24 PDFs, JSON, TeX, Markdown, previews and manifests
 docs/                Research, screenshots, validation and design decisions
 tests/               State and real XeLaTeX integration checks
@@ -167,9 +171,9 @@ dist/                Lightweight installable ZIP
 
 ```sh
 python3 -m venv .venv
-.venv/bin/python -m pip install -r skills/learnpath/scripts/requirements.txt
+.venv/bin/python -m pip install -r skills/omni-learning-assistant/scripts/requirements.txt
 .venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python skills/learnpath/scripts/learnpath.py --project examples/technology doctor
+.venv/bin/python skills/omni-learning-assistant/scripts/omni_learning.py --project examples/technology doctor
 ```
 
 Tests include a real XeLaTeX compile when the binary is available. Sample source files are historical authored outputs, not a script that performs web research. Create a new course for new runs; do not relabel old source checks as fresh research or reset the sample state to use it as a learner record.

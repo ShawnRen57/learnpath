@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""LearnPath deterministic helpers. Run --help for commands."""
+"""Omni Learning Assistant deterministic helpers. Run --help for commands."""
 import argparse
 import json
 import tempfile
