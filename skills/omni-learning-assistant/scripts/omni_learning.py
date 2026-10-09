@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """Omni Learning Assistant deterministic helpers. Run --help for commands."""
+import sys
+if sys.version_info < (3, 10):
+    raise SystemExit("Python 3.10+ required; current interpreter is " + sys.version.split()[0] + ". Select a supported Python interpreter and retry.")
+
 import argparse
 import json
 import tempfile
@@ -27,7 +31,7 @@ def main():
                 try:
                     with tempfile.TemporaryFile(dir=root): writable=True
                 except OSError: pass
-            result={'python':'ok','xelatex':lp_pdf.executable('xelatex'),'output_writable':writable,'note':'Search, image generation, scheduler and notification require host capability checks.'}
+            result={'python':sys.version.split()[0],'xelatex':lp_pdf.executable('xelatex'),'output_writable':writable,'note':'Search, image generation, scheduler and notification require host capability checks.'}
         elif args.command=='init': c.initialize(root,c.read(args.config),c.read(args.plan))
         elif args.command=='render':
             import lp_pdf

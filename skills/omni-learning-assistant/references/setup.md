@@ -2,6 +2,8 @@
 
 Requires Python 3.10+, XeLaTeX and a host that can search/read webpages, write/run local files and inspect PDF previews. The skill itself does not include an LLM, web-search subscription, image model or scheduler. No specific API key is required by this package; the host may charge for its tools.
 
+Check `python3 --version` first; macOS may resolve `python3` to Python 3.9. Select an installed Python 3.10+ interpreter (for example `python3.12`) before creating the environment. The CLI rejects an older interpreter with a clear message.
+
 Use an isolated Python environment where possible:
 
 ```sh
