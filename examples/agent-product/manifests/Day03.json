@@ -6,27 +6,27 @@
     "data/Day03.json": "54aec72c153bb6f9c65faf7c5a25cf820a7a43f9f2f2b88c636f178d3513a4da",
     "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
     "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
-    "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf": "6858bc6f8ab6980926cb62fdecc25e93d6f98d33e35cf6c3fc02c7877d8e0055",
-    "sources/Agent产品设计_每日学习_Day03_工具权限与用户确认.tex": "1a17c86df269c22d9a7d48d6cc13cf76bfb0e2b0e9c604ef8a3642b3398f1965",
+    "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf": "46b064f281bb326953429ceb95afc31ce5cc3359441341f59b9b256e1a9f731c",
+    "sources/Agent产品设计_每日学习_Day03_工具权限与用户确认.tex": "8a8d8dd181e45e23fee4f2f35203ac4c8ddd12d64ad55e100fbde12eb37bb9ef",
     "sources/Agent产品设计_每日学习_Day03_工具权限与用户确认.md": "8bc950ebb3e2d98b829bcb630b7b882c8cbae9ac0dc95deb8970a20f7a933cb7",
     "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
-    "previews/Day03-01.png": "6a1422ddb66743696b9f19367b98990a757df493b05ee60ccd35fb2b1c4b7eba",
-    "previews/Day03-02.png": "f54920e5051b7da1fdac387a2cd16000cd2e495712b34c13217ed6e936605837"
+    "previews/Day03-01.png": "6bee431e1a4bc611de664518201674f01df1ccd915ffe9743a42826f09ae3a43",
+    "previews/Day03-02.png": "c015c6cc5691209c2e3f4765ba18dba24f863cb976c049c29b3155dd54a5da42"
   },
   "previews": [
     "previews/Day03-01.png",
     "previews/Day03-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/EMVFWL+TimesNewRomanPS-BoldMT",
-      "/QKREDT+TimesNewRomanPSMT",
-      "/UPWFWE+FandolFang-Regular-Identity-H"
+      "/BLDANQ+FandolFang-Regular-Identity-H",
+      "/GISOBK+TimesNewRomanPS-BoldMT",
+      "/RPRFQC+TimesNewRomanPSMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

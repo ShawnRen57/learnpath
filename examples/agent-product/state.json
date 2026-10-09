@@ -6,17 +6,17 @@
     "1": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf",
-      "manifest_hash": "684ff84b666414a06d228cbd1e12e426601ee25df25cd045ebfaa81855b424de"
+      "manifest_hash": "27548b4ed5331d0e3e56fbe34fc2d1a91d2b399e4691f13f2abfbd8fcba370b9"
     },
     "2": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/Agent产品设计_每日学习_Day02_工作流与Agent如何选择.pdf",
-      "manifest_hash": "01299b0913b020c0a81fe189091a94a8add7a998afeb98fa448de4135d766c9c"
+      "manifest_hash": "7071a7ff670948668648f536c44ea959b3cc481ca62869115919147b6a4d9688"
     },
     "3": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/Agent产品设计_每日学习_Day03_工具权限与用户确认.pdf",
-      "manifest_hash": "b339feeeaa3323f1b62ab95a8cc895aafa2720e52ee489da7003d51577f8d3ab"
+      "manifest_hash": "e475f5b9f8c7d20a9b1637968cf643ddeae0388a9dbaeb5e62ad558be5304f43"
     }
   },
   "schedule": null,

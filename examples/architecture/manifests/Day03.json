@@ -6,27 +6,27 @@
     "data/Day03.json": "b11ad5fff69b03697c0773204775e77b357d0b49ad1bf52921c667abae584278",
     "plan.json": "c2fdde4e20dc4e48577c8825802e8271fe3dcdb3a6b4d7ec69ee3ec67382674a",
     "config.json": "1f0b5dae5cd8eca6a3355a0ab291a3181d247203ec177eba9c0b1c6054b1bc81",
-    "pdf/西方建筑史_每日学习_Day03_罗马拱券与公共空间.pdf": "96f13becdcf7bf5b2c3e4482206ddb770bf33131c36e4b6617aa25b82a88cad9",
-    "sources/西方建筑史_每日学习_Day03_罗马拱券与公共空间.tex": "bde8c41f929804270defc0431d87fd1a13dcd200b8707d449cf3325d099e1e8a",
+    "pdf/西方建筑史_每日学习_Day03_罗马拱券与公共空间.pdf": "b905e1c6660080e95a3f9e175b70558be4bc93175d7a323464dbeec524879ba3",
+    "sources/西方建筑史_每日学习_Day03_罗马拱券与公共空间.tex": "b674762e5d1308f7b5782f31fd89d4b89b69eef52bc42886f28a82308efcf23c",
     "sources/西方建筑史_每日学习_Day03_罗马拱券与公共空间.md": "d9417dcb4d095effb87f36e7618365a7eea1da90dc29e52a21546609458e8ae0",
     "assets/figure-9ba448966b26.png": "9ba448966b26786005b0a3acc7d58fb49f0058a5c1cd9205f109cb31cf5607ee",
-    "previews/Day03-01.png": "c4c2984a71dbdc13cca1339dfe1bb34cc78b368fcd51277f64a0f5de90268cd0",
-    "previews/Day03-02.png": "d2145d843e9bbc7712e4584fea42952e949480010f5f18282f1a6df16d5e3957"
+    "previews/Day03-01.png": "a962bc2940d6955ee3e9de7d07195dbf4c878204964576fc2f97ca9829ccb511",
+    "previews/Day03-02.png": "473d88b7851f88d314475abbc059d5660df6c34e537af466e78b7460d29fb07a"
   },
   "previews": [
     "previews/Day03-01.png",
     "previews/Day03-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/SCHROL+TimesNewRomanPSMT",
-      "/UJDVIK+FandolFang-Regular-Identity-H",
-      "/VJJLEI+TimesNewRomanPS-BoldMT"
+      "/EUZNVK+TimesNewRomanPSMT",
+      "/OYQFMV+TimesNewRomanPS-BoldMT",
+      "/QPMFNM+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

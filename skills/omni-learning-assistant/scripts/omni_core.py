@@ -28,9 +28,9 @@ def today(root):
 
 @contextmanager
 def lock(root):
-    path=Path(root)/'.learnpath.lock'
+    path=Path(root)/'.omni-learning-assistant.lock'
     try: path.mkdir()
-    except FileExistsError: raise RuntimeError('Project busy. If a process crashed, confirm it stopped before removing .learnpath.lock.')
+    except FileExistsError: raise RuntimeError('Project busy. If a process crashed, confirm it stopped before removing .omni-learning-assistant.lock.')
     try: yield
     finally: path.rmdir()
 

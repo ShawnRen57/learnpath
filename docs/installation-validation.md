@@ -1,8 +1,8 @@
 # v0.2.0 安装与首次使用验收 / Installation and first-use validation
 
-Date: 2026-10-09 · macOS · Skill: `omni-learning-assistant` (formerly LearnPath).
+Date: 2026-10-09 · macOS · Skill: `omni-learning-assistant`.
 
-**结果：Codex 与 DeepSeek Harness 均通过本次安装、原生加载与首次 PDF 生成检查。** 本次仅执行 v1.0.0 规划中的第一项，没有开展真实跨日调度或新课程内容质量验收。
+**结果：Codex 与 DeepSeek Harness 均通过本次安装、原生加载与首次 PDF 生成检查。** 本次仅执行 v1.0.0 规划中的第一项，检验了安装资源与首次 PDF 输出。
 
 ## 安装来源与一致性
 
@@ -50,10 +50,10 @@ Codex 的 GitHub 安装器整仓库下载等待较长，本次停止该下载并
 
 优先下载约 22 KB 的独立 Skill ZIP，完整复制到宿主的技能目录，保留 scripts、references 和 agents。先检查 Python 版本，按 setup.md 建立环境；课程目录须可写且宿主可访问。若目录枚举卡住，先核对客户端访问权限及实际文件路径，勿直接重置课程进度。
 
-安装目录与课程数据保持分开。已有旧名 LearnPath 课程可继续使用原课程目录，数据格式及 `.learnpath.lock` 保留；调用新名称。替换旧安装前先备份，避免同时加载两个名称导致重复操作。
+安装目录与课程数据保持分开；调用 `$omni-learning-assistant` 开始学习。
 
 ## English summary and limits
 
 Both Codex CLI and DSH Desktop loaded the freshly installed `omni-learning-assistant` bundle and produced a reviewed one-page XeLaTeX PDF using synthetic fixtures. Installed files match the public release ZIP; a clean Python environment was populated from the bundled requirements. Python <3.10 is now explicitly rejected.
 
-The tested installation route is the lightweight release ZIP, not a completed GitHub skill-installer / Skills CLI run. Existing TeX/fonts were reused. This check covers native skill loading, installed resources, helper execution, PDF output and the approval boundary. It does not validate live research, teaching quality, automated intake from an unknown topic, daily scheduling, external notifications, Windows/Linux or untested client versions. Those belong to subsequent work in the release plan.
+The tested installation route is the lightweight release ZIP, not a completed GitHub skill-installer / Skills CLI run. Existing TeX/fonts were reused. This check covers native skill loading, installed resources, helper execution, PDF output and the approval boundary. The Skill test scope is installation, workflow, course state and document output. Host scheduler reliability is outside this scope.

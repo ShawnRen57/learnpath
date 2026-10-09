@@ -6,27 +6,27 @@
     "data/Day01.json": "f4a6e5b04c47db79cfddb428f355d47a948a21222c6e35020b127125966bca7a",
     "plan.json": "c2fdde4e20dc4e48577c8825802e8271fe3dcdb3a6b4d7ec69ee3ec67382674a",
     "config.json": "1f0b5dae5cd8eca6a3355a0ab291a3181d247203ec177eba9c0b1c6054b1bc81",
-    "pdf/西方建筑史_每日学习_Day01_建筑如何被阅读.pdf": "1043dda0517d5f5c7b936a063ea3fcba453751ce25dbb3a01061ea9d39158f46",
-    "sources/西方建筑史_每日学习_Day01_建筑如何被阅读.tex": "803b92654278f8207574aa6cc3735977e69a9c7bd0c284e6e10f71c5bffd3e2c",
+    "pdf/西方建筑史_每日学习_Day01_建筑如何被阅读.pdf": "e6ab55cd508e8d4257a6df55d8aed9bb8e56088d036e8f95b5a083eae9f80fa8",
+    "sources/西方建筑史_每日学习_Day01_建筑如何被阅读.tex": "b6081a237ac9123fec89394f1433de575dc12b1dc5147692233638665ecdf6f1",
     "sources/西方建筑史_每日学习_Day01_建筑如何被阅读.md": "73e950a79314874d9c54b1f1ffd3deaab64fa5296eb162adbcaec167a8ae9faa",
     "assets/figure-9ba448966b26.png": "9ba448966b26786005b0a3acc7d58fb49f0058a5c1cd9205f109cb31cf5607ee",
-    "previews/Day01-01.png": "5292b5686a899f27f72fa42ed543ccb6c2d70ac6e3990f1e86a11f0396a7aecd",
-    "previews/Day01-02.png": "e64091e0183935752427f115292e705bc2630fc5fad8f53b4fdac17eba1205f7"
+    "previews/Day01-01.png": "52d9a419eb49f0a12796234a991481949a04525f4ba55456a4afffe6236d1a58",
+    "previews/Day01-02.png": "b6f8d83c08bfc35d381cad0d4f979110d623178c6826edd8fd823c9e05e2228d"
   },
   "previews": [
     "previews/Day01-01.png",
     "previews/Day01-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/HXFYZO+FandolFang-Regular-Identity-H",
-      "/PJTTHT+TimesNewRomanPSMT",
-      "/WKWNDC+TimesNewRomanPS-BoldMT"
+      "/CFXJXP+TimesNewRomanPSMT",
+      "/DCLJYB+FandolFang-Regular-Identity-H",
+      "/KMEPPP+TimesNewRomanPS-BoldMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

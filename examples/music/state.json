@@ -6,17 +6,17 @@
     "1": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/音乐通识_每日学习_Day01_听见音高力度与音色.pdf",
-      "manifest_hash": "71d9822c3d79616c24cd124c76c2ca97ab9cfc20fbf86a6cf42cf7eec1b4d959"
+      "manifest_hash": "04173b8034fe101ff6558732f994bffc8b97ab66aba3b1dc38c6a03bc743d8da"
     },
     "2": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/音乐通识_每日学习_Day02_节拍节奏与速度.pdf",
-      "manifest_hash": "0a4541da9c970314ea8f050776abc8b8476cf3863d4cd4941bd632abc3cc2e39"
+      "manifest_hash": "7d58059dae64bca4041f8ab486d2b2ea2dbb3b455429febb50a5879ab0c2db62"
     },
     "3": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/音乐通识_每日学习_Day03_旋律走向与音程.pdf",
-      "manifest_hash": "a601090994efff96d0971561c36bce8a8634ba35b070d12cc0f23b537247ec19"
+      "manifest_hash": "f86f476d64b8c8790c326fc6ffee3799dccb453078aaa52d447513eb3342bd11"
     }
   },
   "schedule": null,

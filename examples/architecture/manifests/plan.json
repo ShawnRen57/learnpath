@@ -5,29 +5,29 @@
   "files": {
     "plan.json": "c2fdde4e20dc4e48577c8825802e8271fe3dcdb3a6b4d7ec69ee3ec67382674a",
     "config.json": "1f0b5dae5cd8eca6a3355a0ab291a3181d247203ec177eba9c0b1c6054b1bc81",
-    "pdf/西方建筑史_学习计划.pdf": "d2acd659d1ff3f85de52ed2f8711e20da405dc31039b5637b3f6ce9f90753867",
-    "sources/西方建筑史_学习计划.tex": "bceccfd256b4cef331dc1c31d5ced2416b3f31025ae718ddaeae56ecb96d13a1",
+    "pdf/西方建筑史_学习计划.pdf": "06ff155811a86fb1e40a37aca8c8d90717882168e9f900acd7d1147ef15481f4",
+    "sources/西方建筑史_学习计划.tex": "73f2c5f2bf6afecd896bc626930db25852261a9628820e0eedd2926ea9602be2",
     "sources/西方建筑史_学习计划.md": "a26c4e3cc109afc462d0ebe89b6d48698dffa2d45ae7919f6e727325c90bf9d5",
     "assets/figure-9ba448966b26.png": "9ba448966b26786005b0a3acc7d58fb49f0058a5c1cd9205f109cb31cf5607ee",
-    "previews/plan-01.png": "fa46f26551434c6a09bc967714b6c84c8e570c5f73b9d25dcf549c2c340b6638",
-    "previews/plan-02.png": "c265db15d5cab187610c01a5d38f37897af63913b67f1e4b924d5b975b00f640",
-    "previews/plan-03.png": "72aba14e1a6e37f1beb32050c68286ac8532089ed4ca323c32f395f09cc0d020"
+    "previews/plan-01.png": "d8141dd4497a1c17332065f91f161ec796066541c5e506d1dcc9f0c4df5c5cd3",
+    "previews/plan-02.png": "c8d2714e82ce7efb712a70e74c9b83ebfd51952a9d72af5754ebbf3efa386b6e",
+    "previews/plan-03.png": "e019c3050eaeb964be1d5250ad80b642434921c56aaedd227388a1a1cbdcb0f2"
   },
   "previews": [
     "previews/plan-01.png",
     "previews/plan-02.png",
     "previews/plan-03.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 3,
     "links": 5,
     "fonts": [
-      "/AFZKCA+FandolFang-Regular-Identity-H",
-      "/IFFCGU+TimesNewRomanPS-BoldMT",
-      "/SBMDXP+TimesNewRomanPSMT"
+      "/LHQVKM+TimesNewRomanPS-BoldMT",
+      "/LMBHFP+FandolFang-Regular-Identity-H",
+      "/WDYTWO+TimesNewRomanPSMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "Inspected all three rendered pages: complete 30-day sequence, figure/caption, five references, readable margins, no clipping or overlap. Public example; simulated approval."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

@@ -6,27 +6,27 @@
     "data/Day02.json": "f3234130f0a95e3bd480512aaa99177e2d857a2aac2497514a182b813312d3a1",
     "plan.json": "00282ffdd604c8b36759839f2ad2dc98aa315615e111c9430923f2d2a7495a34",
     "config.json": "8a70afa4ef991b08b6bbdff60607fd5bc910376056f74d427166a60d85ed8877",
-    "pdf/音乐通识_每日学习_Day02_节拍节奏与速度.pdf": "8bb8437cda2e68a540e8da0adcaa559c9f268decc9501a960f5d7d635df8523f",
-    "sources/音乐通识_每日学习_Day02_节拍节奏与速度.tex": "6c79893f1e50980828eb599123f0aa5ecd0c4904729d35e3654634222fcbb408",
+    "pdf/音乐通识_每日学习_Day02_节拍节奏与速度.pdf": "cfadbab837a3f110da215ce48e851a638b6ba2e799c8f19fa3a626b0a9804d4e",
+    "sources/音乐通识_每日学习_Day02_节拍节奏与速度.tex": "0283a531dcbb05fe3dd6a939201ece20e42cb12572af4eaa85d5c6deca763cc7",
     "sources/音乐通识_每日学习_Day02_节拍节奏与速度.md": "4902648969f54854a09981b64f3b37bb2dabda24d74be3e84d9eefbef7fafa8b",
     "assets/figure-f6141a0bb6d5.png": "f6141a0bb6d5be36efb00ca0e40c494d4d6e655e7d9724eea66dd2afb3d9d685",
-    "previews/Day02-01.png": "6e92ab3a22404c8bca1f1a2243edd23c8b95666b76cc2a8592788e0c84307338",
-    "previews/Day02-02.png": "92412bc9b5f13492d004f0c9f45edfd30e9882d0a7c560ed0ef005bd5e39dd1a"
+    "previews/Day02-01.png": "cdae235248223f093d7f8c5e0f3dc103f345878126d4f216d35e1004fddab354",
+    "previews/Day02-02.png": "e1db6f88a3be21333c5e5f73b1d5a939be122bb91662ed82e9f0f34480f669b5"
   },
   "previews": [
     "previews/Day02-01.png",
     "previews/Day02-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/REPMQD+FandolFang-Regular-Identity-H",
-      "/YBACNZ+TimesNewRomanPSMT",
-      "/ZDKZJS+TimesNewRomanPS-BoldMT"
+      "/DRDZSV+TimesNewRomanPS-BoldMT",
+      "/JDWPDH+TimesNewRomanPSMT",
+      "/TRAWIR+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

@@ -5,29 +5,29 @@
   "files": {
     "plan.json": "a56e11a33b46fe3014d7ba8d69027cf2e21e07199565262a1308c276d54a1f46",
     "config.json": "7234fdfad7216c08f83e19a7c895793256fb536dd34563bba88d567c894b9e26",
-    "pdf/经济学_学习计划.pdf": "7a20000e53718fb666493ef4cc5b7ab04d3ae88111eedcf8d8717f186da3c3fc",
-    "sources/经济学_学习计划.tex": "e99f816099383d9ec4c1ab882e97289e4ca681e10b387d4cbe2fae6a40b3489c",
+    "pdf/经济学_学习计划.pdf": "9153c0c53b6709755786c9ce71bbe21ee991c8a5ebd88a87921611620d35da75",
+    "sources/经济学_学习计划.tex": "ef915c3556c4e213b1b79be8e31f4294c6311a510cd6b656196e34ba88e5cbab",
     "sources/经济学_学习计划.md": "548d26424ae6d6c8f34f5894bad1c76780beeb69b57e6e1db2374522a9b5d4cd",
     "assets/figure-a92b6089a95f.png": "a92b6089a95f2c556d487856b571dfed837a83c776ea0ee3b78b90fc1de2640e",
-    "previews/plan-01.png": "045cc84b5d8be8f7784358da893448d602c0b4b89534df3e6a05705011590d5a",
-    "previews/plan-02.png": "f3b731ec761f5804dea18a0a3ca1de88ce985bcf1e0fcb78b769b925453fb706",
-    "previews/plan-03.png": "3196a9ed6695b222b32cadad8b39e5da1a304f546db4740584225094e8b482d1"
+    "previews/plan-01.png": "02205120cf8e54e8716ba258a433dd446ca6aaa48ab6f576ac0e26642a02cfab",
+    "previews/plan-02.png": "296702a4a8df5e10117b05c5133aab7cf55a7b65061fee898050665fc046d652",
+    "previews/plan-03.png": "7b268071b466de19a07c81c35debed32056387670f10c778931bd56dba954136"
   },
   "previews": [
     "previews/plan-01.png",
     "previews/plan-02.png",
     "previews/plan-03.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 3,
     "links": 5,
     "fonts": [
-      "/DIZMAO+TimesNewRomanPSMT",
-      "/OXXKDS+FandolFang-Regular-Identity-H",
-      "/YZDOTQ+TimesNewRomanPS-BoldMT"
+      "/BKVSHH+TimesNewRomanPSMT",
+      "/GTMXQD+TimesNewRomanPS-BoldMT",
+      "/HYREND+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "Inspected all three rendered pages: complete 30-day sequence, figure/caption, five references, readable margins, no clipping or overlap. Public example; simulated approval."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

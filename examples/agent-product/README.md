@@ -1,4 +1,4 @@
-# Agent产品设计 / LearnPath sample
+# Agent产品设计 / Omni Learning Assistant sample
 
 用户启动句：我想学习Agent产品设计，准备产品经理面试。
 

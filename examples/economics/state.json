@@ -6,17 +6,17 @@
     "1": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/经济学_每日学习_Day01_稀缺与机会成本.pdf",
-      "manifest_hash": "8b5e67cb37e8a3ccc223f84380e696aad4018cd03b5fa37e58c7d9effcad1bc3"
+      "manifest_hash": "cd0e5359a72a01e3303ece183853f59e7c9f24c686e00b5db3ec87274c2b08cb"
     },
     "2": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/经济学_每日学习_Day02_价格如何协调供需.pdf",
-      "manifest_hash": "8eaf8ec85314d59979246247bf6cc07cca5b5214d4827f2a63b1a2f576948717"
+      "manifest_hash": "857dd501b4390f25f71f8a7eef4cc7ca1de0dae7c52b510067064249def6f739"
     },
     "3": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/经济学_每日学习_Day03_边际思维与沉没成本.pdf",
-      "manifest_hash": "95f55ed661115e1c9f37ed6970ebabfa16f5d62d3a83c09fb296705df1c350ac"
+      "manifest_hash": "c9a1520590f7603dc3082098cb073a84db04274edf1b69ca89a43119566898ee"
     }
   },
   "schedule": null,

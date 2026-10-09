@@ -6,27 +6,27 @@
     "data/Day01.json": "01c552faabe00f75a21f580746c10d1d3f8d4f7b4b87298279655ed0ecdc8ff9",
     "plan.json": "00282ffdd604c8b36759839f2ad2dc98aa315615e111c9430923f2d2a7495a34",
     "config.json": "8a70afa4ef991b08b6bbdff60607fd5bc910376056f74d427166a60d85ed8877",
-    "pdf/音乐通识_每日学习_Day01_听见音高力度与音色.pdf": "f6dbe0b0a888d59e163798abe8a95685185aa8d1e224001983fb7e7d9473f5d6",
-    "sources/音乐通识_每日学习_Day01_听见音高力度与音色.tex": "67934ed66b768ccfcd35cc1976e0137fd466906c20d6656046778cc43ed436ea",
+    "pdf/音乐通识_每日学习_Day01_听见音高力度与音色.pdf": "a93724f0b71a708c9a359cc7252158c6fbe282332a6e5cc525a98b6c949564e3",
+    "sources/音乐通识_每日学习_Day01_听见音高力度与音色.tex": "dff0bafc279a5c4ac92711592585ac0a912ecf59b7492851d46df4a4ba8e63a8",
     "sources/音乐通识_每日学习_Day01_听见音高力度与音色.md": "cdeea5580026fd8603c4ed93ed5c3e4fb081af003b8672afd57715a68a2407fb",
     "assets/figure-f6141a0bb6d5.png": "f6141a0bb6d5be36efb00ca0e40c494d4d6e655e7d9724eea66dd2afb3d9d685",
-    "previews/Day01-01.png": "11906dc7b4e659f5ff817ebf35a03661b07f880a4c4ef65e5144142d19246958",
-    "previews/Day01-02.png": "7d41981789c26e7dcafabdc94c75b174784fcf3fdc69abc9a12c92aee07468f9"
+    "previews/Day01-01.png": "b8d9b5b597cb76f6e5a2f60bcb29c91e8da922883739acfb4ee4825f26656ad5",
+    "previews/Day01-02.png": "1590ab09605b463acbb4dfee29e7bc04e7433969f5d0a52c1af2492ab1e0714f"
   },
   "previews": [
     "previews/Day01-01.png",
     "previews/Day01-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/MWXFPH+FandolFang-Regular-Identity-H",
-      "/YJYXDG+TimesNewRomanPSMT",
-      "/ZQOUAM+TimesNewRomanPS-BoldMT"
+      "/RBZSMJ+TimesNewRomanPS-BoldMT",
+      "/RDMNYQ+TimesNewRomanPSMT",
+      "/UTVZNE+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

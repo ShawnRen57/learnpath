@@ -8,7 +8,7 @@ import argparse
 import json
 import tempfile
 from pathlib import Path
-import lp_core as c
+import omni_core as c
 
 
 def main():
@@ -25,20 +25,20 @@ def main():
     args=parser.parse_args(); root=args.project.resolve(); result={'ok':True}
     try:
         if args.command=='doctor':
-            import lp_pdf
+            import omni_pdf
             writable=False
             if root.is_dir():
                 try:
                     with tempfile.TemporaryFile(dir=root): writable=True
                 except OSError: pass
-            result={'python':sys.version.split()[0],'xelatex':lp_pdf.executable('xelatex'),'output_writable':writable,'note':'Search, image generation, scheduler and notification require host capability checks.'}
+            result={'python':sys.version.split()[0],'xelatex':omni_pdf.executable('xelatex'),'output_writable':writable,'note':'Search, image generation, scheduler and notification require host capability checks.'}
         elif args.command=='init': c.initialize(root,c.read(args.config),c.read(args.plan))
         elif args.command=='render':
-            import lp_pdf
-            m=lp_pdf.render(root,args.input,args.key); result={k:v for k,v in m.items() if k!='files'}
+            import omni_pdf
+            m=omni_pdf.render(root,args.input,args.key); result={k:v for k,v in m.items() if k!='files'}
         elif args.command=='review':
-            import lp_pdf
-            lp_pdf.review(root,args.key,args.note)
+            import omni_pdf
+            omni_pdf.review(root,args.key,args.note)
         elif args.command=='approve': c.approve(root)
         elif args.command=='next': result=c.next_action(root)
         elif args.command=='delivered': result=c.deliver(root,args.day)

@@ -6,27 +6,27 @@
     "data/Day01.json": "15cf0bdbab35dd3ee32979f0a5adc24ce0f4061d5c286c003c0a4c6fd7f4f647",
     "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
     "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
-    "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf": "ec136479b75766b2c0800e4648b19c24c50a9a48298f951f09ae85dae5ffb4ae",
-    "sources/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.tex": "b0f3bf1c5e26a454d7450189b40e236a30e14ef1d1add7254ed69ac7326bee67",
+    "pdf/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.pdf": "66cc643e9f091bddf06731ef540af4429a9682fa0f16ed5075c97f8259be9911",
+    "sources/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.tex": "f6b4e05c43de3c0986905a3dfdd87e006f3a2e8e83b9c8c9b46463984084d7aa",
     "sources/Agent产品设计_每日学习_Day01_从聊天回答到完成任务.md": "2e16b05daede5d83e2cbd30f34075abf2743a437ff1c2e3b5c27329c0342bc43",
     "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
-    "previews/Day01-01.png": "5cc08de80f9a6959c055883ba3e31e2eb3626fe0279df52dd5cd63eea2b6967e",
-    "previews/Day01-02.png": "f731d6514c865217057fa9be1e02e5c67196c810ebe11f85f2a79e5395307efd"
+    "previews/Day01-01.png": "95aa90fd96bb500101707f4ded5c681d95ee80e368c33e4988c63a8db6cd9df2",
+    "previews/Day01-02.png": "79472158e8f15b0acfafcc81cf5186baaf9e961406f15f7b93178022d4365cb1"
   },
   "previews": [
     "previews/Day01-01.png",
     "previews/Day01-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/BQENPG+TimesNewRomanPS-BoldMT",
-      "/CRJBPG+TimesNewRomanPSMT",
-      "/WRWLRL+FandolFang-Regular-Identity-H"
+      "/JZTGYZ+FandolFang-Regular-Identity-H",
+      "/RUTIMD+TimesNewRomanPS-BoldMT",
+      "/WIARDA+TimesNewRomanPSMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

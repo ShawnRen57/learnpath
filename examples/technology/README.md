@@ -1,4 +1,4 @@
-# 科技通识 / LearnPath sample
+# 科技通识 / Omni Learning Assistant sample
 
 用户启动句：我想系统学习科技，能看懂重要技术趋势。
 

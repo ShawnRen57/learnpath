@@ -7,46 +7,40 @@
 
 Omni Learning Assistant 是遵循 [Agent Skills 标准](https://agentskills.io/specification)的独立 Skill，适用于科技、经济、音乐、历史、建筑等宏观主题，以及 Agent 产品、西方建筑史、明朝历史等细分主题。它先了解你的目标与基础，生成 PDF 学习计划，获得确认后再创建每日任务。
 
-Omni Learning Assistant is an independent Agent Skill for broad subjects and focused topics. It clarifies your goals and baseline, produces a PDF curriculum, and creates daily tasks only after you approve the plan. It is not affiliated with other products named Omni Learning Assistant.
-
-原名 LearnPath，自 v0.2.0 起技能名与调用指令为 `omni-learning-assistant`。GitHub 仓库也已更名；现有样例和旧发布包保留原名称。
-
-Formerly LearnPath. Since v0.2.0, the skill identifier is `omni-learning-assistant`; the GitHub repository has also been renamed; historical samples retain their original names.
+Omni Learning Assistant is an independent Agent Skill for broad subjects and focused topics. It clarifies your goals and baseline, produces a PDF curriculum, and creates daily tasks only after you approve the plan.
 
 ## 中文使用指南
 
 ### 1. 安装
 
-**通用方式：** 下载仓库 ZIP，找到 `skills/omni-learning-assistant/`，将整个文件夹导入或复制到 Agent 的技能目录。不要只复制 `SKILL.md`，它还需要 `scripts/` 和 `references/`。可单独下载 [轻量安装包](dist/omni-learning-assistant-skill-v0.2.0.zip)，解压后根目录为 `omni-learning-assistant/`。
+#### a. 通用快捷安装（对话指令）
 
-支持 [Skills CLI](https://www.skills.sh/docs/cli) 的环境可运行以下命令，并在交互界面选择目标 Agent。该命令依赖 Node.js、网络和 CLI 对目标客户端的支持。
-
-```sh
-npx skills add ShawnRen57/omni-learning-assistant
-```
-
-**Codex：** 在对话中发送：
+把下面的消息发送到 Agent 对话框，由 Agent 按当前客户端的原生技能方式安装：
 
 ```text
-请用 skill-installer 安装 https://github.com/ShawnRen57/omni-learning-assistant
-仓库中的 skills/omni-learning-assistant，然后按客户端提示刷新或重启以加载。
+请安装 omni-learning-assistant：
+https://github.com/ShawnRen57/omni-learning-assistant
+请优先下载 Releases 最新的轻量 Skill ZIP，完整安装并保留 scripts、references、agents。
+安装后确认技能可发现，并告诉我如何开始使用。
 ```
 
-也可将技能文件夹复制到当前 Codex 支持的用户技能目录；本项目开发环境为 `~/.codex/skills/omni-learning-assistant/`。以你的客户端配置和安装器检测结果为准。
+客户端要求手动上传时，下载 [Skill ZIP](dist/omni-learning-assistant-skill-v0.2.1.zip)，按下方步骤完成。
 
-| 平台 | 安装入口 | 本版本验证范围 |
+#### b. 手动安装（按平台）
+
+上传时选择 ZIP；目录安装时解压并复制整个 `omni-learning-assistant/` 文件夹。
+
+| Agent | 手动操作 | 官方依据 |
 |---|---|---|
-| Codex | Skill 安装器或用户技能目录 | 已实测公开 ZIP 安装、CLI 原生加载与首次 PDF；未连续多日实测定时通知 |
-| WorkBuddy | Skills 界面的本地包导入 | 官方文档支持；未在客户端实测完整链路 |
-| DeepSeek Harness | 配置的 `.dsh/skills/omni-learning-assistant/` | 已实测公开 ZIP 安装、桌面端原生加载与首次 PDF；未实测连续定时交付 |
-| OpenClaw | 工作区 skills 或 `~/.openclaw/skills/omni-learning-assistant/` | 官方文档支持；未在客户端实测完整链路 |
-| 豆包 | 须先确认具体客户端版本与能力 | 未验证原生第三方 Skill + 本地执行 + 定时链路；可人工使用提示词，但不等于安装即用 |
+| Codex | 放入 `~/.agents/skills/omni-learning-assistant/`，或项目 `.agents/skills/`；确认加载后用 `$omni-learning-assistant` 调用 | [Skills 文档](https://learn.chatgpt.com/docs/build-skills) |
+| WorkBuddy | **专家 · 技能 · 连接器 → 技能 → 添加技能 → 上传技能**，选择 ZIP，导入后启用 | [技能说明](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market) |
+| DeepSeek Harness | 放入 `~/.dsh/skills/omni-learning-assistant/`，或项目 `.dsh/skills/`；在技能目录确认加载 | [文件系统 Skill provider](https://github.com/deepseek-ai/deepseek-harness/blob/master/packages/skill/skill-filesystem/README.md) |
+| OpenClaw | 解压后执行 `openclaw skills install /path/to/omni-learning-assistant --global`，再用 `openclaw skills list` 查看 | [Skills CLI](https://docs.openclaw.ai/cli/skills) |
+| 豆包工作界面 | **插件 · 技能 · 伙伴 → 技能 → 添加 → 上传技能**；选 **选择文件**上传 ZIP，或 **选择文件夹**导入完整目录 | 官方桌面端 2.31.4 上传界面核对，2026-10-09 |
 
-[v0.2.0 安装与首次使用实测](docs/installation-validation.md)包含两个宿主的验收 PDF、环境版本及验证范围。建议优先使用轻量安装包。
+DSH 的“插件 → 添加插件”用于 DSH 插件组合包；本项目采用上表的原生 Skill 目录安装。豆包步骤适用于提供上述技能入口的工作界面。更多操作细节和依据见 [安装说明](skills/omni-learning-assistant/references/install.md)。
 
-平台入口、依据和限制见 [平台适配说明](skills/omni-learning-assistant/references/platforms.md)。**安装 Skill 不会自动补齐搜索、运行代码、文生图或定时能力。** 完整使用需要这些宿主能力以及 Python 3.10+、XeLaTeX。Agent 会按[环境说明](skills/omni-learning-assistant/references/setup.md)检查并安装缺失依赖；受限设备需采用其允许的安装方式。
-
-**DeepSeek Harness 用户：** 见[中英双语安装与定时指南](docs/deepseek-harness.md)。使用原生文件系统 Skill 加载，无需另装 Cordis 服务插件。
+Agent 会检查学习材料所需的工具与 Python 3.10+、XeLaTeX 环境，按 [环境说明](skills/omni-learning-assistant/references/setup.md)处理缺失依赖。
 
 ### 2. 只说你想学什么
 
@@ -114,19 +108,32 @@ Agent 会集中追问：学习目标和已有基础、学习多少天、每天�
 
 ### Install
 
-Download the repository ZIP and import or copy the complete `skills/omni-learning-assistant/` folder into your agent's supported skill directory. The [standalone ZIP](dist/omni-learning-assistant-skill-v0.2.0.zip) contains a top-level `omni-learning-assistant/` folder. Keep its scripts and references. With a compatible Skills CLI environment, run:
+#### a. Quick installation through chat
 
-```sh
-npx skills add ShawnRen57/omni-learning-assistant
+Send this message in your agent's conversation:
+
+```text
+Install omni-learning-assistant from:
+https://github.com/ShawnRen57/omni-learning-assistant
+Prefer the latest lightweight Skill ZIP in Releases. Use this client's native
+skill installation mechanism, keep all bundled resources, then verify discovery.
 ```
 
-For Codex, ask its skill installer to install `skills/omni-learning-assistant` from this repository, then refresh/restart as directed by your client. WorkBuddy offers local skill import; DeepSeek Harness uses configured skills roots such as `.dsh/skills`; OpenClaw supports workspace/managed skills. **Native Doubao support has not been verified.** Prompt adaptation is not a full installation. See the [host-specific evidence and limits](skills/omni-learning-assistant/references/platforms.md).
+If the client requires an upload, download the [Skill ZIP](dist/omni-learning-assistant-skill-v0.2.1.zip) and follow the steps below.
 
-[v0.2.0 first-use validation](docs/installation-validation.md) covers public ZIP installation, native loading and first PDF generation in Codex CLI and DSH Desktop; multi-day scheduling remains untested.
+#### b. Manual installation by agent
 
-Full operation requires an agent with web research, file/command access, image access or generation, PDF inspection and suitable scheduling/delivery, plus Python 3.10+ and XeLaTeX. The package does not supply an LLM, a search subscription or a scheduler. Follow [runtime setup](skills/omni-learning-assistant/references/setup.md).
+| Agent | Steps |
+|---|---|
+| Codex | Copy the extracted folder into user/project `.agents/skills/`; invoke `$omni-learning-assistant`. |
+| WorkBuddy | Experts / Skills / Connectors → Skills → Add skill → Upload skill; select the ZIP and enable it. |
+| DeepSeek Harness | Copy the complete bundle into user `~/.dsh/skills/` or project `.dsh/skills/`; verify discovery. |
+| OpenClaw | Run `openclaw skills install /path/to/omni-learning-assistant --global`, then `openclaw skills list`. |
+| Doubao work mode | Plugins / Skills / Partners → Skills → Add → Upload skill; select the ZIP or folder. |
 
-**DeepSeek Harness:** see the [bilingual installation and scheduling guide](docs/deepseek-harness.md). Omni Learning Assistant loads through the native filesystem skill provider.
+The [installation guide](skills/omni-learning-assistant/references/install.md) links to the official sources. Doubao's upload steps were checked in its official macOS desktop client. DSH's Add plugin dialog handles plugin bundles; use filesystem skill installation for this package.
+
+The agent checks research, execution, image and PDF tools plus Python/XeLaTeX dependencies. See [runtime setup](skills/omni-learning-assistant/references/setup.md).
 
 ### Start with a topic
 
@@ -160,7 +167,7 @@ The [sample index](examples/README.md) links to six Chinese-language curricula: 
 
 Short starting prompts: “Help me understand major technology trends”; “Teach me economics from scratch”; “Help me appreciate music”; “Teach me Agent product design for PM interviews”; “Teach me to read Western buildings”; “Help me understand Ming institutions and events.”
 
-These are accelerated, isolated demo runs with simulated approval/delivery, not a multi-day scheduler test. The [validation report](docs/validation.md) distinguishes executed tests from documentation-only platform support. Sources were checked on 2026-10-08; future lessons require fresh research.
+These are isolated demo runs with simulated approval/delivery. The [validation report](docs/validation.md) covers Skill behavior and generated documents. Sources were checked on 2026-10-08; future lessons require fresh research.
 
 ## Repository & development
 

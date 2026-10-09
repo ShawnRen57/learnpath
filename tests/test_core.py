@@ -1,7 +1,7 @@
 import sys, tempfile, unittest, json
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'skills/omni-learning-assistant/scripts'))
-import lp_core as c
+import omni_core as c
 
 class CoreTests(unittest.TestCase):
     def setUp(self):
@@ -73,23 +73,23 @@ class CoreTests(unittest.TestCase):
             with self.assertRaises(ValueError): c.initialize(root,{'timezone':'UTC'},self.plan)
         self.assertEqual(c.read(root/'plan.json')['topic'],'first writer')
     def test_render_refuses_archived_plan_before_writes(self):
-        from lp_pdf import render
+        from omni_pdf import render
         self.ready(); self.fixture_manifest('plan')
         before=c.digest(self.root/'manifests/plan.json')
         with self.assertRaises(ValueError): render(self.root,self.root/'plan.json','plan')
         self.assertEqual(c.digest(self.root/'manifests/plan.json'),before)
     def test_started_plan_cannot_rerender(self):
-        from lp_pdf import render
+        from omni_pdf import render
         self.ready(); st=c.read(self.root/'state.json');st['lessons']={'1':{}};c.save(self.root/'state.json',st)
         with self.assertRaises(ValueError): render(self.root,self.root/'plan.json','plan')
     def test_review_rejects_path_escape(self):
-        from lp_pdf import review
+        from omni_pdf import review
         with self.assertRaises(ValueError): review(self.root,'../escape','test')
     def test_tex_escaping(self):
-        from lp_pdf import esc
+        from omni_pdf import esc
         self.assertIn(r'\textbackslash{}',esc(r'\input{secret}'))
     def test_validation_rejects_fewer_than_five_links(self):
-        from lp_pdf import validate_document
+        from omni_pdf import validate_document
         with self.assertRaises(ValueError): validate_document({'sources':[]},self.root)
 
 if __name__=='__main__': unittest.main()

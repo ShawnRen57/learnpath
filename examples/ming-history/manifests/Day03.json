@@ -6,27 +6,27 @@
     "data/Day03.json": "3ac4be8c16bd75d4ed39f7670e5b44a8bd7d802f48a0d91e6610233a653a2b94",
     "plan.json": "f5f9205987e26af14732d9ac8d675806e650f61a6f7da52167b8c63dedbb2f1e",
     "config.json": "8ccfee0bafc36f4f529b3141f66c5feca5c9786ad770ae9edfd480ec792bfc4e",
-    "pdf/明朝历史_每日学习_Day03_永乐宫城与皇权表达.pdf": "8e19f5eb4c60a58df935f2b1fa7fd2bde91b152cac5116e3acae8ffaa60b1dbc",
-    "sources/明朝历史_每日学习_Day03_永乐宫城与皇权表达.tex": "9ac989d6f1199eac535172340df7a3aed3b84e177fb5a513fe2bb0e8a77f13a6",
+    "pdf/明朝历史_每日学习_Day03_永乐宫城与皇权表达.pdf": "3f81fc8cbdc7d905b4f58e86891b45efdef48ec50f806a3342ab31be9f9a1d1d",
+    "sources/明朝历史_每日学习_Day03_永乐宫城与皇权表达.tex": "e5f67cae42b086e74446ced0551f80868bee6e00d30e907245e30455a7b4f9e7",
     "sources/明朝历史_每日学习_Day03_永乐宫城与皇权表达.md": "c4fbf50cfbf5f77277328b15467467550f40398a1ebde0b26eebf2d03dccc497",
     "assets/figure-e75918c40f59.png": "e75918c40f59b6be7c8123938ad6ed129284a6e1df5799e2c1b01594d9cf9268",
-    "previews/Day03-01.png": "23a52459be2a43853cd32fcbe61997dc3c07da76713c7a3d6eb7f43501ee6235",
-    "previews/Day03-02.png": "70f36e666396a01286a31d828971c08b7a579b26ba6b746afa38b1a5ee4a2852"
+    "previews/Day03-01.png": "03c56b00fd062d14f1e636eab93071e38af9a64c64153d45e6b4461e383f005b",
+    "previews/Day03-02.png": "5270550141a69700ac90b90683146c6cd47eba50550bfc86d535acaaf92037d3"
   },
   "previews": [
     "previews/Day03-01.png",
     "previews/Day03-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/ICONLW+FandolFang-Regular-Identity-H",
-      "/UPSVQC+TimesNewRomanPS-BoldMT",
-      "/ZEYINF+TimesNewRomanPSMT"
+      "/DZZIOO+TimesNewRomanPS-BoldMT",
+      "/ISJDTP+TimesNewRomanPSMT",
+      "/JELRZK+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected: readable headers/body/captions, aligned day topic and teaching illustration, exercises and five references; no clipped or overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

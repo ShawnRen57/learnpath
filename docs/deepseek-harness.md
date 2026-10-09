@@ -54,7 +54,7 @@ python3 "${DSH_HOME:-$HOME/.dsh}/skills/omni-learning-assistant/scripts/omni_lea
 
 ![Agent 产品课程 PDF 截图](screenshots/agent-product.png)
 
-v0.2.0 已在 DSH Desktop 0.2.0-rc.2 实测公开 ZIP 安装、原生技能加载、模型调用脚本与首次 PDF 生成，见[验收报告](installation-validation.md)。**连续定时生成与通知尚未实测**；不同预设的工具能力须分别检查。
+v0.2.0 已在 DSH Desktop 0.2.0-rc.2 实测公开 ZIP 安装、原生技能加载、模型调用脚本与首次 PDF 生成，见[验收报告](installation-validation.md)。宿主的工具能力以当前预设为准。
 
 ## English
 
@@ -78,9 +78,9 @@ The agent collects missing preferences, checks its research/execution/image/PDF 
 
 After approval, use the installed host's actual schedule tools and verify the saved task ID, daily rule, IANA zone and next run. Current upstream's Web profile provides persistent Host Schedule in the standard/cordis/ptc presets; minimal presets and delegated subagents lack those tools. Tasks survive a closed session, but execution requires the Host to run. Recurring catch-up delivers only the latest missed occurrence. Inbox receipts are not evidence that a PDF was generated or delivered successfully.
 
-Native pause is currently unsupported. Pausing Omni Learning Assistant prevents new lesson generation while host wakeups may continue. Deleting a host task also deletes its saved delivery history, so preserve relevant records and explain that impact before an authorized deletion. Older installed versions may still use the session-local overlay described in LearnPath v0.1.0. Inspect capabilities before promising automatic continuation.
+Native pause is currently unsupported. Pausing Omni Learning Assistant prevents new lesson generation while host wakeups may continue. Deleting a host task also deletes its saved delivery history, so preserve relevant records and explain that impact before an authorized deletion.
 
-The [first-use report](installation-validation.md) records native loading and first PDF generation from the public ZIP in DSH Desktop 0.2.0-rc.2. Multi-day scheduling and notification delivery remain untested. The six historical sample courses were authored in the Codex local work environment. No official review or certification is implied.
+The [first-use report](installation-validation.md) records native loading and first PDF generation from the public ZIP in DSH Desktop 0.2.0-rc.2. 宿主调度器不属于 Skill 的测试范围。 The six historical sample courses were authored in the Codex local work environment. No official review or certification is implied.
 
 ## Official ecosystem and evidence / 官方生态与依据
 

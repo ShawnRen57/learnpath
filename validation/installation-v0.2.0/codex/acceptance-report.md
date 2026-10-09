@@ -6,8 +6,8 @@
 - 加载入口：/Users/renxiaohan1/.codex/skills/omni-learning-assistant/SKILL.md
 - 已读取安装资源：references/setup.md、references/platforms.md（应用 Codex 部分）、references/content.md、references/commands.md。
 - 执行入口：/Users/renxiaohan1/.codex/skills/omni-learning-assistant/scripts/omni_learning.py
-- 辅助检查所读取的包内模块：scripts/lp_pdf.py；未读取开发仓库技能源码。
-- Python：/Users/renxiaohan1/Desktop/个人/learnpath/tmp/first-use-venv/bin/python（3.12.14），使用其已有依赖，未修改虚拟环境或安装目录。
+- 辅助检查所读取的包内模块：scripts/omni_pdf.py；未读取开发仓库技能源码。
+- Python：<verification-workspace>/tmp/first-use-venv/bin/python（3.12.14），使用其已有依赖，未修改虚拟环境或安装目录。
 - XeLaTeX：/Users/renxiaohan1/Library/TinyTeX/bin/universal-darwin/xelatex。
 - 执行命令：doctor；--project . init --config input-config.json --plan input-plan.json；--project . render --input plan.json --key plan；--project . review --key plan --note（实际检查记录）。
 - 所有产物写入当前验收目录，原始 input-config.json / input-plan.json 保留；输入为已有合成测试数据，无重新检索或新教学内容。

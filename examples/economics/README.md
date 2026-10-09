@@ -1,4 +1,4 @@
-# 经济学 / LearnPath sample
+# 经济学 / Omni Learning Assistant sample
 
 用户启动句：我想从零学习经济学，理解日常经济现象。
 

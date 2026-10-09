@@ -6,17 +6,17 @@
     "1": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/明朝历史_每日学习_Day01_时间线与史料如何使用.pdf",
-      "manifest_hash": "0d74663c34dc761610ef097cf8055c7b8564c125b1707ff2a71f45dc15be891f"
+      "manifest_hash": "46dcf9b37269eb21fa94bef15763a6296140a3d220529b87b21344bf47d08eee"
     },
     "2": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/明朝历史_每日学习_Day02_洪武废相与治理难题.pdf",
-      "manifest_hash": "8698b3ec07147b6da57132d1e595d1c1b5072d8800869e56aa4bdc336b8d7079"
+      "manifest_hash": "3cb6e53124d4cab055edaa748a650ada85a280f9afee8f9aab21cf3a399c2191"
     },
     "3": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/明朝历史_每日学习_Day03_永乐宫城与皇权表达.pdf",
-      "manifest_hash": "ac07901a4f81ad59e5a661060aabb9424f761e708da1e984daecf2f79cb60fc5"
+      "manifest_hash": "dc9b96fc7b77f74692d38dcd6975fab815ca27b67be26ed21b4ad765043a119d"
     }
   },
   "schedule": null,

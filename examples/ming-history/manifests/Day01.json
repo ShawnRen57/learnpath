@@ -6,27 +6,27 @@
     "data/Day01.json": "0a92fc3d735c1b722eb4d39f0fa78fa921943fd5058fd081705c1da5b3cfc924",
     "plan.json": "f5f9205987e26af14732d9ac8d675806e650f61a6f7da52167b8c63dedbb2f1e",
     "config.json": "8ccfee0bafc36f4f529b3141f66c5feca5c9786ad770ae9edfd480ec792bfc4e",
-    "pdf/明朝历史_每日学习_Day01_时间线与史料如何使用.pdf": "2224bee5ccafd8d2aa090d36d9248db119569b5820e2dc1ca483a3f1d6f57b20",
-    "sources/明朝历史_每日学习_Day01_时间线与史料如何使用.tex": "e37ecbaa080f9f5806af2450a1d0bffe41cb487df7bea4df14557c0b1a17a52f",
+    "pdf/明朝历史_每日学习_Day01_时间线与史料如何使用.pdf": "29191f8ac41c47419a716ef67dd4145f5a328a4d5a97e4653c379ea17c1d280b",
+    "sources/明朝历史_每日学习_Day01_时间线与史料如何使用.tex": "6618c47bfca3bb6f40428fd5bf0117b0e4eecbefa8cdaa1f6769cb2af488aa9d",
     "sources/明朝历史_每日学习_Day01_时间线与史料如何使用.md": "5a19762b29117c47e295b91843d64795d76ba9868a1043325203ce7e032bc60f",
     "assets/figure-e75918c40f59.png": "e75918c40f59b6be7c8123938ad6ed129284a6e1df5799e2c1b01594d9cf9268",
-    "previews/Day01-01.png": "65b85fb66ed02ef24807d7bfa8357a31a784f6e517599e08898ac9c58d1dbf50",
-    "previews/Day01-02.png": "74f1130ccd20b3a2c4b73425ce7c78511c3b40faca1069bad75efbe7c7e9c052"
+    "previews/Day01-01.png": "e9a706e40656157c477e6c7e75edff24b61ae6532076c11eb77b3ccfb867615c",
+    "previews/Day01-02.png": "526cfa4490ada9728a765d947bb6f6e59764695740f4bf3e49374f40d0b6aa5b"
   },
   "previews": [
     "previews/Day01-01.png",
     "previews/Day01-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/CKDGHG+TimesNewRomanPSMT",
-      "/DCRDTB+FandolFang-Regular-Identity-H",
-      "/ZBLGAQ+TimesNewRomanPS-BoldMT"
+      "/APOXDD+TimesNewRomanPS-BoldMT",
+      "/CXTUJG+TimesNewRomanPSMT",
+      "/IJWJFO+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

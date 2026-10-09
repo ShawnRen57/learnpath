@@ -1,39 +1,16 @@
-# Validation / 验收记录
+# Skill validation / 验收记录
 
-Run date: 2026-10-08. Version: 0.1.0. Platform: macOS, Codex local tools, TinyTeX XeLaTeX. No existing learner automation was changed.
+测试范围：Skill 安装、资源读取、计划确认、内容与 PDF 输出、课程状态及失败恢复。宿主的定时器可靠性不纳入测试。
 
-## Executed checks
+- 六组样例：每组完整 30 天计划与 Day01–03，共 24 份 PDF、55 页。实际来源核验日期为 2026-10-08。
+- 21 项测试覆盖审批、变更后的审批失效、连续天数、交付门禁、重复执行、失败复用、暂停完成、并发锁、路径与 TeX 安全、真实 XeLaTeX 输出。
+- PDF 检查包含全部页面预览、嵌入字体、图示、至少五个链接和版式警告。PDFium 用于中文提取，pypdf 用于字体与链接对象检查。
+- [首次安装验收](installation-validation.md)：Codex CLI 与 DSH Desktop 从公开包加载资源并生成测试 PDF；使用干净 Python 环境，保留原始测试输入与输出。
+- 元数据验证与独立 ZIP 解压检查确认包自包含。安装方法依据见 [install.md](../skills/omni-learning-assistant/references/install.md)。
 
-- **24 PDFs / 55 pages**: six complete 30-day plans and six sets of Day01–Day03. All final rendered pages inspected using contact sheets; full-resolution previews retained. Each PDF has an explanatory figure, at least five working PDF URL annotations, embedded fonts and nonempty pages. The link check confirms PDF annotation targets, not permanent external website availability.
-- **21 tests passed**: approval and changed-plan/config gates, sequential days, no advance before delivery, daily limit, retry/reuse, pause, completion, concurrency lock, initialization race regression, archived-plan overwrite protection, path validation and changed-PDF rejection. Integration test actually compiles a one-section multilingual document, verifies its image, URL annotations and literal escaped TeX content, and confirms an unreviewed PDF cannot be approved. The fixture uses synthetic example.com links and is not counted as research.
-- Codex bundled `quick_validate.py`: **Skill is valid**. Standard package has required YAML metadata and no unfinished scaffold placeholders.
-- Standalone ZIP extracted to a temporary directory; all entrypoint/runtime/reference files found and extracted `doctor` command executed successfully. No installation into an existing user skills folder was required.
-- **Six sequential example runs**: initialize → render plan → inspect → simulated approval → Day01/02/03 render/inspect/simulated delivery. All states select Day04 next; sample projects reject live schedule registration. Every final manifest hash was checked.
-- Real source search/page reading and text-to-image generation were performed by the authoring agent; see [research notes](research-notes.md), [image prompts](image-prompts.json), and each course's source metadata.
-
-Actual PDF fonts: FandolFang-Regular (Chinese FangSong fallback) and Times New Roman (English). PDFium correctly extracts Chinese text. pypdf's text extraction does not fully decode the CJK CID font mapping in this environment; it is used for PDF objects/links/fonts, while PDFium is used for accurate CJK extraction and page rendering. No missing-glyph or overfull-box warning remains in final sample manifests.
-
-## Independent review and fixes
-
-A separate read-only agent reproduced a concurrent initialization overwrite, an archived-plan overwrite and a one-section missing-figure defect. All three were fixed and covered by regression/integration checks. Subsequent visual review found nearly empty pages from the initial spacing helper; rejected pre-delivery versions were isolated locally and the layout helper was corrected. No rejected draft is included in the published examples. A final independent read-only pass reran all 21 tests and the 24-PDF artifact validator, confirmed the three fixes and the README compatibility disclosures, and found no blocking issue.
-
-These checks do not mechanically verify factual truth, pedagogy, actual learner approval, image rights, or notification delivery. Those remain agent/user responsibilities. A `review` record is an attestation after inspection, not an automatic image assessment.
-
-## Compatibility evidence
-
-| Environment | Package / helper execution | Native scheduled delivery |
-|---|---|---|
-| Codex local work environment | Authoring and all six examples executed; v0.2.0 public ZIP and native CLI first PDF verified | Native tool available; multi-day delivery not tested |
-| WorkBuddy | Documentation-backed import instructions | Not tested |
-| DeepSeek Harness | v0.2.0 public ZIP, native Desktop loading and first PDF executed; see installation report | Persistent Host Schedule documented upstream; timed delivery not tested |
-| OpenClaw | Documentation-backed install instructions | Not tested |
-| Doubao consumer client | Native import/execution not verified | Not verified |
-
-The Skills CLI remote install command is documented by its official site; a published-repository install has not been claimed as tested. A common file standard alone does not establish full host support. The six examples are accelerated demos, not evidence of 30 days of successful operation or learner mastery.
+样例计划批准与交付为明确标注的模拟操作。来源真实性、教学质量及页面目视检查由执行 Agent 核对；脚本不会自动判断事实正确或学习者是否掌握。
 
 ## Reproduce
-
-Install dependencies from the Skill's `references/setup.md`, then run:
 
 ```sh
 python3 -m unittest discover -s tests -v
@@ -41,18 +18,8 @@ python3 tools/validate_artifacts.py
 python3 tools/package_skill.py
 ```
 
-The test suite needs pypdf, pypdfium2, Pillow, and XeLaTeX for the integration test. PDF sample checks validate archived outputs without changing their historical source-check date. Reauthor and research a new course to test future content generation.
+使用 Python 3.10+，按 Skill 的 setup.md 安装依赖。集成测试需要 XeLaTeX。样例检查不改写来源核验日期。
 
-## Publication verification — 2026-10-09
+## v0.2.1 verification — 2026-10-09
 
-The public repository `ShawnRen57/learnpath`, default branch `main`, was published through the official GitHub CLI. All 279 remote file blob hashes matched the local committed files. Source-check dates in the sample materials remain 2026-10-08; publication does not relabel the research date.
-
-## DeepSeek Harness documentation update — 2026-10-09
-
-v0.1.1 refreshes DSH guidance against upstream commit `5badb15009ae1756c3afe0ae0cef1faafc290ccc`. The updated bundle passed the skill metadata validator, ZIP extraction and the extracted `doctor` command (Python, XeLaTeX and an existing writable course directory). Local links in the changed installation guides resolve. Runtime code and all 24 historical PDF samples are unchanged; the full PDF/test suite was not rerun for this documentation-only patch. Native DSH discovery/model execution/scheduled delivery remain untested.
-
-Published in DSH's **Show Your Plugins!** category: [discussion #9207](https://github.com/deepseek-ai/deepseek-harness/discussions/9207). The repository carries the official discovery topic `dsh-plugin`. The post labels LearnPath as unofficial, describes the filesystem Skill integration, includes PDF screenshots and explicitly discloses the untested native DSH end-to-end workflow. This is community publication, not official certification.
-
-## v0.2.0 installation and first use — 2026-10-09
-
-Skill renamed to `omni-learning-assistant`. Both Codex CLI and DSH Desktop passed public-ZIP installation, native skill loading, helper execution and first PDF generation with synthetic fixtures. Unsupported Python is now rejected explicitly. See [installation report](installation-validation.md) for versions, dependency setup, PDF evidence, directory-access observations and the untested scheduling/content boundaries. All 21 tests and the 24 historical-PDF artifact checks passed.
+21 项测试与 Skill 元数据校验通过。独立 ZIP 解压后，实际运行 doctor、init、render；新模块与锁名称正确，计划保持待确认。样例仅更新页眉品牌，逐份核对 TeX 正文不变，并检查全部 55 页预览；manifest 与课程中的文档哈希已同步，24 份 PDF 的链接、字体及文字校验通过。WorkBuddy 5.7.6 和豆包 2.31.4 的上传入口与格式要求在官方客户端界面核对，未以第三方教程作为操作依据。

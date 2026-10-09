@@ -3,7 +3,7 @@ import sys,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'skills/omni-learning-assistant/scripts'))
-import lp_core as c,lp_pdf as p
+import omni_core as c,omni_pdf as p
 import pypdfium2 as pdfium
 count=pages=0
 for root in (ROOT/'examples').iterdir():

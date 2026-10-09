@@ -6,7 +6,7 @@ import subprocess
 from pathlib import Path
 from urllib.parse import urlsplit
 from pypdf import PdfReader
-import lp_core as c
+import omni_core as c
 
 
 def esc(text):

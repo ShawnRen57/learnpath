@@ -5,29 +5,29 @@
   "files": {
     "plan.json": "3cd0f64961491690b55bf3760bb4d61b48296e1cbca1f3dc28a04332bc2a2e92",
     "config.json": "74d99fd04727087d32acf2742cc68bed450f91b7088494d7529d5cc349de4ea9",
-    "pdf/Agent产品设计_学习计划.pdf": "9d5bff4b9c5d2f71efd725bbdc8a5d0e69aef62df5e1b4a0456607ad8ed0b83b",
-    "sources/Agent产品设计_学习计划.tex": "c9e0a32b0c37325001a563b260908e17982897bd9b8910441577fda8b6b4c72d",
+    "pdf/Agent产品设计_学习计划.pdf": "943005f358e7af00ea25b9db291751bb2be94fd9d1a3861666eeb1dde2155501",
+    "sources/Agent产品设计_学习计划.tex": "0db8d2a4f6912cb5e66fa41380edde778f4628f6e030efbc846f90ce19a37ac4",
     "sources/Agent产品设计_学习计划.md": "d5aef22aa394721bc9e087962f420a844758a4ab3e3cf9d9f4fd6436ffae4eff",
     "assets/figure-8284fa500410.png": "8284fa5004108e7baab1023f2ed90f158323aa4e58e23c4f8d4323d2e8f24e0b",
-    "previews/plan-01.png": "7a559b505ec8e6ade00fbbd6f97c990958bec14a5550e1eab619f25c815586ae",
-    "previews/plan-02.png": "f5014cd90e9291d89648831de4daa6ca519856e62d9edcb08a345be04cf80bea",
-    "previews/plan-03.png": "42eea06b16fbf72193f5cbfb75a1532ce14ad7a6e269e62b3abc03d6991267f0"
+    "previews/plan-01.png": "c84fb166481d33cf2cfa137e7ffac7aa2424d911c175c83e08ce77efc800f626",
+    "previews/plan-02.png": "9fd2f4b1a98a5f44c226d47a49ab99dbeedec1805719923b84aa01e7526f8cd5",
+    "previews/plan-03.png": "68e6e15e82c5a6e23c0a1663344cea5ccf758650720f71f37c1ac802f68cfe27"
   },
   "previews": [
     "previews/plan-01.png",
     "previews/plan-02.png",
     "previews/plan-03.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 3,
     "links": 5,
     "fonts": [
-      "/GLWHLL+FandolFang-Regular-Identity-H",
-      "/JEUTIT+TimesNewRomanPSMT",
-      "/ZSIXJN+TimesNewRomanPS-BoldMT"
+      "/ENNINQ+TimesNewRomanPS-BoldMT",
+      "/LQDLJS+FandolFang-Regular-Identity-H",
+      "/WPJQTO+TimesNewRomanPSMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "Inspected all three rendered pages: complete 30-day sequence, figure/caption, five references, readable margins, no clipping or overlap. Public example; simulated approval."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

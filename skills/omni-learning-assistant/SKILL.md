@@ -3,13 +3,17 @@ name: omni-learning-assistant
 description: Build a personalized, source-grounded learning course on any topic, with a PDF plan approved by the learner before daily scheduled PDF lessons. Use for systematic study, learning plans, or continuing a Omni Learning Assistant course; not for a one-off factual answer.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
   runtime: "Python 3.10+, XeLaTeX; host web search, files, commands and PDF viewing. Scheduling and images depend on host."
 ---
 
 # Omni Learning Assistant
 
 Turn “I want to learn X” into a coherent course. The agent researches and teaches; bundled scripts render PDFs and track delivery; the host schedules and notifies. Do not assume that installing a skill grants any missing host capability.
+
+## Installation
+
+For installation requests, read [install](references/install.md), use the current host’s native skill mechanism and verify discovery. Keep the whole bundle.
 
 ## Start or continue
 
@@ -44,4 +48,4 @@ On completion stop/pause the recorded host job and verify. `pause`/`resume` comm
 
 ## Example mode
 
-For explicitly requested demos/QA, use isolated projects with `sample_mode: true`. Simulated plan approval and accelerated consecutive days must be labeled in their run report. Never register live schedules for sample projects. Do not present example-mode runs as real timed-delivery testing.
+For explicitly requested demos/QA, use isolated projects with `sample_mode: true`. Simulated plan approval and accelerated consecutive days must be labeled in their run report. Never register live schedules for sample projects.

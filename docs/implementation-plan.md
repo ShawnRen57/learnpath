@@ -1,9 +1,9 @@
-# LearnPath implementation plan
+# Omni Learning Assistant implementation plan
 
 > Execution: implement and verify in this session, following the user-approved eight-part scope. The user approved execution on 2026-10-08; do not add another design approval gate.
 
 Goal: portable Agent Skills package, source-grounded learning PDFs, persistent course progress, six four-document examples, bilingual documentation and GitHub release.
-Architecture: agent-owned research and teaching; Python-owned rendering and state; host-owned scheduling and notification. Keep the distributable skill self-contained under skills/learnpath.
+Architecture: agent-owned research and teaching; Python-owned rendering and state; host-owned scheduling and notification. Keep the distributable skill self-contained under skills/omni-learning-assistant.
 Stack: Python 3.10+, XeLaTeX, pypdf, pypdfium2, Pillow. No cloud API credentials required by the package itself.
 
 ## Scope and acceptance
@@ -12,7 +12,7 @@ Stack: Python 3.10+, XeLaTeX, pypdf, pypdfium2, Pillow. No cloud API credentials
 - Each document: XeLaTeX PDF, explanatory figure, >=5 unique expansion links, inline evidence, Chinese FangSong/English Times New Roman with detected fallbacks.
 - Each course: earliest undelivered day, no advance on failure, immutable accepted plan unless reapproved, separate render/review/delivery states, repeat-safe handling, completion stops future work.
 - Six samples: technology, economics, music, Agent product, Western architecture, Ming history; 30-day plans and days 1-3; 24 PDFs with source data and previews.
-- Platform support evidence must separate documented from installed, runtime tested and scheduled delivery tested. Do not claim untested environments passed.
+- Validation covers the Skill workflow, state and document output; host scheduling reliability is outside the test scope.
 
 ## Tasks
 - [x] 1. Core skill and reference contracts: SKILL.md, content.md, platforms.md; check trigger and approval flow.
@@ -27,9 +27,9 @@ Stack: Python 3.10+, XeLaTeX, pypdf, pypdfium2, Pillow. No cloud API credentials
 Unsafe TeX/paths; stale approved plan; duplicate concurrent runs; delivering unreviewed or changed PDF; schedule capability overstated.
 
 ## Decisions
-LearnPath has existing unrelated namesakes; keep the user-approved name and explicitly describe this as an independent Agent Skill, with no affiliation claims.
+The skill identifier is omni-learning-assistant.
 Sample runs simulate plan approval and consecutive delivery in an isolated sample mode; they do not prove real timed delivery or learner mastery.
 
 ## Publication
-- [x] Public repository created under ShawnRen57/learnpath.
+- [x] Public repository created under ShawnRen57/omni-learning-assistant.
 - [x] Upload all deliverables and verify remote files. All 279 Git blob hashes matched on 2026-10-09.

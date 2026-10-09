@@ -6,29 +6,29 @@
     "data/Day01.json": "a45fe9c6f371918de7d26aeb2566d05414bcb65c9c6d293bcedefe8b001f458b",
     "plan.json": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
     "config.json": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72",
-    "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf": "42419034c1feb2ea3885beb47895803bb3a050bafa40db2285c6ec66f3c7d013",
-    "sources/科技通识_每日学习_Day01_从手机看技术系统.tex": "be7679250603576cad8ed1fb22fce970d0d26cddd17088a76be3e6ae3334a776",
+    "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf": "6ef08bd1bb34a0d7491c818477cc1d2d65e060869894da35f40b65472fa8232d",
+    "sources/科技通识_每日学习_Day01_从手机看技术系统.tex": "4b372c0af4b2a428c1a2d29b090d524c2cd7a79b640906490d1b648b241b3ac6",
     "sources/科技通识_每日学习_Day01_从手机看技术系统.md": "9c5b93f451a77ddf133837208d22fea64476ca2d21b650987b054310cbccee6e",
     "assets/figure-f1c69576c177.png": "f1c69576c177b1cdef58e256311032e0a7861690742fb16723ff5e437150bd24",
-    "previews/Day01-01.png": "7e9ba0ae0788737a1f229b968f7b38d69903a649ef2c714905865ef2324de607",
-    "previews/Day01-02.png": "dfddfea2d29ffad5b2ff4f79127403a173f30b17a6ba43904d2cabe7ea213e69",
-    "previews/Day01-03.png": "9666efa3edd0920b7ecdf83e920c022ccea23728343c9afc53b3da5c4af42b11"
+    "previews/Day01-01.png": "64026b229a53c9183e6be1277b06016a65ae453129f413cc4c5a77246b0b9a12",
+    "previews/Day01-02.png": "b4fb85c6fe5d88ce433677ec8acc1ebc48459b924ebdcbffb3837102fc0ab344",
+    "previews/Day01-03.png": "081d53cb2188e6e58851d518eb27be3da4dccf2e226d38d5e32410c871bac6f1"
   },
   "previews": [
     "previews/Day01-01.png",
     "previews/Day01-02.png",
     "previews/Day01-03.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 3,
     "links": 5,
     "fonts": [
-      "/BZQVEC+TimesNewRomanPSMT",
-      "/IXKSNA+TimesNewRomanPS-BoldMT",
-      "/UFCFFT+FandolFang-Regular-Identity-H"
+      "/CBJSDB+TimesNewRomanPSMT",
+      "/FCLBSA+FandolFang-Regular-Identity-H",
+      "/KXOINC+TimesNewRomanPS-BoldMT"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected; readable text, correct teaching figure and captions, five links, no clipped/overlapping content. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

@@ -6,27 +6,27 @@
     "data/Day02.json": "119e11d35fcc2f07b31f7cf7bef0cff405fb91b6760a20a005d7838b7fce5d92",
     "plan.json": "37836264622cf97ff29269a4634cce91686a28310630c58fa946d8cbe16382d2",
     "config.json": "4679155ce644c4b791aa20003f3bac1f56f211c650e26a7e0a97bb7735968d72",
-    "pdf/科技通识_每日学习_Day02_科学证据与工程取舍.pdf": "5261d51c604c1ad36a9eb9ae25c01e86f51fea0bad69c7b72167997cd2fe161d",
-    "sources/科技通识_每日学习_Day02_科学证据与工程取舍.tex": "4f917fa22ca0dcdd429c530ccf905b64275d687b8b923d117a9e2c95f2fa2fb0",
+    "pdf/科技通识_每日学习_Day02_科学证据与工程取舍.pdf": "4be42a81ad7ab8e6fef3589a1491d379239deabae7dd118ff9aeac92579a3fbe",
+    "sources/科技通识_每日学习_Day02_科学证据与工程取舍.tex": "0791aa1572ad76aa4e540dcb4b268947948f7b6d8e50fc8540b3cbb24a385f23",
     "sources/科技通识_每日学习_Day02_科学证据与工程取舍.md": "c2c33cdbc76719aeac4763e4a1432ae962aba3c30b70edb7ad24c6f946f19620",
     "assets/figure-f1c69576c177.png": "f1c69576c177b1cdef58e256311032e0a7861690742fb16723ff5e437150bd24",
-    "previews/Day02-01.png": "45853ece079ed49048cbf9747e8e8db98e479fc9535a81677d3c58561a5ba94a",
-    "previews/Day02-02.png": "d00200311a81fdf520501fed6c1a49d5b868befef98fa6e678127227834d5f14"
+    "previews/Day02-01.png": "def6414151211ddd8ff243be6779fd6a7e23b0d7a85a398d2dd70107b1a6deb0",
+    "previews/Day02-02.png": "a9db8f2df7228184b92e707fd0528fef08082797c9f7358d9168f6bd335658f3"
   },
   "previews": [
     "previews/Day02-01.png",
     "previews/Day02-02.png"
   ],
-  "reviewed_at": "2026-10-08",
+  "reviewed_at": "2026-10-09",
   "report": {
     "pages": 2,
     "links": 5,
     "fonts": [
-      "/AUEBPQ+TimesNewRomanPSMT",
-      "/LOYXNI+TimesNewRomanPS-BoldMT",
-      "/NLQETD+FandolFang-Regular-Identity-H"
+      "/KYLSUK+TimesNewRomanPSMT",
+      "/XWWSMH+TimesNewRomanPS-BoldMT",
+      "/ZTEIBD+FandolFang-Regular-Identity-H"
     ]
   },
   "layout_warnings": 0,
-  "review_note": "All rendered pages inspected: teaching sequence and figure labels align; exercises and answer guidance present; five readable references; no overlaps or clipping. Simulated sample delivery."
+  "review_note": "Brand-only refresh inspected across all 55 sample pages on 2026-10-09. Header, page layout, images and links remain legible; body and source dates unchanged."
 }

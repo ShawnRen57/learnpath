@@ -6,17 +6,17 @@
     "1": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/科技通识_每日学习_Day01_从手机看技术系统.pdf",
-      "manifest_hash": "6309caf2f50cf0cd313a9b0ea2983286290062ab6b22de30070bb68a8c690cea"
+      "manifest_hash": "72f7250367414c9589efb34d38fb3dd09e179c27eed68fdef8ae394428c96ec0"
     },
     "2": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/科技通识_每日学习_Day02_科学证据与工程取舍.pdf",
-      "manifest_hash": "28d6511d48a96994810db152229c789e7e3c22d7e4d75c04c513ed8630012e9f"
+      "manifest_hash": "5f1648c3e0ac59ec6aded06aab2245b6bad49f708936a9e4cb69ebe06888bcbf"
     },
     "3": {
       "delivered_at": "2026-10-08",
       "pdf": "pdf/科技通识_每日学习_Day03_能量转换与效率.pdf",
-      "manifest_hash": "126966db07c5dabace7e4044b56f98db838f523da752e910af4a96c1b2b24846"
+      "manifest_hash": "67872586e3e0fee93d7fd031824f6621430a040941abedb6d69d9b1261220aba"
     }
   },
   "schedule": null,
